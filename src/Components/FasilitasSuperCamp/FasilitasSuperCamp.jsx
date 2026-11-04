@@ -1,4 +1,4 @@
-import "./FasilitasSupercamp.css";
+import "./FasilitasSuperCamp.css";
 
 const FasilitasSupercamp = () => {
   const fasilitasList = [

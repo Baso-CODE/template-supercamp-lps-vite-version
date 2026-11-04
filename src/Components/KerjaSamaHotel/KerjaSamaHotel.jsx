@@ -1,4 +1,4 @@
-import "./KerjasamaHotel.css";
+import "./KerjaSamaHotel.css";
 
 const KerjasamaHotel = () => {
   return (
