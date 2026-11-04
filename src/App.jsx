@@ -34,7 +34,7 @@ import HalamanKabSimakUi from "./pages/HalamanSimakUi/HalamanKabSimakUi";
 import HalamanKecSimakUi from "./pages/HalamanSimakUi/HalamanKecSimakUi";
 import HalamanKelSimakUi from "./pages/HalamanSimakUi/HalamanKelSimakUi";
 import HalamanKotaSimakUi from "./pages/HalamanSimakUi/HalamanKotaSimakUi";
-import HalamanSimakUi from "./pages/HalamanSimakUI/HalamanSimakUI";
+import HalamanSimakUi from "./pages/HalamanSimakUi/HalamanSimakUi";
 import HomePage from "./pages/Homepage/HomePage";
 import NotFound from "./pages/NotFound/NotFound";
 import { Registrasi } from "./pages/Registrasi/Registrasi";
