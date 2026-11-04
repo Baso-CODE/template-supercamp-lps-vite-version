@@ -36,6 +36,7 @@ import HalamanKelSimakUi from "./pages/HalamanSimakUi/HalamanKelSimakUi";
 import HalamanKotaSimakUi from "./pages/HalamanSimakUi/HalamanKotaSimakUi";
 import HalamanSimakUi from "./pages/HalamanSimakUI/HalamanSimakUI";
 import HomePage from "./pages/Homepage/HomePage";
+import NotFound from "./pages/NotFound/NotFound";
 import { Registrasi } from "./pages/Registrasi/Registrasi";
 
 const TRACKING_ID = "G-NZRFMBB12N";
@@ -221,10 +222,7 @@ function App() {
             exact
             path="/bimbingan-privat-iup-ugm/:kelSlug"
             element={<HalamanKelIupUgm />}></Route>
-          <Route
-            exact
-            path="*"
-            element={<HomePage setProgress={setProgress} />}></Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
