@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import AlumniKedokteranLps from "../../Components/AlumniKedokteranLps/AlumniKedokteranLps";
 import AlumniPtnLps from "../../Components/AlumniPTNLPS/AlumniPTNLPS";
 import BenefitScLps from "../../Components/BenefitScLPS/BenefitScLPS";
@@ -25,106 +23,165 @@ import TutorLpsSc from "../../Components/TutorLpsSc/TutorLpsSc";
 import VenueScLps from "../../Components/VenueScLps/VenueScLps";
 import VideoScLps from "../../Components/VideoScLps/VideoScLps";
 import WaktuPelaksanaanSc from "../../Components/WaktuPelaksanaanSc/WaktuPelaksanaanSc";
+import { DOMAIN } from "../../utils/domain";
+import formatNamaWilayah from "../../utils/formatNamaWilayah";
 
 const HalamanKecSimakUi = () => {
-  const { id, kecSlug } = useParams();
-  const [kecamatan, setKecamatan] = useState([]);
+  // =========================================
+  // AMBIL SLUG KECAMATAN
+  // =========================================
+  const { kecSlug } = useParams();
 
-  function useQuery() {
-    const { search } = useLocation();
-    return useMemo(() => new URLSearchParams(search), [search]);
-  }
+  // =========================================
+  // FORMAT NAMA KECAMATAN
+  // =========================================
+  const namaKecamatan = formatNamaWilayah(kecSlug);
 
-  const query = useQuery();
-  const axiosJWT = axios.create();
+  // =========================================
+  // NORMALISASI SLUG
+  // =========================================
+  const slugKecamatan = String(kecSlug || "")
+    .trim()
+    .toLowerCase();
 
-  useEffect(() => {
-    const getKecamatan = async () => {
-      const response = await axiosJWT.get(
-        `https://apilps.edusmart-indonesia.com/kecamatankab/${kecSlug}`,
-        {
-          headers: {
-            Authorization: `Bearer`,
-          },
-        },
-      );
-      setKecamatan(response.data);
-    };
-    getKecamatan(id);
-  }, [id, query, axiosJWT, kecSlug]);
+  // =========================================
+  // CANONICAL URL
+  // =========================================
+  const canonicalUrl = `${DOMAIN}/bimbingan-simak-ui/${encodeURIComponent(
+    slugKecamatan,
+  )}`;
+
+  // =========================================
+  // SEO TITLE
+  // =========================================
+  const pageTitle = `Bimbel SIMAK UI ${namaKecamatan} | Les Privat Masuk UI`;
+
+  // =========================================
+  // META DESCRIPTION
+  // =========================================
+  const pageDescription = `Bimbel SIMAK UI di ${namaKecamatan} dengan les privat intensif. Latihan soal, strategi pengerjaan ujian, simulasi tes, dan pendampingan masuk UI.`;
+
+  // =========================================
+  // STRUCTURED DATA
+  // =========================================
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    name: pageTitle,
+    description: pageDescription,
+    url: canonicalUrl,
+    inLanguage: "id-ID",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Supercamp Matrix",
+      url: `${DOMAIN}/`,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Les Privat Persiapan SIMAK UI",
+      description:
+        "Program bimbingan belajar intensif untuk membantu calon mahasiswa mempersiapkan seleksi masuk Universitas Indonesia melalui latihan soal, simulasi ujian, dan pendampingan tutor.",
+    },
+  };
+
   return (
     <>
+      {/* ===================================== */}
+      {/* SEO METADATA */}
+      {/* ===================================== */}
       <Helmet>
-        {/* Fix Title: Menggunakan template literal di dalam {} agar terbaca sebagai string tunggal (Anti-Error) */}
-        <title>{`Bimbel & Les Privat SIMAK UI ${kecamatan.kecamatan} 2026 - Lolos UI #1`}</title>
+        <title>{pageTitle}</title>
 
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={pageDescription} />
 
-        {/* Meta Description: Hybrid Keyword + Target SIMAK UI & KKI + Lokasi Kecamatan */}
-        <meta
-          name="description"
-          content={`Bimbel & Les Privat SIMAK UI terbaik di ${kecamatan.kecamatan}. Program intensif SIMAK UI Reguler & KKI (International Class). Modul prediksi, Master Teacher ke rumah wilayah ${kecamatan.kecamatan}, & Tryout khusus UI. Daftar Sekarang!`}
-        />
-        <meta
-          name="keywords"
-          content={`bimbel simak ui ${kecamatan.kecamatan}, les privat simak ui ${kecamatan.kecamatan}, persiapan simak kki ${kecamatan.kecamatan}, guru privat ui ke rumah, bimbingan belajar simak ui, Bimbel LPS`}
-        />
+        <link rel="canonical" href={canonicalUrl} />
 
-        {/* Canonical Link */}
-        <link
-          rel="canonical"
-          href={`https://supercampmatrix.com/bimbingan-simak-ui/${kecamatan.slug}`}
-        />
+        <meta name="robots" content="index, follow" />
 
-        {/* Open Graph (WhatsApp Preview) */}
+        {/* ===================================== */}
+        {/* OPEN GRAPH */}
+        {/* ===================================== */}
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content={`Bimbel & Les Privat SIMAK UI di ${kecamatan.kecamatan} - Bimbel LPS`}
-        />
-        <meta
-          property="og:description"
-          content={`Raih kursi Universitas Indonesia (Reguler & KKI) melalui program spesialis Bimbel & Les Privat di ${kecamatan.kecamatan}.`}
-        />
-        <meta
-          property="og:url"
-          content={`https://supercampmatrix.com/bimbingan-simak-ui/${kecamatan.slug}`}
-        />
-        <meta
-          property="og:image"
-          content="https://supercampmatrix.com/images/banner.webp"
-        />
 
-        {/* Schema Markup JSON-LD: Sangat kuat untuk SEO Lokal tingkat Kecamatan */}
+        <meta property="og:site_name" content="Supercamp Matrix" />
+
+        <meta property="og:title" content={pageTitle} />
+
+        <meta property="og:description" content={pageDescription} />
+
+        <meta property="og:url" content={canonicalUrl} />
+
+        <meta property="og:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        <meta property="og:locale" content="id_ID" />
+
+        {/* ===================================== */}
+        {/* TWITTER CARD */}
+        {/* ===================================== */}
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content={pageTitle} />
+
+        <meta name="twitter:description" content={pageDescription} />
+
+        <meta name="twitter:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        {/* ===================================== */}
+        {/* JSON-LD STRUCTURED DATA */}
+        {/* ===================================== */}
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: `Bimbel & Les Privat SIMAK UI Edumatrix ${kecamatan.kecamatan}`,
-            image: "https://supercampmatrix.com/images/banner.webp",
-            url: `https://supercampmatrix.com/bimbingan-simak-ui/${kecamatan.slug}`,
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: kecamatan.kecamatan,
-              addressCountry: "ID",
-            },
-            description: `Lembaga Bimbel dan Les Privat spesialis persiapan SIMAK UI dan Kelas Internasional (KKI) untuk wilayah ${kecamatan.kecamatan}.`,
-          })}
+          {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
+      {/* ===================================== */}
+      {/* JUMBOTRON */}
+      {/* ===================================== */}
       <JumbotronLps />
+
+      {/* ===================================== */}
+      {/* SEO CONTENT */}
+      {/* ===================================== */}
       <div className="parent-text-seo-lps">
         <h1 className="text-seo-lps">
-          Bimbingan Simak UI {kecamatan.kecamatan} - Intensif Privat Program
-          Simak UI dan Kelas Internasional
+          Bimbel & Les Privat SIMAK UI di{" "}
+          <span className="highlight-city">{namaKecamatan}</span> – Persiapan
+          Intensif Seleksi Universitas Indonesia
         </h1>
+
         <p className="desk-seo-lps">
-          Bimbingan Simak UI - Program Belajar Les Privat Simak UI dan Simak
-          KKI, Modul Simak UI, Drilling Soal, Konsultasi Jurusan, Try Out Simak
-          UI, Belajar All Subtes Simak UI dan KKI, Offline dan Online
+          Menghadapi seleksi masuk Universitas Indonesia membutuhkan persiapan
+          akademik yang terarah dan kemampuan mengelola waktu selama ujian. Bagi
+          calon mahasiswa di {namaKecamatan}, program{" "}
+          <strong>Bimbel & Les Privat SIMAK UI</strong> dari Supercamp Matrix
+          membantu peserta membangun kesiapan menghadapi proses seleksi melalui
+          pendampingan belajar yang disesuaikan dengan kemampuan dan target
+          program studi.
+          <br />
+          <br />
+          Proses pembelajaran berfokus pada pemahaman konsep, latihan soal,
+          serta pengembangan strategi pengerjaan ujian. Melalui pembahasan
+          bersama tutor, simulasi tes, dan evaluasi hasil latihan, siswa dapat
+          mengenali jenis soal yang masih sulit, meningkatkan ketelitian, serta
+          melatih pengelolaan waktu saat menyelesaikan setiap bagian ujian.
+          Materi pembelajaran disesuaikan dengan ketentuan seleksi dan program
+          studi yang dituju.
+          <br />
+          <br />
+          Untuk siswa di {namaKecamatan} yang menargetkan program pendidikan di
+          Universitas Indonesia, persiapan juga perlu mempertimbangkan perbedaan
+          persyaratan antara jalur penerimaan dan kelas yang dipilih. Program
+          reguler maupun Kelas Khusus Internasional (KKI) dapat memiliki proses
+          seleksi yang berbeda. Melalui les privat intensif, latihan
+          terstruktur, dan pemantauan perkembangan belajar, siswa dapat menyusun
+          strategi persiapan yang lebih efektif menuju UI.
         </p>
       </div>
+
+      {/* ===================================== */}
+      {/* KOMPONEN HALAMAN */}
+      {/* ===================================== */}
       <LulusanLps />
       <AlumniKedokteranLps />
       <AlumniPtnLps />

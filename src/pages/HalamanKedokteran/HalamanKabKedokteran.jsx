@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import AlumniKedokteranLps from "../../Components/AlumniKedokteranLps/AlumniKedokteranLps";
 import AlumniPtnLps from "../../Components/AlumniPTNLPS/AlumniPTNLPS";
 import BenefitScLps from "../../Components/BenefitScLPS/BenefitScLPS";
@@ -25,108 +23,165 @@ import TutorLpsSc from "../../Components/TutorLpsSc/TutorLpsSc";
 import VenueScLps from "../../Components/VenueScLps/VenueScLps";
 import VideoScLps from "../../Components/VideoScLps/VideoScLps";
 import WaktuPelaksanaanSc from "../../Components/WaktuPelaksanaanSc/WaktuPelaksanaanSc";
+import { DOMAIN } from "../../utils/domain";
+import formatNamaWilayah from "../../utils/formatNamaWilayah";
 
 const HalamanKabKedokteran = () => {
+  // =========================================
+  // AMBIL SLUG KABUPATEN
+  // =========================================
   const { id } = useParams();
-  const [kabupaten, setKabupaten] = useState([]);
 
-  function useQuery() {
-    const { search } = useLocation();
-    return useMemo(() => new URLSearchParams(search), [search]);
-  }
+  // =========================================
+  // FORMAT NAMA KABUPATEN
+  // =========================================
+  const namaKabupaten = formatNamaWilayah(id);
 
-  const query = useQuery();
+  // =========================================
+  // NORMALISASI SLUG
+  // =========================================
+  const slugKabupaten = String(id || "")
+    .trim()
+    .toLowerCase();
 
-  useEffect(() => {
-    const axiosJWT = axios.create();
-    const getKabupaten = async () => {
-      const response = await axiosJWT.get(
-        `https://apilps.edusmart-indonesia.com/ibukotakabupaten/${id}`,
-        {
-          headers: {
-            Authorization: `Bearer`,
-          },
-        },
-      );
-      setKabupaten(response.data);
-    };
-    getKabupaten(id);
-  }, [id, query]);
+  // =========================================
+  // CANONICAL URL
+  // =========================================
+  const canonicalUrl = `${DOMAIN}/bimbingan-masuk-kedokteran/${encodeURIComponent(
+    slugKabupaten,
+  )}`;
+
+  // =========================================
+  // SEO TITLE
+  // =========================================
+  const pageTitle = `Bimbel Kedokteran ${namaKabupaten} | Les Privat Masuk FK`;
+
+  // =========================================
+  // META DESCRIPTION
+  // =========================================
+  const pageDescription = `Bimbel masuk Kedokteran di ${namaKabupaten} dengan program les privat dan Supercamp intensif. Persiapan UTBK SNBT, latihan soal, tryout, dan strategi masuk FK.`;
+
+  // =========================================
+  // STRUCTURED DATA
+  // =========================================
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    name: pageTitle,
+    description: pageDescription,
+    url: canonicalUrl,
+    inLanguage: "id-ID",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Supercamp Matrix",
+      url: `${DOMAIN}/`,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Bimbingan Persiapan Masuk Fakultas Kedokteran",
+      description:
+        "Program bimbingan belajar dan les privat untuk mempersiapkan seleksi masuk Fakultas Kedokteran melalui UTBK SNBT maupun jalur seleksi perguruan tinggi lainnya.",
+    },
+  };
+
   return (
     <>
+      {/* ===================================== */}
+      {/* SEO METADATA */}
+      {/* ===================================== */}
       <Helmet>
-        {/* Anti-Error Title: String tunggal di dalam kurung kurawal */}
-        <title>{`Bimbel & Les Privat Kedokteran ${kabupaten.kota_kabupaten} 2026 - Lolos FK #1`}</title>
+        <title>{pageTitle}</title>
 
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={pageDescription} />
 
-        {/* Meta Description: Menggabungkan Bimbel & Les Privat + Target Kampus Kedokteran Top */}
-        <meta
-          name="description"
-          content={`Bimbel & Les Privat khusus masuk Kedokteran di ${kabupaten.kota_kabupaten} terbaik. Program intensif lulus FK UI, UGM, UNAIR, & UNDIP. Guru datang ke rumah atau Online. Master Teacher Expert & Modul Akurat. Daftar Sekarang!`}
-        />
-        <meta
-          name="keywords"
-          content={`bimbel kedokteran ${kabupaten.kota_kabupaten}, les privat kedokteran ${kabupaten.kota_kabupaten}, bimbingan belajar kedokteran ${kabupaten.kota_kabupaten}, karantina fk ui, karantina fk ugm, guru privat ke rumah`}
-        />
+        <link rel="canonical" href={canonicalUrl} />
 
-        {/* Canonical Link yang Bersih */}
-        <link
-          rel="canonical"
-          href={`https://supercampmatrix.com/bimbingan-masuk-kedokteran/${kabupaten.slug}`}
-        />
+        <meta name="robots" content="index, follow" />
 
-        {/* Open Graph (WhatsApp & Social Media) */}
+        {/* ===================================== */}
+        {/* OPEN GRAPH */}
+        {/* ===================================== */}
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content={`Bimbel & Les Privat Kedokteran di ${kabupaten.kota_kabupaten} - Bimbel LPS`}
-        />
-        <meta
-          property="og:description"
-          content={`Persiapan intensif masuk Fakultas Kedokteran bersama spesialis Bimbel & Les Privat di ${kabupaten.kota_kabupaten}.`}
-        />
-        <meta
-          property="og:url"
-          content={`https://supercampmatrix.com/bimbingan-masuk-kedokteran/${kabupaten.slug}`}
-        />
-        <meta
-          property="og:image"
-          content="https://supercampmatrix.com/images/banner.webp"
-        />
 
-        {/* Schema Markup JSON-LD: Sangat penting untuk otoritas SEO Lokal */}
+        <meta property="og:site_name" content="Supercamp Matrix" />
+
+        <meta property="og:title" content={pageTitle} />
+
+        <meta property="og:description" content={pageDescription} />
+
+        <meta property="og:url" content={canonicalUrl} />
+
+        <meta property="og:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        <meta property="og:locale" content="id_ID" />
+
+        {/* ===================================== */}
+        {/* TWITTER CARD */}
+        {/* ===================================== */}
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content={pageTitle} />
+
+        <meta name="twitter:description" content={pageDescription} />
+
+        <meta name="twitter:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        {/* ===================================== */}
+        {/* JSON-LD STRUCTURED DATA */}
+        {/* ===================================== */}
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            name: `Bimbel & Les Privat Kedokteran Edumatrix ${kabupaten.kota_kabupaten}`,
-            image: "https://supercampmatrix.com/images/banner.webp",
-            url: `https://supercampmatrix.com/bimbingan-masuk-kedokteran/${kabupaten.slug}`,
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: kabupaten.kota_kabupaten,
-              addressCountry: "ID",
-            },
-            description: `Lembaga Bimbel dan Les Privat spesialis persiapan masuk Fakultas Kedokteran PTN Favorit untuk wilayah ${kabupaten.kota_kabupaten}.`,
-          })}
+          {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
+      {/* ===================================== */}
+      {/* JUMBOTRON */}
+      {/* ===================================== */}
       <JumbotronLps />
+
+      {/* ===================================== */}
+      {/* SEO CONTENT */}
+      {/* ===================================== */}
       <div className="parent-text-seo-lps">
         <h1 className="text-seo-lps">
-          Les Privat Masuk Kedokteran di {kabupaten.kota_kabupaten} Terbaik -
-          Program Belajar Fokus Kedokteran UI dan PTN Favorit - Spesialis Masuk
-          Kedokteran
+          Bimbel & Les Privat Masuk Kedokteran di{" "}
+          <span className="highlight-city">{namaKabupaten}</span> – Program
+          Intensif Persiapan Fakultas Kedokteran
         </h1>
+
         <p className="desk-seo-lps">
-          Les Privat Masuk Kedokteran di {kabupaten.kota_kabupaten} Terbaik -
-          Sesi Belajar Super Intensif, Konsultasi Progress, Master Teacher
-          Expert Berpengalaman, Modul Belajar, Karantina Spesialis FK PTN UI UGM
-          Unpad IPB
+          Menjadi mahasiswa Fakultas Kedokteran merupakan tujuan pendidikan yang
+          membutuhkan komitmen belajar dan persiapan akademik secara konsisten.
+          Bagi siswa di {namaKabupaten} yang menargetkan jurusan Kedokteran,
+          Supercamp Matrix menghadirkan program{" "}
+          <strong>Bimbel & Les Privat Masuk Kedokteran</strong> untuk membantu
+          mempersiapkan kemampuan menghadapi seleksi masuk perguruan tinggi,
+          baik melalui UTBK SNBT maupun jalur seleksi lainnya.
+          <br />
+          <br />
+          Program pembelajaran dirancang untuk membantu peserta mengembangkan
+          kemampuan penalaran, literasi, dan pemecahan masalah yang dibutuhkan
+          dalam proses seleksi. Melalui pembahasan materi, latihan soal
+          terstruktur, simulasi tryout, serta evaluasi hasil belajar, siswa
+          dapat mengenali kemampuan yang sudah dikuasai dan menentukan materi
+          yang masih perlu ditingkatkan.
+          <br />
+          <br />
+          Bagi calon mahasiswa dari {namaKabupaten}
+          yang memiliki target Fakultas Kedokteran di UI, UGM, UNAIR, UNDIP,
+          maupun perguruan tinggi lainnya, pendampingan belajar dapat
+          disesuaikan dengan kemampuan awal, target kampus, serta jalur seleksi
+          pilihan. Melalui kombinasi les privat dan program Supercamp intensif,
+          siswa dapat membangun kebiasaan belajar yang lebih terarah,
+          meningkatkan kesiapan menghadapi ujian, dan menyusun strategi untuk
+          mencapai tujuan pendidikan di bidang Kedokteran.
         </p>
       </div>
+
+      {/* ===================================== */}
+      {/* KOMPONEN HALAMAN */}
+      {/* ===================================== */}
       <LulusanLps />
       <AlumniKedokteranLps />
       <AlumniPtnLps />

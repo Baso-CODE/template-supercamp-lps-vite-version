@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import AlumniKedokteranLps from "../../Components/AlumniKedokteranLps/AlumniKedokteranLps";
 import AlumniPtnLps from "../../Components/AlumniPTNLPS/AlumniPTNLPS";
 import BenefitScLps from "../../Components/BenefitScLPS/BenefitScLPS";
@@ -25,106 +23,170 @@ import TutorLpsSc from "../../Components/TutorLpsSc/TutorLpsSc";
 import VenueScLps from "../../Components/VenueScLps/VenueScLps";
 import VideoScLps from "../../Components/VideoScLps/VideoScLps";
 import WaktuPelaksanaanSc from "../../Components/WaktuPelaksanaanSc/WaktuPelaksanaanSc";
+import { DOMAIN } from "../../utils/domain";
+import formatNamaWilayah from "../../utils/formatNamaWilayah";
 
 const HalamanKotaSimakUi = () => {
+  // =========================================
+  // AMBIL SLUG KOTA
+  // =========================================
   const { id } = useParams();
-  const [kota, setKota] = useState([]);
 
-  function useQuery() {
-    const { search } = useLocation();
-    return useMemo(() => new URLSearchParams(search), [search]);
-  }
+  // =========================================
+  // FORMAT NAMA KOTA
+  // =========================================
+  const namaKota = formatNamaWilayah(id);
 
-  const query = useQuery();
+  // =========================================
+  // NORMALISASI SLUG
+  // =========================================
+  const slugKota = String(id || "")
+    .trim()
+    .toLowerCase();
 
-  useEffect(() => {
-    const axiosJWT = axios.create();
-    const getKota = async () => {
-      const response = await axiosJWT.get(
-        `https://apilps.edusmart-indonesia.com/kota/${id}`,
-        {
-          headers: {
-            Authorization: `Bearer`,
-          },
-        },
-      );
-      setKota(response.data);
-    };
-    getKota(id);
-  }, [id, query]);
+  // =========================================
+  // CANONICAL URL
+  // =========================================
+  const canonicalUrl = `${DOMAIN}/bimbel-simak-ui/${encodeURIComponent(
+    slugKota,
+  )}`;
+
+  // =========================================
+  // SEO TITLE
+  // =========================================
+  const pageTitle = `Bimbel SIMAK UI ${namaKota} | Les Privat Masuk UI`;
+
+  // =========================================
+  // META DESCRIPTION
+  // =========================================
+  const pageDescription = `Bimbel SIMAK UI di ${namaKota} bersama Supercamp Matrix. Persiapan masuk Universitas Indonesia melalui les privat, latihan soal, dan program intensif.`;
+
+  // =========================================
+  // STRUCTURED DATA
+  // =========================================
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    name: pageTitle,
+    description: pageDescription,
+    url: canonicalUrl,
+    inLanguage: "id-ID",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Supercamp Matrix",
+      url: `${DOMAIN}/`,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Bimbingan Persiapan Seleksi Masuk Universitas Indonesia",
+      description:
+        "Program bimbingan belajar dan les privat untuk membantu calon mahasiswa mempersiapkan SIMAK UI serta memahami jalur seleksi masuk Universitas Indonesia.",
+    },
+  };
+
   return (
     <>
+      {/* ===================================== */}
+      {/* SEO METADATA */}
+      {/* ===================================== */}
       <Helmet>
-        {/* Fix Title: Menggunakan satu string utuh agar tidak error di React Helmet */}
-        <title>{`Bimbel & Les Privat SIMAK UI ${kota.kota} 2026 - Lolos UI #1`}</title>
+        <title>{pageTitle}</title>
 
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={pageDescription} />
 
-        {/* Meta Description: Hybrid Keyword + Target SIMAK UI & KKI + Lokasi Kota */}
-        <meta
-          name="description"
-          content={`Bimbel & Les Privat SIMAK UI terbaik di ${kota.kota}. Program intensif SIMAK UI Reguler & KKI (International Class). Modul prediksi, Master Teacher berpengalaman, & Tryout khusus UI di ${kota.kota}. Daftar Sekarang!`}
-        />
-        <meta
-          name="keywords"
-          content={`bimbel simak ui ${kota.kota}, les privat simak ui ${kota.kota}, persiapan simak kki ${kota.kota}, bimbel kki ui, tutor privat ui, karantina simak ui, Bimbel LPS ${kota.kota}`}
-        />
+        <link rel="canonical" href={canonicalUrl} />
 
-        {/* Canonical Link */}
-        <link
-          rel="canonical"
-          href={`https://supercampmatrix.com/bimbel-simak-ui/${kota.slug}`}
-        />
+        <meta name="robots" content="index, follow" />
 
-        {/* Open Graph (WhatsApp & Social Media Preview) */}
+        {/* ===================================== */}
+        {/* OPEN GRAPH */}
+        {/* ===================================== */}
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content={`Bimbel & Les Privat SIMAK UI di ${kota.kota} - Bimbel LPS`}
-        />
-        <meta
-          property="og:description"
-          content={`Raih kursi Universitas Indonesia (Reguler & KKI) melalui program spesialis Bimbel & Les Privat di ${kota.kota}.`}
-        />
-        <meta
-          property="og:url"
-          content={`https://supercampmatrix.com/bimbel-simak-ui/${kota.slug}`}
-        />
-        <meta
-          property="og:image"
-          content="https://supercampmatrix.com/images/banner.webp"
-        />
 
-        {/* Schema Markup JSON-LD: Sangat penting untuk otoritas SEO Lokal Kota */}
+        <meta property="og:site_name" content="Supercamp Matrix" />
+
+        <meta property="og:title" content={pageTitle} />
+
+        <meta property="og:description" content={pageDescription} />
+
+        <meta property="og:url" content={canonicalUrl} />
+
+        <meta property="og:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        <meta property="og:locale" content="id_ID" />
+
+        {/* ===================================== */}
+        {/* TWITTER CARD */}
+        {/* ===================================== */}
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content={pageTitle} />
+
+        <meta name="twitter:description" content={pageDescription} />
+
+        <meta name="twitter:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        {/* ===================================== */}
+        {/* JSON-LD STRUCTURED DATA */}
+        {/* ===================================== */}
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            name: `Bimbel & Les Privat SIMAK UI Edumatrix ${kota.kota}`,
-            image: "https://supercampmatrix.com/images/banner.webp",
-            url: `https://supercampmatrix.com/bimbel-simak-ui/${kota.slug}`,
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: kota.kota,
-              addressCountry: "ID",
-            },
-            description: `Lembaga Bimbel dan Les Privat spesialis persiapan SIMAK UI dan Kelas Internasional (KKI) untuk wilayah ${kota.kota}.`,
-          })}
+          {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
+      {/* ===================================== */}
+      {/* JUMBOTRON */}
+      {/* ===================================== */}
       <JumbotronLps />
+
+      {/* ===================================== */}
+      {/* SEO CONTENT */}
+      {/* ===================================== */}
       <div className="parent-text-seo-lps">
         <h1 className="text-seo-lps">
-          Bimbel Simak UI di {kota.kota} - Intensif Privat Program Simak UI dan
-          Kelas Internasional
+          Bimbel & Les Privat SIMAK UI di{" "}
+          <span className="highlight-city">{namaKota}</span> – Persiapan Seleksi
+          Masuk Universitas Indonesia
         </h1>
+
         <p className="desk-seo-lps">
-          Bimbel Simak UI di {kota.kota} - Program Belajar Les Privat Simak UI
-          dan Simak KKI, Modul Simak UI, Drilling Soal, Konsultasi Jurusan, Try
-          Out Simak UI, Belajar All Subtes Simak UI dan KKI, Offline dan Online
+          Universitas Indonesia merupakan salah satu perguruan tinggi negeri
+          yang menjadi tujuan banyak calon mahasiswa dari berbagai daerah.
+          Selain memiliki beragam pilihan program studi, UI juga menyediakan
+          beberapa jalur penerimaan dengan persyaratan yang perlu diperhatikan
+          oleh setiap peserta. Bagi siswa di {namaKota}, program{" "}
+          <strong>Bimbel & Les Privat SIMAK UI</strong> dari Supercamp Matrix
+          membantu mempersiapkan kemampuan akademik dan merencanakan strategi
+          belajar untuk menghadapi seleksi masuk UI.
+          <br />
+          <br />
+          Program bimbingan difokuskan pada penguatan pemahaman materi, latihan
+          pemecahan masalah, serta pengembangan kemampuan mengerjakan soal
+          secara sistematis. Melalui pembelajaran bersama tutor, latihan soal
+          terstruktur, simulasi ujian, dan evaluasi perkembangan, siswa dapat
+          mengenali kemampuan awal sekaligus menentukan bagian yang masih perlu
+          ditingkatkan sebelum mengikuti proses seleksi.
+          <br />
+          <br />
+          Bagi calon mahasiswa di {namaKota} yang menargetkan program sarjana
+          reguler maupun Kelas Khusus Internasional (KKI), persiapan belajar
+          perlu disesuaikan dengan ketentuan penerimaan yang berlaku pada
+          masing-masing jalur dan program studi. Pemilihan jurusan, pemahaman
+          persyaratan, serta perencanaan waktu belajar menjadi bagian penting
+          dalam menyusun persiapan yang lebih efektif.
+          <br />
+          <br />
+          Melalui program les privat dan bimbingan intensif Supercamp, siswa
+          dapat mengembangkan kebiasaan belajar yang konsisten, memperkuat
+          kesiapan akademik, serta menyusun langkah menuju Universitas Indonesia
+          berdasarkan kemampuan dan tujuan pendidikan masing-masing.
         </p>
       </div>
+
+      {/* ===================================== */}
+      {/* KOMPONEN HALAMAN */}
+      {/* ===================================== */}
       <LulusanLps />
       <AlumniKedokteranLps />
       <AlumniPtnLps />

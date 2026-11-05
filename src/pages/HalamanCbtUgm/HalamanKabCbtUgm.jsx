@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import AlumniKedokteranLps from "../../Components/AlumniKedokteranLps/AlumniKedokteranLps";
 import AlumniPtnLps from "../../Components/AlumniPTNLPS/AlumniPTNLPS";
 import BenefitScLps from "../../Components/BenefitScLPS/BenefitScLPS";
@@ -25,106 +23,160 @@ import TutorLpsSc from "../../Components/TutorLpsSc/TutorLpsSc";
 import VenueScLps from "../../Components/VenueScLps/VenueScLps";
 import VideoScLps from "../../Components/VideoScLps/VideoScLps";
 import WaktuPelaksanaanSc from "../../Components/WaktuPelaksanaanSc/WaktuPelaksanaanSc";
+import { DOMAIN } from "../../utils/domain";
+import formatNamaWilayah from "../../utils/formatNamaWilayah";
 
 const HalamanKabCbtUgm = () => {
+  // =========================================
+  // AMBIL PARAMETER KABUPATEN
+  // =========================================
   const { id } = useParams();
-  const [kabupaten, setKabupaten] = useState([]);
-  const axiosJWT = useMemo(() => axios.create(), []);
 
-  function useQuery() {
-    const { search } = useLocation();
-    return useMemo(() => new URLSearchParams(search), [search]);
-  }
+  // =========================================
+  // FORMAT NAMA KABUPATEN
+  // =========================================
+  const namaKabupaten = formatNamaWilayah(id);
 
-  const query = useQuery();
+  // =========================================
+  // NORMALISASI SLUG
+  // =========================================
+  const slugKabupaten = String(id || "")
+    .trim()
+    .toLowerCase();
 
-  useEffect(() => {
-    const getKabupaten = async () => {
-      const response = await axiosJWT.get(
-        `https://apilps.edusmart-indonesia.com/ibukotakabupaten/${id}`,
-        {
-          headers: {
-            Authorization: `Bearer`,
-          },
-        },
-      );
-      setKabupaten(response.data);
-    };
-    getKabupaten(id);
-  }, [id, query, axiosJWT]);
+  // =========================================
+  // CANONICAL URL
+  // =========================================
+  const canonicalUrl = `${DOMAIN}/bimbel-privat-cbt-ugm/${encodeURIComponent(
+    slugKabupaten,
+  )}`;
+
+  // =========================================
+  // SEO TITLE
+  // =========================================
+  const pageTitle = `Bimbel CBT UGM ${namaKabupaten} | Privat Seleksi Mandiri UGM`;
+
+  // =========================================
+  // META DESCRIPTION
+  // =========================================
+  const pageDescription = `Bimbel CBT UGM di ${namaKabupaten} dengan pendampingan belajar terarah. Tingkatkan kesiapan seleksi mandiri UGM melalui pembahasan soal, latihan intensif, dan evaluasi kemampuan.`;
+
+  // =========================================
+  // STRUCTURED DATA
+  // =========================================
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    name: pageTitle,
+    description: pageDescription,
+    url: canonicalUrl,
+    inLanguage: "id-ID",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Supercamp Matrix",
+      url: `${DOMAIN}/`,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Persiapan Seleksi Mandiri Universitas Gadjah Mada",
+    },
+  };
+
   return (
     <>
+      {/* ===================================== */}
+      {/* SEO METADATA */}
+      {/* ===================================== */}
       <Helmet>
-        {/* Fix Title: String tunggal di dalam kurung kurawal untuk mencegah error React Helmet */}
-        <title>{`Bimbel & Les Privat CBT UGM ${kabupaten.kota_kabupaten} 2026 - Lolos UGM #1`}</title>
+        <title>{pageTitle}</title>
 
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={pageDescription} />
 
-        {/* Meta Description: Menggabungkan Bimbel & Les Privat + Target CBT/UTUL UGM + Lokasi Spesifik */}
-        <meta
-          name="description"
-          content={`Bimbel & Les Privat CBT UGM terbaik di ${kabupaten.kota_kabupaten}. Persiapan intensif UTUL UGM 2026 Saintek & Soshum. Master Teacher berpengalaman, drilling soal prediksi, & guru datang ke rumah di ${kabupaten.kota_kabupaten}. Daftar sekarang!`}
-        />
-        <meta
-          name="keywords"
-          content={`bimbel cbt ugm ${kabupaten.kota_kabupaten}, les privat cbt ugm ${kabupaten.kota_kabupaten}, bimbingan belajar ugm ${kabupaten.kota_kabupaten}, persiapan utul ugm, guru privat ke rumah ${kabupaten.kota_kabupaten}, Bimbel LPS`}
-        />
+        <link rel="canonical" href={canonicalUrl} />
 
-        <link
-          rel="canonical"
-          href={`https://supercampmatrix.com/bimbel-privat-cbt-ugm/${kabupaten.slug}`}
-        />
+        <meta name="robots" content="index, follow" />
 
-        {/* Open Graph (WhatsApp & Social Media Preview) */}
+        {/* ===================================== */}
+        {/* OPEN GRAPH */}
+        {/* ===================================== */}
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content={`Bimbel & Les Privat CBT UGM di ${kabupaten.kota_kabupaten} - Bimbel LPS`}
-        />
-        <meta
-          property="og:description"
-          content={`Raih kursi Gadjah Mada melalui program spesialis Bimbel & Les Privat CBT UGM di wilayah ${kabupaten.kota_kabupaten}.`}
-        />
-        <meta
-          property="og:url"
-          content={`https://supercampmatrix.com/bimbel-privat-cbt-ugm/${kabupaten.slug}`}
-        />
-        <meta
-          property="og:image"
-          content="https://supercampmatrix.com/images/banner.webp"
-        />
 
-        {/* Schema Markup JSON-LD: Sangat penting untuk dominasi SEO Lokal Kabupaten */}
+        <meta property="og:site_name" content="Supercamp Matrix" />
+
+        <meta property="og:title" content={pageTitle} />
+
+        <meta property="og:description" content={pageDescription} />
+
+        <meta property="og:url" content={canonicalUrl} />
+
+        <meta property="og:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        <meta property="og:locale" content="id_ID" />
+
+        {/* ===================================== */}
+        {/* TWITTER CARD */}
+        {/* ===================================== */}
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content={pageTitle} />
+
+        <meta name="twitter:description" content={pageDescription} />
+
+        <meta name="twitter:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        {/* ===================================== */}
+        {/* JSON-LD STRUCTURED DATA */}
+        {/* ===================================== */}
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            name: `Bimbel & Les Privat CBT UGM Edumatrix ${kabupaten.kota_kabupaten}`,
-            image: "https://supercampmatrix.com/images/banner.webp",
-            url: `https://supercampmatrix.com/bimbel-privat-cbt-ugm/${kabupaten.slug}`,
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: kabupaten.kota_kabupaten,
-              addressCountry: "ID",
-            },
-            description: `Lembaga Bimbel dan Les Privat spesialis persiapan ujian mandiri CBT UGM (UTUL UGM) untuk wilayah ${kabupaten.kota_kabupaten}.`,
-          })}
+          {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
+      {/* ===================================== */}
+      {/* HERO SECTION */}
+      {/* ===================================== */}
       <JumbotronLps />
+
+      {/* ===================================== */}
+      {/* SEO CONTENT */}
+      {/* ===================================== */}
       <div className="parent-text-seo-lps">
         <h1 className="text-seo-lps">
-          Les Privat UM UGM CBT di {kabupaten.kota_kabupaten} Terbaik - Bimbel
-          Privat Intensif Masuk UGM
+          Bimbel CBT UGM di{" "}
+          <span className="highlight-city">{namaKabupaten}</span> – Persiapan
+          Seleksi Mandiri UGM Lebih Terarah
         </h1>
+
         <p className="desk-seo-lps">
-          Les Privat UM UGM CBT di {kabupaten.kota_kabupaten} Terbaik. Les
-          Privat UTUL UGM Saintek Soshum IPC, Master Teacher Berpengalaman,
-          Drilling Soal UTUL, Privat Offline Online, Jadwal Fleksibel,
-          Konsultasi Progress Belajar
+          Ingin melanjutkan pendidikan di Universitas Gadjah Mada? Persiapan
+          yang matang menjadi salah satu langkah penting dalam menghadapi
+          persaingan seleksi masuk UGM. Melalui program{" "}
+          <strong>Bimbel CBT UGM</strong> untuk siswa di {namaKabupaten},
+          Supercamp Matrix menghadirkan pendampingan belajar yang berfokus pada
+          pemahaman konsep, penguatan kemampuan akademik, dan pembiasaan
+          mengerjakan soal secara sistematis.
+          <br />
+          <br />
+          Setiap siswa memiliki tingkat penguasaan materi dan kebutuhan belajar
+          yang berbeda. Karena itu, program les privat dirancang agar proses
+          pembelajaran dapat disesuaikan dengan kemampuan awal, materi yang
+          perlu ditingkatkan, serta target program studi di UGM. Pendampingan
+          meliputi pembahasan materi, latihan soal, identifikasi kesulitan
+          belajar, dan evaluasi perkembangan secara berkala.
+          <br />
+          <br />
+          Melalui latihan yang konsisten dan strategi belajar yang tepat, siswa
+          di {namaKabupaten} dapat membangun kesiapan akademik dan kepercayaan
+          diri dalam menghadapi seleksi mandiri UGM. Persiapkan perjalanan
+          menuju kampus impian bersama program bimbingan belajar Supercamp
+          Matrix.
         </p>
       </div>
+
+      {/* ===================================== */}
+      {/* KOMPONEN HALAMAN */}
+      {/* ===================================== */}
       <LulusanLps />
       <AlumniKedokteranLps />
       <AlumniPtnLps />

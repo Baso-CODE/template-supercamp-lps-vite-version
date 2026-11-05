@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import AlumniKedokteranLps from "../../Components/AlumniKedokteranLps/AlumniKedokteranLps";
 import AlumniPtnLps from "../../Components/AlumniPTNLPS/AlumniPTNLPS";
 import BenefitScLps from "../../Components/BenefitScLPS/BenefitScLPS";
@@ -25,108 +23,163 @@ import TutorLpsSc from "../../Components/TutorLpsSc/TutorLpsSc";
 import VenueScLps from "../../Components/VenueScLps/VenueScLps";
 import VideoScLps from "../../Components/VideoScLps/VideoScLps";
 import WaktuPelaksanaanSc from "../../Components/WaktuPelaksanaanSc/WaktuPelaksanaanSc";
+import { DOMAIN } from "../../utils/domain";
+import formatNamaWilayah from "../../utils/formatNamaWilayah";
 
 const HalamanKabIupUgm = () => {
+  // =========================================
+  // AMBIL SLUG KABUPATEN
+  // =========================================
   const { id } = useParams();
-  const [kabupaten, setKabupaten] = useState([]);
 
-  function useQuery() {
-    const { search } = useLocation();
-    return useMemo(() => new URLSearchParams(search), [search]);
-  }
+  // =========================================
+  // FORMAT NAMA KABUPATEN
+  // =========================================
+  const namaKabupaten = formatNamaWilayah(id);
 
-  const query = useQuery();
+  // =========================================
+  // NORMALISASI SLUG
+  // =========================================
+  const slugKabupaten = String(id || "")
+    .trim()
+    .toLowerCase();
 
-  useEffect(() => {
-    const axiosJWT = axios.create();
-    const getKabupaten = async () => {
-      const response = await axiosJWT.get(
-        `https://apilps.edusmart-indonesia.com/ibukotakabupaten/${id}`,
-        {
-          headers: {
-            Authorization: `Bearer`,
-          },
-        },
-      );
-      setKabupaten(response.data);
-    };
-    getKabupaten(id);
-  }, [id, query]);
+  // =========================================
+  // CANONICAL URL
+  // =========================================
+  const canonicalUrl = `${DOMAIN}/les-privat-iup-ugm/${encodeURIComponent(
+    slugKabupaten,
+  )}`;
+
+  // =========================================
+  // SEO TITLE
+  // =========================================
+  const pageTitle = `Les Privat IUP UGM ${namaKabupaten} | Bimbel Seleksi Internasional`;
+
+  // =========================================
+  // META DESCRIPTION
+  // =========================================
+  const pageDescription = `Bimbel IUP UGM di ${namaKabupaten} untuk persiapan seleksi program internasional. Pendampingan akademik, latihan bahasa Inggris, dan wawancara bersama tutor.`;
+
+  // =========================================
+  // STRUCTURED DATA
+  // =========================================
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    name: pageTitle,
+    description: pageDescription,
+    url: canonicalUrl,
+    inLanguage: "id-ID",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Supercamp Matrix",
+      url: `${DOMAIN}/`,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Persiapan Seleksi International Undergraduate Program UGM",
+    },
+  };
 
   return (
     <>
+      {/* ===================================== */}
+      {/* SEO METADATA */}
+      {/* ===================================== */}
       <Helmet>
-        {/* Fix Title: Menggunakan template literal di dalam {} agar aman dari error Helmet */}
-        <title>{`Bimbel & Les Privat IUP UGM ${kabupaten.kota_kabupaten} 2026 - Lolos Intake #1`}</title>
+        <title>{pageTitle}</title>
 
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={pageDescription} />
 
-        {/* Meta Description: Hybrid Keyword + Target IUP UGM (GMST/AcEPT) + Lokasi Kabupaten */}
-        <meta
-          name="description"
-          content={`Bimbel & Les Privat IUP UGM terbaik di ${kabupaten.kota_kabupaten}. Persiapan intensif GMST, AcEPT, & Interview spesialis lulus FK & Non-FK. Guru datang ke rumah wilayah ${kabupaten.kota_kabupaten}. Master Teacher Expert & drilling soal terbaru. Daftar Sekarang!`}
-        />
-        <meta
-          name="keywords"
-          content={`bimbel iup ugm ${kabupaten.kota_kabupaten}, les privat iup ugm ${kabupaten.kota_kabupaten}, persiapan gmst ${kabupaten.kota_kabupaten}, pelatihan acept ugm, bimbel iup kedokteran, guru privat iup ugm, Bimbel LPS`}
-        />
+        <link rel="canonical" href={canonicalUrl} />
 
-        {/* Canonical Link */}
-        <link
-          rel="canonical"
-          href={`https://supercampmatrix.com/les-privat-iup-ugm/${kabupaten.slug}`}
-        />
+        <meta name="robots" content="index, follow" />
 
-        {/* Open Graph (Optimal untuk WhatsApp Preview) */}
+        {/* ===================================== */}
+        {/* OPEN GRAPH */}
+        {/* ===================================== */}
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content={`Bimbel & Les Privat IUP UGM di ${kabupaten.kota_kabupaten} - Bimbel LPS`}
-        />
-        <meta
-          property="og:description"
-          content={`Raih kursi International Undergraduate Program (IUP) UGM melalui bimbingan spesialis di ${kabupaten.kota_kabupaten}.`}
-        />
-        <meta
-          property="og:url"
-          content={`https://supercampmatrix.com/les-privat-iup-ugm/${kabupaten.slug}`}
-        />
-        <meta
-          property="og:image"
-          content="https://supercampmatrix.com/images/banner.webp"
-        />
 
-        {/* Schema Markup JSON-LD: Sangat penting untuk otoritas SEO Lokal tingkat Kabupaten */}
+        <meta property="og:site_name" content="Supercamp Matrix" />
+
+        <meta property="og:title" content={pageTitle} />
+
+        <meta property="og:description" content={pageDescription} />
+
+        <meta property="og:url" content={canonicalUrl} />
+
+        <meta property="og:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        <meta property="og:locale" content="id_ID" />
+
+        {/* ===================================== */}
+        {/* TWITTER CARD */}
+        {/* ===================================== */}
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content={pageTitle} />
+
+        <meta name="twitter:description" content={pageDescription} />
+
+        <meta name="twitter:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        {/* ===================================== */}
+        {/* JSON-LD STRUCTURED DATA */}
+        {/* ===================================== */}
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            name: `Bimbel & Les Privat IUP UGM Edumatrix ${kabupaten.kota_kabupaten}`,
-            image: "https://supercampmatrix.com/images/banner.webp",
-            url: `https://supercampmatrix.com/les-privat-iup-ugm/${kabupaten.slug}`,
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: kabupaten.kota_kabupaten,
-              addressCountry: "ID",
-            },
-            description: `Lembaga Bimbel dan Les Privat spesialis persiapan International Undergraduate Program (IUP) UGM untuk wilayah ${kabupaten.kota_kabupaten}.`,
-          })}
+          {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
+      {/* ===================================== */}
+      {/* JUMBOTRON */}
+      {/* ===================================== */}
       <JumbotronLps />
+
+      {/* ===================================== */}
+      {/* SEO CONTENT */}
+      {/* ===================================== */}
       <div className="parent-text-seo-lps">
         <h1 className="text-seo-lps">
-          Les Privat IUP UGM di {kabupaten.kota_kabupaten} Terbaik - Intensif
-          Privat IUP UGM FK dan Non FK
+          Les Privat IUP UGM di{" "}
+          <span className="highlight-city">{namaKabupaten}</span> – Persiapan
+          Akademik dan Seleksi Program Internasional
         </h1>
+
         <p className="desk-seo-lps">
-          Les Privat IUP UGM {kabupaten.kota_kabupaten} Terbaik. Fokus Les
-          Intensif IUP UGM Kedokteran dan Non FK, Belajar All Subtest, Master
-          Teacher Berpengalaman, Jadwal Fleksibel, CS Responsif, Konsultasi
-          Progress Belajar
+          Menempuh pendidikan melalui International Undergraduate Program (IUP)
+          Universitas Gadjah Mada membutuhkan persiapan yang disesuaikan dengan
+          jalur seleksi dan program studi pilihan. Bagi siswa di {namaKabupaten}
+          , program <strong>Les Privat IUP UGM</strong> dari Supercamp Matrix
+          membantu membangun kesiapan akademik, mengembangkan kemampuan bahasa
+          Inggris, serta mempersiapkan diri menghadapi tahapan seleksi yang
+          relevan.
+          <br />
+          <br />
+          Pendampingan belajar diarahkan pada kebutuhan masing-masing peserta,
+          mulai dari penguatan materi akademik, latihan pemecahan masalah,
+          pengembangan kemampuan komunikasi, hingga persiapan wawancara apabila
+          menjadi bagian dari seleksi program studi yang dituju. Dengan
+          pembelajaran yang lebih personal, siswa dapat mengenali kemampuan yang
+          perlu ditingkatkan sekaligus menyusun prioritas belajar secara lebih
+          terarah.
+          <br />
+          <br />
+          Selain berlatih mengerjakan soal, calon mahasiswa juga perlu memahami
+          karakteristik program internasional yang diminati. Melalui bimbingan
+          intensif dan evaluasi perkembangan belajar, siswa di {
+            namaKabupaten
+          }{" "}
+          dapat mempersiapkan proses seleksi IUP UGM dengan strategi yang sesuai
+          kemampuan, tujuan akademik, dan persyaratan program studi pilihannya.
         </p>
       </div>
+
+      {/* ===================================== */}
+      {/* KOMPONEN HALAMAN */}
+      {/* ===================================== */}
       <LulusanLps />
       <AlumniKedokteranLps />
       <AlumniPtnLps />

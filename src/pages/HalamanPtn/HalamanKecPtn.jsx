@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import AlumniKedokteranLps from "../../Components/AlumniKedokteranLps/AlumniKedokteranLps";
 import AlumniPtnLps from "../../Components/AlumniPTNLPS/AlumniPTNLPS";
 import BenefitScLps from "../../Components/BenefitScLPS/BenefitScLPS";
@@ -25,108 +23,165 @@ import TutorLpsSc from "../../Components/TutorLpsSc/TutorLpsSc";
 import VenueScLps from "../../Components/VenueScLps/VenueScLps";
 import VideoScLps from "../../Components/VideoScLps/VideoScLps";
 import WaktuPelaksanaanSc from "../../Components/WaktuPelaksanaanSc/WaktuPelaksanaanSc";
+import { DOMAIN } from "../../utils/domain";
+import formatNamaWilayah from "../../utils/formatNamaWilayah";
 
 const HalamanKecPtn = () => {
-  const { id, kecSlug } = useParams();
-  const [kecamatan, setKecamatan] = useState([]);
+  // =========================================
+  // AMBIL SLUG KECAMATAN
+  // =========================================
+  const { kecSlug } = useParams();
 
-  function useQuery() {
-    const { search } = useLocation();
-    return useMemo(() => new URLSearchParams(search), [search]);
-  }
+  // =========================================
+  // FORMAT NAMA KECAMATAN
+  // =========================================
+  const namaKecamatan = formatNamaWilayah(kecSlug);
 
-  const query = useQuery();
-  const axiosJWT = axios.create();
+  // =========================================
+  // NORMALISASI SLUG
+  // =========================================
+  const slugKecamatan = String(kecSlug || "")
+    .trim()
+    .toLowerCase();
 
-  useEffect(() => {
-    const getKecamatan = async () => {
-      const response = await axiosJWT.get(
-        `https://apilps.edusmart-indonesia.com/kecamatankab/${kecSlug}`,
-        {
-          headers: {
-            Authorization: `Bearer`,
-          },
-        },
-      );
-      setKecamatan(response.data);
-    };
-    getKecamatan(id);
-  }, [id, query, axiosJWT, kecSlug]);
+  // =========================================
+  // CANONICAL URL
+  // =========================================
+  const canonicalUrl = `${DOMAIN}/bimbingan-masuk-ptn/${encodeURIComponent(
+    slugKecamatan,
+  )}`;
+
+  // =========================================
+  // SEO TITLE
+  // =========================================
+  const pageTitle = `Les Privat Masuk PTN ${namaKecamatan} | Bimbel Intensif`;
+
+  // =========================================
+  // META DESCRIPTION
+  // =========================================
+  const pageDescription = `Les privat masuk PTN di ${namaKecamatan} bersama Supercamp Matrix. Persiapan UTBK SNBT, latihan soal, evaluasi belajar, dan strategi menghadapi seleksi PTN.`;
+
+  // =========================================
+  // STRUCTURED DATA
+  // =========================================
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    name: pageTitle,
+    description: pageDescription,
+    url: canonicalUrl,
+    inLanguage: "id-ID",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Supercamp Matrix",
+      url: `${DOMAIN}/`,
+    },
+    about: {
+      "@type": "Thing",
+      name: "Les Privat Persiapan Masuk Perguruan Tinggi Negeri",
+      description:
+        "Program pendampingan belajar untuk membantu siswa mempersiapkan seleksi masuk PTN melalui UTBK SNBT dan jalur penerimaan lainnya.",
+    },
+  };
 
   return (
     <>
+      {/* ===================================== */}
+      {/* SEO METADATA */}
+      {/* ===================================== */}
       <Helmet>
-        {/* Anti-Error Title: Menggunakan template literal di dalam kurung kurawal agar terbaca sebagai string tunggal */}
-        <title>{`Bimbel & Les Privat Masuk PTN ${kecamatan.kecamatan} 2026 - Lolos PTN #1`}</title>
+        <title>{pageTitle}</title>
 
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={pageDescription} />
 
-        {/* Meta Description: Menggabungkan Bimbel & Les Privat + Target PTN Spesifik */}
-        <meta
-          name="description"
-          content={`Bimbel & Les Privat Masuk PTN terbaik di ${kecamatan.kecamatan}. Program intensif UTBK SNBT, SIMAK UI, & CBT UGM 2026. Modul lengkap, Master Teacher ke rumah, & Tryout akurat. Daftar sekarang di Edumatrix!`}
-        />
-        <meta
-          name="keywords"
-          content={`bimbel les privat ${kecamatan.kecamatan}, bimbel ptn ${kecamatan.kecamatan}, les privat kedokteran ${kecamatan.kecamatan}, bimbingan belajar ${kecamatan.kecamatan}, karantina ptn ${kecamatan.kecamatan}, guru privat ${kecamatan.kecamatan}`}
-        />
+        <link rel="canonical" href={canonicalUrl} />
 
-        {/* Link Canonical yang Rapi */}
-        <link
-          rel="canonical"
-          href={`https://supercampmatrix.com/bimbingan-masuk-ptn/${kecamatan.slug}`}
-        />
+        <meta name="robots" content="index, follow" />
 
-        {/* Open Graph (WhatsApp Preview) */}
+        {/* ===================================== */}
+        {/* OPEN GRAPH */}
+        {/* ===================================== */}
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content={`Bimbel & Les Privat di ${kecamatan.kecamatan} - Bimbel LPS`}
-        />
-        <meta
-          property="og:description"
-          content={`Raih kursi PTN Impian bersama spesialis Bimbel & Les Privat di ${kecamatan.kecamatan}. Program intensif Kedokteran 2026.`}
-        />
-        <meta
-          property="og:url"
-          content={`https://supercampmatrix.com/bimbingan-masuk-ptn/${kecamatan.slug}`}
-        />
-        <meta
-          property="og:image"
-          content="https://supercampmatrix.com/images/banner.webp"
-        />
 
-        {/* Schema Markup untuk SEO Lokal Tingkat Kecamatan */}
+        <meta property="og:site_name" content="Supercamp Matrix" />
+
+        <meta property="og:title" content={pageTitle} />
+
+        <meta property="og:description" content={pageDescription} />
+
+        <meta property="og:url" content={canonicalUrl} />
+
+        <meta property="og:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        <meta property="og:locale" content="id_ID" />
+
+        {/* ===================================== */}
+        {/* TWITTER CARD */}
+        {/* ===================================== */}
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="twitter:title" content={pageTitle} />
+
+        <meta name="twitter:description" content={pageDescription} />
+
+        <meta name="twitter:image" content={`${DOMAIN}/images/banner.webp`} />
+
+        {/* ===================================== */}
+        {/* JSON-LD STRUCTURED DATA */}
+        {/* ===================================== */}
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: `Bimbel & Les Privat Edumatrix ${kecamatan.kecamatan}`,
-            image: "https://supercampmatrix.com/images/banner.webp",
-            url: `https://supercampmatrix.com/bimbingan-masuk-ptn/${kecamatan.slug}`,
-            telephone: "+6282258689993",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: kecamatan.kecamatan,
-              addressCountry: "ID",
-            },
-            description: `Lembaga Bimbel dan Les Privat persiapan masuk PTN favorit di wilayah ${kecamatan.kecamatan}.`,
-          })}
+          {JSON.stringify(structuredData)}
         </script>
       </Helmet>
+
+      {/* ===================================== */}
+      {/* JUMBOTRON */}
+      {/* ===================================== */}
       <JumbotronLps />
+
+      {/* ===================================== */}
+      {/* SEO CONTENT */}
+      {/* ===================================== */}
       <div className="parent-text-seo-lps">
         <h1 className="text-seo-lps">
-          Bimbel Masuk PTN di {kecamatan.kecamatan} - Bimbel Les Privat dan
-          Supercamp - Masuk FK & PTN
+          Bimbel & Les Privat Masuk PTN di{" "}
+          <span className="highlight-city">{namaKecamatan}</span> – Persiapan
+          Intensif UTBK SNBT dan Seleksi PTN
         </h1>
+
         <p className="desk-seo-lps">
-          Bimbel Masuk PTN Terbaik Berpengalaman. Intensif Privat Sukses Masuk
-          PTN, Modul UTBK SNBT Lengkap, Tryout UTBK Online, Konsultasi Jurusan
-          dan PTN, Privat Semua Subtes UTBK, Report Progress
+          Setiap calon mahasiswa memiliki tantangan berbeda ketika mempersiapkan
+          diri masuk perguruan tinggi negeri. Ada siswa yang membutuhkan
+          penguatan konsep dasar, sementara yang lain perlu meningkatkan
+          ketepatan dan kecepatan dalam mengerjakan soal seleksi. Bagi siswa di{" "}
+          {namaKecamatan}, program{" "}
+          <strong>Bimbel & Les Privat Masuk PTN</strong> dari Supercamp Matrix
+          memberikan pendampingan belajar yang dapat disesuaikan dengan
+          kemampuan dan target akademik masing-masing peserta.
+          <br />
+          <br />
+          Melalui pembelajaran intensif, siswa dapat memperdalam pemahaman
+          materi UTBK SNBT, mengembangkan kemampuan penalaran, meningkatkan
+          literasi, serta melatih keterampilan pemecahan masalah. Pendampingan
+          dilakukan melalui latihan soal bertahap, pembahasan bersama tutor,
+          simulasi tryout, dan evaluasi hasil belajar untuk membantu peserta
+          mengenali materi yang masih perlu ditingkatkan.
+          <br />
+          <br />
+          Bagi siswa di {namaKecamatan} yang menargetkan perguruan tinggi
+          seperti UI, UGM, ITB, UNAIR, UNDIP, maupun kampus negeri lainnya,
+          strategi persiapan dapat disusun berdasarkan jurusan pilihan dan jalur
+          seleksi yang akan diikuti. Dengan jadwal belajar terencana,
+          pendampingan personal, serta evaluasi perkembangan kemampuan, peserta
+          dapat membangun kesiapan akademik yang lebih matang untuk menghadapi
+          proses seleksi masuk PTN.
         </p>
       </div>
+
+      {/* ===================================== */}
+      {/* KOMPONEN HALAMAN */}
+      {/* ===================================== */}
       <LulusanLps />
       <AlumniKedokteranLps />
       <AlumniPtnLps />
