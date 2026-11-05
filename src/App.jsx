@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ReactGA from "react-ga";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 import "./App.css";
@@ -39,8 +38,6 @@ import HomePage from "./pages/Homepage/HomePage";
 import NotFound from "./pages/NotFound/NotFound";
 import { Registrasi } from "./pages/Registrasi/Registrasi";
 
-const TRACKING_ID = "G-NZRFMBB12N";
-ReactGA.initialize(TRACKING_ID);
 function App() {
   const [progress, setProgress] = useState(0);
 
