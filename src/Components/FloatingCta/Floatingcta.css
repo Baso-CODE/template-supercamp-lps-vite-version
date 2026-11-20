@@ -205,3 +205,88 @@ a {
     transform: translateY(0) scale(1);
   }
 }
+
+/* FIX ICON WHATSAPP - SUPERCAMPMATRIX.COM */
+.whatsapp-container .service-item {
+  display: block;
+  padding: 0;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.whatsapp-container .service-item-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  color: #363636;
+  text-decoration: none;
+}
+
+.whatsapp-container .service-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #e3f8eb;
+}
+
+.whatsapp-container .service-wa-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  color: #00b33c;
+}
+
+.whatsapp-container .service-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  color: #363636;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.whatsapp-container .service-name {
+  font-weight: 600;
+}
+
+.whatsapp-container .text-cs-edm {
+  font-size: 11px;
+  font-weight: 400;
+  color: #838383;
+}
+
+.whatsapp-container .service-item-link:hover .service-name {
+  color: #128c7e;
+}
+
+.whatsapp-container .text-pilih-cs {
+  margin: 0;
+}
+
+.whatsapp-container .modal {
+  max-width: calc(100vw - 32px);
+}
+
+@media (max-width: 480px) {
+  .whatsapp-container .modal {
+    width: min(350px, calc(100vw - 32px));
+  }
+
+  .whatsapp-container .service-item-link {
+    gap: 10px;
+    padding: 12px 10px;
+  }
+
+  .whatsapp-container .service-link {
+    font-size: 13px;
+  }
+}
