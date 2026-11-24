@@ -20,8 +20,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen(!isOpen)}
-          >
+            onClick={() => setIsOpen(!isOpen)}>
             <h2 className="subtitle-faq-lps">
               Apa itu Program Supercamp Matrix?
             </h2>
@@ -33,7 +32,7 @@ const FaqScLps = () => {
               ujian UTBK SNBT, SIMAK UI, UTUL UGM, UTM IPB dan Ujian Mandiri
               Universitas Negeri lainnya dengan Sistem Karantina. Disebut
               Program Supercamp karena program menginap selama waktu tertentu
-              dan didampingi TIM KHUSUS Sukses Masuk PTN alumni dari UI, ITB,
+              dan didampingi TIM KHUSUS Sukses Masuk PTN alumni dari UI, UNPAD,
               UGM dan PTN Terbaik lain untuk meningkatkan skill dan kemampuan
               dalam mengerjakan soal dengan target masuk Jurusan dan Universitas
               yang diinginkan.
@@ -43,8 +42,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen2(!isOpen2)}
-          >
+            onClick={() => setIsOpen2(!isOpen2)}>
             <h2 className="subtitle-faq-lps">
               Mengapa Siswa Supercamp Matrix harus menginap?
             </h2>
@@ -81,8 +79,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen3(!isOpen3)}
-          >
+            onClick={() => setIsOpen3(!isOpen3)}>
             <h2 className="subtitle-faq-lps">
               Berapa Biaya Program Supercamp Matrix?
             </h2>
@@ -98,8 +95,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen4(!isOpen4)}
-          >
+            onClick={() => setIsOpen4(!isOpen4)}>
             <h2 className="subtitle-faq-lps">
               Tanggal berapa Program Supercamp Matrix Dimulai?
             </h2>
@@ -118,8 +114,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen5(!isOpen5)}
-          >
+            onClick={() => setIsOpen5(!isOpen5)}>
             <h2 className="subtitle-faq-lps">
               Program belajar di Bimbel Supercamp bergaransi seperti apa?
             </h2>
@@ -136,8 +131,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen6(!isOpen6)}
-          >
+            onClick={() => setIsOpen6(!isOpen6)}>
             <h2 className="subtitle-faq-lps">
               Siapa nanti yang mengajar siswa-siswi Program Supercamp Matrix?
             </h2>
@@ -146,7 +140,7 @@ const FaqScLps = () => {
           <div className={`accordion-body-lps ${isOpen6 ? "open" : ""}`}>
             <p className="desk-faq-lps">
               Tim Pengajar Program Supercamp MATRIX terdiri dari Dosen, Asisten
-              Dosen, Alumni dan Mahasiswa dari UI, ITB, UGM dan PTN Terbaik
+              Dosen, Alumni dan Mahasiswa dari UI, UNPAD, UGM dan PTN Terbaik
               lain. Seluruh tim terseleksi, berpengalaman dan berkompeten untuk
               membimbing siswa-siswi agar lolos ujian SNBT, SIMAK UI, UTUL UGM
               dan Ujian Mandiri Universitas Negeri lainnya sesuai dengan target
@@ -157,8 +151,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen7(!isOpen7)}
-          >
+            onClick={() => setIsOpen7(!isOpen7)}>
             <h2 className="subtitle-faq-lps">
               Bagaimana Tim Supercamp Matrix bisa membantu siswa bisa masuk PTN
               Favorit?
@@ -181,8 +174,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen8(!isOpen8)}
-          >
+            onClick={() => setIsOpen8(!isOpen8)}>
             <h2 className="subtitle-faq-lps">
               Bagaimana alur pendaftaran Program Supercamp Matrix?
             </h2>
@@ -211,8 +203,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen9(!isOpen9)}
-          >
+            onClick={() => setIsOpen9(!isOpen9)}>
             <h2 className="subtitle-faq-lps">
               Di mana lokasi Program Supercamp Matrix dilaksanakan ?
             </h2>
@@ -238,8 +229,7 @@ const FaqScLps = () => {
         <div className="accordion-container-lps">
           <div
             className="accordion-header-lps"
-            onClick={() => setIsOpen10(!isOpen10)}
-          >
+            onClick={() => setIsOpen10(!isOpen10)}>
             <h2 className="subtitle-faq-lps">
               Bisakah saya berkunjung ke lokasi sebelum daftar?
             </h2>

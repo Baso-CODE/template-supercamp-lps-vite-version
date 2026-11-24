@@ -28,7 +28,7 @@ const HalamanIupUgm = () => {
     <>
       <Helmet>
         {/* Anti-Error Title: String tunggal di dalam kurung kurawal */}
-        <title>{`Bimbel & Les Privat IUP UGM 2026 - Spesialis Intake 1, 2, & 3`}</title>
+        <title>{`Bimbel & Les Privat IUP UGM 2027 - Spesialis Intake 1, 2, & 3`}</title>
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +36,7 @@ const HalamanIupUgm = () => {
         {/* Meta Description: Fokus pada urgensi, persiapan subtest (GMST/AcEPT), dan target FK/Non-FK */}
         <meta
           name="description"
-          content="Bimbel & Les Privat IUP UGM terbaik 2026. Persiapan intensif GMST, AcEPT, Interview, & Microteaching. Spesialis lulus IUP Kedokteran (FK) & Non-FK. Master Teacher Expert & drilling soal terbaru. Daftar Sekarang!"
+          content="Bimbel & Les Privat IUP UGM terbaik 2027. Persiapan intensif GMST, AcEPT, Interview, & Microteaching. Spesialis lulus IUP Kedokteran (FK) & Non-FK. Master Teacher Expert & drilling soal terbaru. Daftar Sekarang!"
         />
         <meta
           name="keywords"
@@ -52,7 +52,7 @@ const HalamanIupUgm = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Bimbel & Les Privat IUP UGM 2026 - Spesialis Lolos Intake UGM"
+          content="Bimbel & Les Privat IUP UGM 2027 - Spesialis Lolos Intake UGM"
         />
         <meta
           property="og:description"

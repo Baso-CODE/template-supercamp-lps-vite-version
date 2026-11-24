@@ -26,9 +26,9 @@ const HalamanPtn = () => {
   return (
     <>
       <Helmet>
-        {/* Basic SEO - Menggabungkan Bimbel & Les Privat dengan Fokus PTN 2026 */}
+        {/* Basic SEO - Menggabungkan Bimbel & Les Privat dengan Fokus PTN 2027 */}
         <title>
-          Bimbel & Les Privat Masuk PTN 2026 - Spesialis Kedokteran & PTN
+          Bimbel & Les Privat Masuk PTN 2027 - Spesialis Kedokteran & PTN
           Favorit
         </title>
         <meta charSet="utf-8" />
@@ -41,7 +41,7 @@ const HalamanPtn = () => {
         />
         <meta
           name="keywords"
-          content="bimbel masuk ptn, les privat utbk snbt, bimbel kedokteran terbaik, persiapan simak ui, cbt ugm 2026, karantina ptn, Bimbel LPS, guru privat ptn"
+          content="bimbel masuk ptn, les privat utbk snbt, bimbel kedokteran terbaik, persiapan simak ui, cbt ugm 2027, karantina ptn, Bimbel LPS, guru privat ptn"
         />
 
         <link
@@ -53,11 +53,11 @@ const HalamanPtn = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Bimbel & Les Privat Masuk PTN 2026 - Bimbel LPS"
+          content="Bimbel & Les Privat Masuk PTN 2027 - Bimbel LPS"
         />
         <meta
           property="og:description"
-          content="Raih kursi PTN Impian (UI, UGM, ITB, UNAIR) dengan program belajar intensif dan terukur."
+          content="Raih kursi PTN Impian (UI, UGM, UNPAD, UNAIR) dengan program belajar intensif dan terukur."
         />
         <meta
           property="og:url"

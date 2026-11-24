@@ -28,7 +28,7 @@ const HalamanCbtUgm = () => {
     <>
       <Helmet>
         {/* Anti-Error Title: String tunggal di dalam kurung kurawal */}
-        <title>{`Bimbel & Les Privat CBT UGM 2026 - Spesialis Lolos UTUL UGM #1`}</title>
+        <title>{`Bimbel & Les Privat CBT UGM 2027 - Spesialis Lolos UTUL UGM #1`}</title>
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +36,7 @@ const HalamanCbtUgm = () => {
         {/* Meta Description: Hybrid Keyword + Target CBT UGM + Keunggulan Program */}
         <meta
           name="description"
-          content="Bimbel & Les Privat CBT UGM terbaik. Persiapan intensif UTUL UGM 2026 Saintek, Soshum, & IPC. Modul prediksi akurat, Master Teacher berpengalaman, & drilling soal CBT UGM. Guru ke rumah atau Online. Daftar Sekarang!"
+          content="Bimbel & Les Privat CBT UGM terbaik. Persiapan intensif UTUL UGM 2027 Saintek, Soshum, & IPC. Modul prediksi akurat, Master Teacher berpengalaman, & drilling soal CBT UGM. Guru ke rumah atau Online. Daftar Sekarang!"
         />
         <meta
           name="keywords"
@@ -52,7 +52,7 @@ const HalamanCbtUgm = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Bimbel & Les Privat CBT UGM 2026 - Bimbel LPS"
+          content="Bimbel & Les Privat CBT UGM 2027 - Bimbel LPS"
         />
         <meta
           property="og:description"

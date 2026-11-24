@@ -157,7 +157,7 @@ const HalamanKabLps = () => {
           pengerjaan soal yang efektif. Bagi siswa di {namaKabupaten}, program{" "}
           <strong>Les Privat UTBK SNBT</strong> dari Supercamp Matrix hadir
           untuk mendukung persiapan akademik menuju perguruan tinggi pilihan
-          seperti UI, UGM, ITB, UNDIP, maupun Fakultas Kedokteran.
+          seperti UI, UGM, UNPAD, UNDIP, maupun Fakultas Kedokteran.
           <br />
           <br />
           Melalui pendampingan belajar intensif, siswa dapat memperkuat

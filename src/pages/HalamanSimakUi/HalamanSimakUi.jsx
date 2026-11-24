@@ -28,7 +28,7 @@ const HalamanSimakUi = () => {
     <>
       <Helmet>
         {/* Anti-Error Title: Menggunakan satu string utuh agar aman di React Helmet */}
-        <title>{`Bimbel & Les Privat SIMAK UI 2026 - Spesialis Kelas Reguler & KKI`}</title>
+        <title>{`Bimbel & Les Privat SIMAK UI 2027 - Spesialis Kelas Reguler & KKI`}</title>
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -52,7 +52,7 @@ const HalamanSimakUi = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Bimbel & Les Privat SIMAK UI & KKI 2026 - Bimbel LPS"
+          content="Bimbel & Les Privat SIMAK UI & KKI 2027 - Bimbel LPS"
         />
         <meta
           property="og:description"

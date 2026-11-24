@@ -8,7 +8,7 @@ const LulusanLps = () => {
       <div className="box-lulusan-lps">
         <img
           src={lulusanLps}
-          alt="Daftar siswa Supercamp yang lolos ke PTN favorit seperti UI, UGM, ITB, UNAIR, dan kampus negeri terbaik lainnya"
+          alt="Daftar siswa Supercamp yang lolos ke PTN favorit seperti UI, UGM, UNPAD, UNAIR, dan kampus negeri terbaik lainnya"
           className="img-lulusan-lps"
           loading="lazy"
         />

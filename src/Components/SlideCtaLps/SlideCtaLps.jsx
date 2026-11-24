@@ -19,7 +19,7 @@ const SlideCtaLps = () => {
         <img
           className="cta-img desktop-only"
           src={cta_1}
-          alt="Daftar Program Supercamp UTBK SNBT 2026 - Bimbel Intensif Masuk Kedokteran dan PTN Favorit"
+          alt="Daftar Program Supercamp UTBK SNBT 2027 - Bimbel Intensif Masuk Kedokteran dan PTN Favorit"
           loading="eager"
           decoding="async"
         />
@@ -28,7 +28,7 @@ const SlideCtaLps = () => {
         <img
           className="cta-img mobile-only"
           src={cta_1_mob}
-          alt="Informasi dan Pendaftaran Supercamp UTBK SNBT 2026 untuk Masuk Kedokteran dan PTN"
+          alt="Informasi dan Pendaftaran Supercamp UTBK SNBT 2027 untuk Masuk Kedokteran dan PTN"
           loading="eager"
           decoding="async"
         />

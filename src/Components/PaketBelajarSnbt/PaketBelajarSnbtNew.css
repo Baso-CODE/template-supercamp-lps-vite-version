@@ -1,242 +1,878 @@
-.parent-paket-snbt-new {
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding-top: 20px;
-  margin-top: 20px;
-}
-.img-paket-snbt-new {
-  width: 33%;
-  transition: 0.5s;
-  cursor: pointer;
-}
-.img-paket-snbt-new:hover {
-  scale: 1.1;
-  cursor: pointer;
-}
-.super-parent-paket-snbt-new {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  border-radius: 10px; */
-  padding: 20px;
-}
-.title-paket-snbt-new {
-  text-align: center;
-  font-size: 28px;
-}
 .top-parent-paket-snbt-new {
-  background-color: #263c80;
-  padding: 30px;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-}
-.title-paket-snbt-new {
-  text-align: center;
-  font-weight: 800;
-  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 42px 24px;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(255, 198, 74, 0.22),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(255, 145, 0, 0.18),
+      transparent 24%
+    ),
+    linear-gradient(180deg, #163f9f 0%, #1d4db7 55%, #143b94 100%);
 }
 
-/* NEW */
-.garis-paket-snbt-new {
-  margin-top: 20px;
-  height: 1px;
-  background-color: #ff6500;
-  border: none; 
+.top-parent-paket-snbt-new::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 30%),
+    linear-gradient(315deg, rgba(255, 193, 7, 0.08), transparent 40%);
 }
+
+.heading-paket-wrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 920px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.eyebrow-paket-snbt-new {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 14px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.title-paket-snbt-new {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(24px, 2vw, 32px);
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.desk-main-paket-snbt-new {
+  max-width: 760px;
+  margin: 14px auto 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.parent-paket-snbt-new {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.paket-card {
+  position: relative;
+  min-height: 100%;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.liquid-glass-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  box-shadow:
+    0 18px 45px rgba(4, 20, 64, 0.26),
+    inset 0 1px 0 rgba(255, 255, 255, 0.34),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+
+.glass-highlight {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: -20%;
+  width: 80%;
+  height: 180px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.36) 0%,
+    rgba(255, 255, 255, 0.08) 55%,
+    rgba(255, 255, 255, 0) 75%
+  );
+  transform: rotate(-10deg);
+  pointer-events: none;
+}
+
+.paket-badge {
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+  margin: 18px auto 0;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffb23c 0%, #ff8600 100%);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  box-shadow: 0 8px 18px rgba(255, 134, 0, 0.28);
+}
+
+.paket-card-inner {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  padding: 18px 22px 24px;
+  color: #ffffff;
+}
+
+.text-paket-privat-lps {
+  margin: 6px 0 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffd66c;
+}
+
+.child-title-paket-snbt-new {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.child-subtitle-paket-snbt-new {
+  margin: 12px auto 0;
+  width: fit-content;
+  padding: 8px 14px;
+  text-align: center;
+  color: #163f9f;
+  font-size: 14px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 999px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.paket-description {
+  margin: 14px 0 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 14px;
+  line-height: 1.7;
+  min-height: 52px;
+}
+
+.garis-paket-snbt-new {
+  margin: 20px 0 18px;
+  height: 1px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 196, 76, 0) 0%,
+    rgba(255, 196, 76, 0.95) 50%,
+    rgba(255, 196, 76, 0) 100%
+  );
+}
+
+.parent-rincian-paket {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+}
+
 .rincian-paket {
   list-style: none;
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   gap: 10px;
+  color: rgba(255, 255, 255, 0.96);
+  font-size: 14px;
+  line-height: 1.6;
 }
+
+.check-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 18px;
+  margin-top: 2px;
+}
+
 .color-check {
-  color: rgb(0, 128, 0);
-}
-.child-paket-snbt-new {
-  background-color: white;
-  padding: 15px;
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 25%;
-}
-.child-paket-snbt-new-maxima {
-  background-color: white;
-  padding: 15px;
-  border-radius: 0 0 15px 15px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.parent-rincian-paket {
-  margin-top: 20px;
-  line-height: 33px;
-}
-.rincian-paket {
-  font-weight: 400;
-}
-.child-title-paket-snbt-new {
-  font-weight: 700;
-  text-align: center;
-  color: black;
-  font-size: 30px;
-}
-.child-subtitle-paket-snbt-new {
-  text-align: center;
-  color: white;
+  color: #ffc54c;
   font-size: 15px;
-  font-weight: 600;
-  background-color: #a3a3a3;
-  padding: 5px;
-  border-radius: 5px;
 }
-.child-subtitle-paket-snbt-new-gold {
-  text-align: center;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  background-color: #f39200;
-  padding: 5px;
-  border-radius: 5px;
+
+.paket-link-button {
+  display: block;
+  margin-top: 24px;
+  text-decoration: none;
 }
-.child-subtitle-paket-snbt-new-platinum {
-  text-align: center;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  background-color: #9200f3;
-  padding: 5px;
-  border-radius: 5px;
-}
+
 .btn-parent-paket-snbt-new {
-  background-color: #ff6500;
-  padding: 12px;
   width: 100%;
-  margin-top: 25px;
-  color: white;
-  border: 1px solid transparent;
-  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  padding: 14px 16px;
   cursor: pointer;
   font-family: "Poppins", serif;
   font-size: 15px;
-  font-weight: 600;
-}
-.btn-parent-paket-snbt-new-2 {
-  background-color: #ff6500;
-  padding: 12px;
-  width: 100%;
-  margin-top: 25px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: "Poppins", serif;
-  font-size: 15px;
-  font-weight: 600;
-  transition: all 0.5s;
-  border: 1px solid transparent;
-  color: white;
-}
-.special-label-paket-snbt-maxima {
-  text-align: center;
-  background-color: #1e3e62;
-  color: white;
-  padding: 10px 0;
-  border-radius: 15px 15px 0 0;
-  border: 1px solid white;
-  font-weight: 500;
-  font-size: 15px;
-}
-.text-paket-privat-lps {
-  text-align: center;
-  font-weight: 600;
-  font-size: 13px;
-}
-.parent-special-label-paket-snbt-maxima {
-  width: 25%;
-}
-.desk-main-paket-snbt-new {
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
+  color: #163f9f;
+  background: linear-gradient(180deg, #ffd15f 0%, #ffb31f 100%);
+  box-shadow:
+    0 10px 20px rgba(255, 174, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.48);
+  transition: all 0.3s ease;
 }
 
-/* RESPONSIVE */
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+.btn-parent-paket-snbt-new:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 16px 30px rgba(255, 174, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.54);
+}
+
+.btn-parent-paket-snbt-new:active {
+  transform: translateY(0);
+}
+
+.priority .paket-badge {
+  background: linear-gradient(180deg, #ffb535 0%, #ff8900 100%);
+}
+
+.reguler .paket-badge {
+  background: linear-gradient(180deg, #ffc84d 0%, #f29a00 100%);
+}
+
+.online-class .paket-badge {
+  background: linear-gradient(180deg, #7fd0ff 0%, #3e9cff 100%);
+}
+
+.priority {
+  transform: translateY(-10px);
+}
+
+@supports not (
+  (backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))
+) {
+  .liquid-glass-card {
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   .parent-paket-snbt-new {
-    display: flex;
-    flex-direction: column;  /* Membuat elemen anak menjadi vertikal */
-    width: 100%;  /* Memastikan lebar 100% pada mobile */
-    gap: 20px;  /* Menambahkan jarak antar elemen */
-    padding: 10px;  /* Menambahkan padding */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .child-paket-snbt-new {
-    width: 100%;  /* Memastikan elemen ini juga 100% lebar */
+  .priority {
+    transform: none;
   }
+}
 
-  .super-parent-paket-snbt-new {
-    padding: 0;  /* Mengurangi padding */
-  }
-
+@media only screen and (max-width: 896px) {
   .top-parent-paket-snbt-new {
-    padding: 10px;  /* Padding lebih kecil pada mobile */
+    padding: 28px 14px;
   }
 
-  .rincian-paket {
-    font-size: 14px;  /* Memperkecil ukuran font rincian untuk mobile */
+  .parent-paket-snbt-new {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 
   .title-paket-snbt-new {
-    font-size: 20px;  /* Ukuran font judul lebih kecil */
-    margin: 10px 0 10px 0;
+    font-size: 24px;
+  }
+
+  .desk-main-paket-snbt-new {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .paket-card-inner {
+    padding: 16px 16px 20px;
   }
 
   .child-title-paket-snbt-new {
-    font-size: 28px;  /* Ukuran font judul anak lebih kecil */
+    font-size: 26px;
   }
 
   .child-subtitle-paket-snbt-new {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 13px;
+    padding: 8px 12px;
   }
 
-  .btn-parent-paket-snbt-new, .btn-parent-paket-snbt-new-2 {
-    width: 100%;  /* Memastikan tombol penuh di layar mobile */
+  .paket-description {
+    min-height: auto;
+    font-size: 13px;
   }
 
-  .parent-special-label-paket-snbt-maxima {
-    width: 100%;  /* Memastikan elemen ini menggunakan lebar 100% pada mobile */
-    /* padding: 10px; */
-  }
-
-  .special-label-paket-snbt-maxima {
-    font-size: 18px;  /* Menyesuaikan ukuran font untuk mobile */
-    padding: 10px;
-  }
-
-  .child-paket-snbt-new-maxima {
-    width: 100%;  /* Memastikan elemen ini menggunakan lebar 100% pada mobile */
-    padding: 15px;  /* Menambahkan padding */
-    box-sizing: border-box;  /* Agar padding tidak mempengaruhi lebar */
-  }
-
-  .child-title-paket-snbt-new {
-    font-size: 24px;  /* Ukuran font lebih kecil untuk judul di mobile */
-  }
-
-  .child-subtitle-paket-snbt-new {
-    font-size: 14px;  /* Menyesuaikan ukuran font */
-    font-weight: 600;
+  .rincian-paket {
+    font-size: 13px;
+    line-height: 1.55;
   }
 
   .btn-parent-paket-snbt-new {
-    width: 100%;  /* Tombol mengambil lebar penuh */
-  }
-  .desk-main-paket-snbt-new {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    padding: 13px 14px;
   }
 
+  .priority {
+    transform: none;
+  }
 }
 
+@media only screen and (max-width: 480px) {
+  .eyebrow-paket-snbt-new {
+    font-size: 11px;
+    padding: 7px 14px;
+  }
+
+  .title-paket-snbt-new {
+    font-size: 21px;
+  }
+
+  .child-title-paket-snbt-new {
+    font-size: 22px;
+  }
+
+  .paket-badge {
+    font-size: 11px;
+    padding: 9px 14px;
+  }
+}
+/* =========================================
+   FIX BUTTON SEJAJAR DI SEMUA KARTU
+========================================= */
+
+/* Semua kartu memiliki tinggi yang sama */
+.parent-paket-snbt-new {
+  align-items: stretch;
+}
+
+/* Kartu menggunakan flex column */
+.parent-paket-snbt-new .paket-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+/* Bagian dalam kartu mengisi ruang tersedia */
+.parent-paket-snbt-new .paket-card-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: auto;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+/* List benefit mengisi ruang sebelum tombol */
+.parent-paket-snbt-new .parent-rincian-paket {
+  flex-grow: 1;
+}
+
+/* Dorong tombol ke bagian paling bawah */
+.parent-paket-snbt-new .paket-link-button {
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+/* Tombol konsisten */
+.parent-paket-snbt-new .btn-parent-paket-snbt-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  margin: 0;
+}
+
+/* Hilangkan offset vertikal agar benar-benar sejajar */
+.parent-paket-snbt-new .priority {
+  transform: none;
+}
+
+/* Responsive */
+@media (max-width: 896px) {
+  .parent-paket-snbt-new .paket-card {
+    min-height: auto;
+  }
+
+  .parent-paket-snbt-new .paket-link-button {
+    padding-top: 22px;
+  }
+
+  .parent-paket-snbt-new .btn-parent-paket-snbt-new {
+    min-height: 48px;
+  }
+}
+
+/* =========================================
+   WHITE PREMIUM CARD - SUPERCAMP MATRIX
+========================================= */
+
+/* Background section tetap biru */
+.top-parent-paket-snbt-new {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(255, 194, 71, 0.12),
+      transparent 35%
+    ),
+    linear-gradient(135deg, #153b91 0%, #2052ae 50%, #123780 100%);
+}
+
+/* Card putih dengan border dan shadow */
+.parent-paket-snbt-new .paket-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e1e8f2;
+  border-radius: 24px;
+  box-shadow:
+    0 15px 35px rgba(0, 17, 65, 0.18),
+    0 3px 10px rgba(0, 17, 65, 0.06);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  transition:
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* Pantulan halus pada permukaan putih */
+.parent-paket-snbt-new .glass-highlight {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(221, 234, 255, 0.45) 0%,
+    rgba(255, 255, 255, 0) 75%
+  );
+  pointer-events: none;
+}
+
+/* Card dalam */
+.parent-paket-snbt-new .paket-card-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: auto;
+  min-height: 0;
+  box-sizing: border-box;
+  color: #243650;
+}
+
+/* Label PAKET PRIVAT */
+.parent-paket-snbt-new .text-paket-privat-lps {
+  color: #e28a00;
+  font-weight: 700;
+}
+
+/* Judul utama paket */
+.parent-paket-snbt-new .child-title-paket-snbt-new {
+  color: #173f92;
+  font-weight: 800;
+}
+
+/* Label jumlah sesi */
+.parent-paket-snbt-new .child-subtitle-paket-snbt-new {
+  color: #17449f;
+  background: #edf3ff;
+  border: 1px solid #d9e6ff;
+  box-shadow: none;
+}
+
+/* Deskripsi paket */
+.parent-paket-snbt-new .paket-description {
+  color: #495b70;
+  font-weight: 400;
+}
+
+/* Garis pemisah */
+.parent-paket-snbt-new .garis-paket-snbt-new {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #d8e2f0 20%,
+    #d8e2f0 80%,
+    transparent
+  );
+}
+
+/* Teks daftar benefit */
+.parent-paket-snbt-new .rincian-paket {
+  color: #33465e;
+  font-weight: 400;
+}
+
+/* Ikon centang */
+.parent-paket-snbt-new .color-check {
+  color: #f5a623;
+}
+
+/* =========================================
+   ACCENT PER PACKAGE
+========================================= */
+
+/* Priority: highlight orange */
+.parent-paket-snbt-new .paket-card.priority {
+  border: 2px solid #ffbd4a;
+  transform: none;
+  box-shadow:
+    0 18px 40px rgba(0, 17, 65, 0.2),
+    0 0 0 3px rgba(255, 189, 74, 0.08);
+}
+
+/* Reguler: highlight biru */
+.parent-paket-snbt-new .paket-card.reguler {
+  border: 1px solid #d8e3f6;
+}
+
+/* Online class: highlight cyan */
+.parent-paket-snbt-new .paket-card.online-class {
+  border: 1px solid #d5eaf2;
+}
+
+/* Badge tetap berwarna */
+.parent-paket-snbt-new .priority .paket-badge {
+  color: #ffffff;
+  background: linear-gradient(180deg, #ffb83e 0%, #ff9000 100%);
+}
+
+.parent-paket-snbt-new .reguler .paket-badge {
+  color: #ffffff;
+  background: linear-gradient(180deg, #477ae0 0%, #2354bb 100%);
+}
+
+.parent-paket-snbt-new .online-class .paket-badge {
+  color: #ffffff;
+  background: linear-gradient(180deg, #36b7e6 0%, #1689ba 100%);
+}
+
+/* =========================================
+   BUTTON - ALIGNED TO BOTTOM
+========================================= */
+
+.parent-paket-snbt-new .parent-rincian-paket {
+  flex-grow: 1;
+}
+
+.parent-paket-snbt-new .paket-link-button {
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+.parent-paket-snbt-new .btn-parent-paket-snbt-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  margin: 0;
+  color: #143b88;
+  background: linear-gradient(180deg, #ffd36a 0%, #ffb82e 100%);
+  border: 1px solid #f2af2d;
+  border-radius: 14px;
+  font-weight: 700;
+  box-shadow: 0 5px 13px rgba(255, 174, 0, 0.15);
+}
+
+/* Hover */
+@media (hover: hover) {
+  .parent-paket-snbt-new .paket-card:hover {
+    border-color: #ffbe49;
+    box-shadow:
+      0 20px 45px rgba(0, 17, 65, 0.22),
+      0 0 0 2px rgba(255, 190, 73, 0.08);
+  }
+
+  .parent-paket-snbt-new .btn-parent-paket-snbt-new:hover {
+    background: linear-gradient(180deg, #ffda7c 0%, #ffc146 100%);
+  }
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 896px) {
+  .parent-paket-snbt-new .paket-card {
+    min-height: auto;
+    border-radius: 20px;
+  }
+
+  .parent-paket-snbt-new .paket-link-button {
+    padding-top: 22px;
+  }
+
+  .parent-paket-snbt-new .btn-parent-paket-snbt-new {
+    min-height: 48px;
+  }
+}
+/* =========================================
+   DIAGONAL PACKAGE RIBBON
+========================================= */
+
+.parent-paket-snbt-new .paket-card {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: auto;
+  min-height: 0;
+  border: 2px solid #e1e8f2;
+  transform: none;
+  box-sizing: border-box;
+}
+
+/* Border khusus setiap paket */
+
+.parent-paket-snbt-new .paket-card.priority {
+  border: 2px solid #ffbd4a;
+}
+
+.parent-paket-snbt-new .paket-card.reguler {
+  border: 2px solid #d8e3f6;
+}
+
+.parent-paket-snbt-new .paket-card.online-class {
+  border: 2px solid #d5eaf2;
+}
+
+/* Wrapper ribbon */
+
+.parent-paket-snbt-new .paket-ribbon-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* Base style ribbon */
+
+.parent-paket-snbt-new .paket-ribbon {
+  position: absolute;
+  top: 51px;
+  left: 51px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 10.5px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.35px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.15),
+    inset 0 1px 2px rgba(255, 255, 255, 0.35);
+}
+
+/* Liquid glass reflection */
+
+.parent-paket-snbt-new .paket-ribbon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.23),
+    rgba(255, 255, 255, 0)
+  );
+  pointer-events: none;
+}
+
+/* =========================================
+   WARNA RIBBON SETIAP PAKET
+========================================= */
+
+/* PRIORITY - Merah */
+
+.parent-paket-snbt-new .priority .paket-ribbon {
+  background: linear-gradient(135deg, #ff5357 0%, #e62830 50%, #c91520 100%);
+  box-shadow:
+    0 5px 15px rgba(220, 38, 38, 0.25),
+    inset 0 1px 2px rgba(255, 255, 255, 0.45);
+}
+
+/* REGULER - Biru */
+
+.parent-paket-snbt-new .reguler .paket-ribbon {
+  background: linear-gradient(135deg, #5686ec 0%, #285ac3 50%, #17439e 100%);
+  box-shadow:
+    0 5px 15px rgba(37, 84, 187, 0.25),
+    inset 0 1px 2px rgba(255, 255, 255, 0.45);
+}
+
+/* ONLINE CLASS - Cyan */
+
+.parent-paket-snbt-new .online-class .paket-ribbon {
+  background: linear-gradient(135deg, #38c1ed 0%, #138fb9 50%, #087798 100%);
+  box-shadow:
+    0 5px 15px rgba(8, 139, 172, 0.25),
+    inset 0 1px 2px rgba(255, 255, 255, 0.45);
+}
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.parent-paket-snbt-new .paket-card-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: auto;
+  min-height: 0;
+  padding: 24px 22px 24px;
+  box-sizing: border-box;
+}
+
+.parent-paket-snbt-new .text-paket-privat-lps {
+  margin: 0 0 10px;
+}
+
+.parent-paket-snbt-new .child-title-paket-snbt-new {
+  margin: 0;
+}
+
+.parent-paket-snbt-new .parent-rincian-paket {
+  flex-grow: 1;
+}
+
+/* =========================================
+   BUTTON TETAP SEJAJAR
+========================================= */
+
+.parent-paket-snbt-new {
+  align-items: stretch;
+}
+
+.parent-paket-snbt-new .paket-link-button.btn-parent-paket-snbt-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  margin: 24px 0 0;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+
+.parent-paket-snbt-new .paket-link-button:focus-visible {
+  outline: 3px solid #2459bd;
+  outline-offset: 3px;
+}
+
+/* =========================================
+   RESPONSIVE - LAPTOP & TABLET
+========================================= */
+
+@media (max-width: 1200px) {
+  .parent-paket-snbt-new .paket-card-inner {
+    padding: 25px 18px 22px;
+  }
+}
+
+/* =========================================
+   RESPONSIVE - MOBILE
+========================================= */
+
+@media (max-width: 896px) {
+  .parent-paket-snbt-new .paket-card {
+    border-radius: 20px;
+    min-height: 0;
+  }
+
+  .parent-paket-snbt-new .paket-card-inner {
+    padding: 26px 16px 20px;
+  }
+
+  .parent-paket-snbt-new .paket-ribbon-wrapper {
+    width: 132px;
+    height: 132px;
+  }
+
+  .parent-paket-snbt-new .paket-ribbon {
+    top: 48px;
+    left: 48px;
+    width: 190px;
+    height: 28px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+  }
+
+  .parent-paket-snbt-new .paket-link-button.btn-parent-paket-snbt-new {
+    min-height: 48px;
+    margin-top: 22px;
+    padding: 12px 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .parent-paket-snbt-new .paket-card-inner {
+    padding: 26px 14px 18px;
+  }
+
+  .parent-paket-snbt-new .paket-ribbon {
+    font-size: 9.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .parent-paket-snbt-new .paket-card,
+  .parent-paket-snbt-new .paket-link-button {
+    transition: none;
+  }
+}

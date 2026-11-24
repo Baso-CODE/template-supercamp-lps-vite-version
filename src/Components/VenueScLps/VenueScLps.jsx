@@ -90,7 +90,7 @@ const VenueScLps = () => {
       {/* WAKTU KARANTINA */}
       <div className="parent-lokasi-karantina-sc-lps">
         <h2 className="title-lokasi-karantina-sc-lps">
-          Jadwal Program Supercamp 2026
+          Jadwal Program Supercamp 2027
         </h2>
 
         <span className="parent-text-icon-lokasi-sc-lps">
@@ -110,7 +110,7 @@ const VenueScLps = () => {
             aria-hidden="true"
             className="icon-lokasi-sc-lps"
           />
-          Gelombang 1: April 2026
+          Gelombang 1: Maret 2027
         </span>
 
         <span className="parent-text-icon-lokasi-sc-lps">
@@ -120,7 +120,7 @@ const VenueScLps = () => {
             aria-hidden="true"
             className="icon-lokasi-sc-lps"
           />
-          Gelombang 2: Mei 2026
+          Gelombang 2: Mei 2027
         </span>
       </div>
     </section>

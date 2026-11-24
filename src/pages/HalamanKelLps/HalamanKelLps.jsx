@@ -170,7 +170,7 @@ const HalamanKelLps = () => {
           <br />
           <br />
           Untuk siswa di {namaKelurahan} yang menargetkan perguruan tinggi
-          negeri seperti UI, UGM, ITB, UNDIP, maupun Fakultas Kedokteran,
+          negeri seperti UI, UGM, UNPAD, UNDIP, maupun Fakultas Kedokteran,
           program les privat dan Supercamp dapat menjadi pilihan pendampingan
           belajar intensif. Dengan jadwal belajar yang terencana, strategi
           pengerjaan soal yang tepat, dan evaluasi perkembangan secara berkala,

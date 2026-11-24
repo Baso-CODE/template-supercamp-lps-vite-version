@@ -167,7 +167,7 @@ const HalamanKelPtn = () => {
           <br />
           <br />
           Untuk siswa di {namaKelurahan} yang menargetkan perguruan tinggi
-          seperti UI, UGM, ITB, UNAIR, UNDIP, maupun PTN lainnya, persiapan
+          seperti UI, UGM, UNPAD, UNAIR, UNDIP, maupun PTN lainnya, persiapan
           belajar dapat disesuaikan dengan jurusan dan jalur penerimaan pilihan.
           Dengan jadwal yang terencana, pendampingan individual, serta latihan
           yang konsisten, siswa dapat meningkatkan kesiapan akademik dan

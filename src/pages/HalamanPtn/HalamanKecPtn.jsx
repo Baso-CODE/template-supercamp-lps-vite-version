@@ -170,7 +170,7 @@ const HalamanKecPtn = () => {
           <br />
           <br />
           Bagi siswa di {namaKecamatan} yang menargetkan perguruan tinggi
-          seperti UI, UGM, ITB, UNAIR, UNDIP, maupun kampus negeri lainnya,
+          seperti UI, UGM, UNPAD, UNAIR, UNDIP, maupun kampus negeri lainnya,
           strategi persiapan dapat disusun berdasarkan jurusan pilihan dan jalur
           seleksi yang akan diikuti. Dengan jadwal belajar terencana,
           pendampingan personal, serta evaluasi perkembangan kemampuan, peserta

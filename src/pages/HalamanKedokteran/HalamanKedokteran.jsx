@@ -28,7 +28,7 @@ const HalamanKedokteran = () => {
     <>
       <Helmet>
         {/* Fix Title: Menggunakan string tunggal untuk menghindari error Helmet */}
-        <title>{`Bimbel & Les Privat Masuk Kedokteran 2026 - Karantina Supercamp Matrix`}</title>
+        <title>{`Bimbel & Les Privat Masuk Kedokteran 2027 - Karantina Supercamp Matrix`}</title>
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +36,7 @@ const HalamanKedokteran = () => {
         {/* Meta Description: Fokus pada urgensi, fasilitas, dan target kampus Top Tier */}
         <meta
           name="description"
-          content="Bimbel & Les Privat khusus masuk Kedokteran 2026. Program Supercamp Karantina lulus FK UI, UGM, UNAIR, UNPAD. Master Teacher Expert, modul akurat, & karantina intensif. Raih kursi FK impian Anda bersama Edumatrix!"
+          content="Bimbel & Les Privat khusus masuk Kedokteran 2027. Program Supercamp Karantina lulus FK UI, UGM, UNAIR, UNPAD. Master Teacher Expert, modul akurat, & karantina intensif. Raih kursi FK impian Anda bersama Edumatrix!"
         />
         <meta
           name="keywords"
@@ -52,7 +52,7 @@ const HalamanKedokteran = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Bimbel & Les Privat Spesialis Kedokteran 2026 - Bimbel LPS"
+          content="Bimbel & Les Privat Spesialis Kedokteran 2027 - Bimbel LPS"
         />
         <meta
           property="og:description"

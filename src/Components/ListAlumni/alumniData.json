@@ -1,0 +1,5357 @@
+[
+  {
+    "name": "Emira C. A.",
+    "school": "",
+    "major": "Teknik Mesin (S1)",
+    "university": "ITS",
+    "year": 2026,
+    "route": "SNBP 2026",
+    "id": 1
+  },
+  {
+    "name": "Neena S. Z. S.",
+    "school": "",
+    "major": "Pendidikan Teknologi Informasi (S1)",
+    "university": "UB",
+    "year": 2026,
+    "route": "SNBP 2026",
+    "id": 2
+  },
+  {
+    "name": "Muhammad Z. A. H.",
+    "school": "",
+    "major": "Teknik Pertanian (S1)",
+    "university": "Universitas Jambi",
+    "year": 2026,
+    "route": "SNBP 2026",
+    "id": 3
+  },
+  {
+    "name": "Gusti A. B. S. C.",
+    "school": "",
+    "major": "Manajemen (S1 Kelas Internasional)",
+    "university": "ITB",
+    "year": 2026,
+    "route": "IUP ITB 2026",
+    "id": 4
+  },
+  {
+    "name": "Naila S.",
+    "school": "",
+    "major": "Ilmu Kesehatan Masyarakat",
+    "university": "UNSRI",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 5
+  },
+  {
+    "name": "Muhamad B. J. F.",
+    "school": "",
+    "major": "Fisika",
+    "university": "UNJ",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 6
+  },
+  {
+    "name": "Siti Z. N. I.",
+    "school": "",
+    "major": "Pendidikan Dokter",
+    "university": "UNPAD",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 7
+  },
+  {
+    "name": "Muhammad F. A. R. P.",
+    "school": "",
+    "major": "Teknik Komputer (Diploma Tiga)",
+    "university": "Politeknik Negeri Jember",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 8
+  },
+  {
+    "name": "Alaysa P. N.",
+    "school": "",
+    "major": "Keperawatan (Diploma Tiga)",
+    "university": "UNAIR",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 9
+  },
+  {
+    "name": "Chalisa N. R.",
+    "school": "",
+    "major": "Geografi",
+    "university": "UNNES",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 10
+  },
+  {
+    "name": "Keithleen K.",
+    "school": "",
+    "major": "Pendidikan Dokter (Sarjana)",
+    "university": "UNSRAT",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 11
+  },
+  {
+    "name": "Shafallah A. G.",
+    "school": "",
+    "major": "Sastra Inggris (Sarjana)",
+    "university": "UB",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 12
+  },
+  {
+    "name": "Raihannah A. Z.",
+    "school": "",
+    "major": "Biologi (Sarjana)",
+    "university": "IPB",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 13
+  },
+  {
+    "name": "Rafif A.",
+    "school": "",
+    "major": "FSRD (S1 Kelas Internasional)",
+    "university": "ITB",
+    "year": 2026,
+    "route": "IUP ITB Intake 2 2026",
+    "id": 14
+  },
+  {
+    "name": "Amelia S. B.",
+    "school": "",
+    "major": "Architecture (S1 Kelas Internasional)",
+    "university": "ITB",
+    "year": 2026,
+    "route": "IUP ITB Intake 2 2026",
+    "id": 15
+  },
+  {
+    "name": "Fachri A. F.",
+    "school": "",
+    "major": "Kimia (Sarjana)",
+    "university": "UB",
+    "year": 2026,
+    "route": "SMUB Jalur Prestasi 2026",
+    "id": 16
+  },
+  {
+    "name": "Fachri A. F.",
+    "school": "",
+    "major": "Kimia (Sarjana)",
+    "university": "IPB",
+    "year": 2026,
+    "route": "Talenta IPB 2026",
+    "id": 17
+  },
+  {
+    "name": "Fachri A. F.",
+    "school": "",
+    "major": "Kimia (Sarjana)",
+    "university": "UNPAD",
+    "year": 2026,
+    "route": "SMUP UNPAD 2026",
+    "id": 18
+  },
+  {
+    "name": "Janeeta N. B.",
+    "school": "",
+    "major": "Kedokteran",
+    "university": "UNPAD",
+    "year": 2026,
+    "route": "UTBK dan Rapor Unpad 2026",
+    "id": 19
+  },
+  {
+    "name": "Naila S.",
+    "school": "",
+    "major": "Pendidikan Dokter",
+    "university": "UNSRI",
+    "year": 2026,
+    "route": "SM-UNSRI 2026",
+    "id": 20
+  },
+  {
+    "name": "Ardelia S. Q.",
+    "school": "",
+    "major": "Psikologi",
+    "university": "UI",
+    "year": 2026,
+    "route": "Simak UI 2026",
+    "id": 21
+  },
+  {
+    "name": "Stevano C. P. S.",
+    "school": "",
+    "major": "Hukum",
+    "university": "Undip",
+    "year": 2026,
+    "route": "UM Undip Skor UTBK 2026",
+    "id": 22
+  },
+  {
+    "name": "Hananto S.",
+    "school": "",
+    "major": "Ilmu Hukum",
+    "university": "UB",
+    "year": 2026,
+    "route": "SMUB Nilai UTBK Murni 2026",
+    "id": 23
+  },
+  {
+    "name": "Raditya A. A.",
+    "school": "",
+    "major": "Teknik Perminyakan",
+    "university": "UPN \"Veteran\" Yogyakarta",
+    "year": 2026,
+    "route": "Seleksi Mandiri Kapasitas Bela Negara UPNVYK 2026",
+    "id": 24
+  },
+  {
+    "name": "Karein M. G. M.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi",
+    "university": "UI",
+    "year": 2026,
+    "route": "Simak UI 2026",
+    "id": 25
+  },
+  {
+    "name": "Talitha N. R.",
+    "school": "",
+    "major": "Kedokteran",
+    "university": "UPN \"Veteran\" Jakarta",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 26
+  },
+  {
+    "name": "Alessandro Y.",
+    "school": "",
+    "major": "Hubungan Masyarakat",
+    "university": "UNPAD",
+    "year": 2026,
+    "route": "UTBK dan Rapor 2026",
+    "id": 27
+  },
+  {
+    "name": "Shafira A. B.",
+    "school": "",
+    "major": "Sastra Jepang",
+    "university": "UB",
+    "year": 2026,
+    "route": "SMUB Nilai Rapor 2026",
+    "id": 28
+  },
+  {
+    "name": "Milla N.",
+    "school": "",
+    "major": "D3 Bahasa Inggris",
+    "university": "UNSOED",
+    "year": 2026,
+    "route": "SPMB Mandiri Non UTBK 2026",
+    "id": 29
+  },
+  {
+    "name": "Irene A. B. S.",
+    "school": "",
+    "major": "Pendidikan Matematika",
+    "university": "Universitas Negeri Medan",
+    "year": 2026,
+    "route": "Mandiri UNIMED 2026",
+    "id": 30
+  },
+  {
+    "name": "I G. M. A. W. U.",
+    "school": "",
+    "major": "Kedokteran",
+    "university": "Universitas Mataram",
+    "year": 2026,
+    "route": "Ujian Mandiri Unram 2026",
+    "id": 31
+  },
+  {
+    "name": "Kanyaka D. R.",
+    "school": "",
+    "major": "Sastra Inggris",
+    "university": "UNAIR",
+    "year": 2026,
+    "route": "Mandiri UTBK Plus UNAIR 2026",
+    "id": 32
+  },
+  {
+    "name": "Chalisah M. Z.",
+    "school": "",
+    "major": "Geografi",
+    "university": "UI",
+    "year": 2026,
+    "route": "Simak UI 2026",
+    "id": 33
+  },
+  {
+    "name": "Rafael M.",
+    "school": "",
+    "major": "Ilmu Hukum",
+    "university": "UNPAD",
+    "year": 2026,
+    "route": "SMUP UTBK dan Rapor 2026",
+    "id": 34
+  },
+  {
+    "name": "Azka S. A.",
+    "school": "",
+    "major": "Teknik Industri",
+    "university": "UB",
+    "year": 2026,
+    "route": "SMUB Nilai UTBK Murni 2026",
+    "id": 35
+  },
+  {
+    "name": "Shafira N. A. S.",
+    "school": "",
+    "major": "Kedokteran",
+    "university": "IPB",
+    "year": 2026,
+    "route": "Ketua OSIS IPB 2026",
+    "id": 36
+  },
+  {
+    "name": "Muhammad N.",
+    "school": "",
+    "major": "Peternakan",
+    "university": "UB",
+    "year": 2026,
+    "route": "SMUB Mandiri Prestasi 2026",
+    "id": 37
+  },
+  {
+    "name": "Samuel B. S.",
+    "school": "",
+    "major": "D3 Teknik Mesin",
+    "university": "PNJ",
+    "year": 2026,
+    "route": "Ujian Mandiri PNJ 2026",
+    "id": 38
+  },
+  {
+    "name": "Tito P.",
+    "school": "",
+    "major": "Teknik Mesin",
+    "university": "UNTIRTA",
+    "year": 2026,
+    "route": "SNBT 2026",
+    "id": 39
+  },
+  {
+    "name": "Jemima T. Z. I.",
+    "school": "",
+    "major": "Ilmu Komunikasi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2025,
+    "route": "",
+    "id": 40
+  },
+  {
+    "name": "Anezka F. A. H.",
+    "school": "",
+    "major": "D4 Statistika Bisnis ITS",
+    "university": "Institut Teknologi Sepuluh Nopember",
+    "year": 2025,
+    "route": "",
+    "id": 41
+  },
+  {
+    "name": "Raisya S. B.",
+    "school": "",
+    "major": "Arsitektur UI",
+    "university": "Universitas Indonesia",
+    "year": 2025,
+    "route": "",
+    "id": 42
+  },
+  {
+    "name": "Anezka F. A. H.",
+    "school": "",
+    "major": "Akuntansi Sektor Publik UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2025,
+    "route": "",
+    "id": 43
+  },
+  {
+    "name": "Syarafiena A. M.",
+    "school": "",
+    "major": "Psikologi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2025,
+    "route": "",
+    "id": 44
+  },
+  {
+    "name": "Anezka F. A. H.",
+    "school": "",
+    "major": "Bisnis Digital UNJ Kelas Internasional",
+    "university": "Universitas Negeri Jakarta",
+    "year": 2025,
+    "route": "",
+    "id": 45
+  },
+  {
+    "name": "Thiero J. S.",
+    "school": "",
+    "major": "Teknik Sipil UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2025,
+    "route": "",
+    "id": 46
+  },
+  {
+    "name": "Faiza F. K.",
+    "school": "",
+    "major": "Kedokteran Gigi UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2025,
+    "route": "",
+    "id": 47
+  },
+  {
+    "name": "Adnan P. R. K.",
+    "school": "",
+    "major": "Aerospace Engineering ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2025,
+    "route": "",
+    "id": 48
+  },
+  {
+    "name": "Faiza F. K.",
+    "school": "",
+    "major": "Kedokteran Gigi UNAIR",
+    "university": "Universitas Airlangga",
+    "year": 2025,
+    "route": "",
+    "id": 49
+  },
+  {
+    "name": "Kalyca L. M. H.",
+    "school": "",
+    "major": "FSRD-C ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2025,
+    "route": "",
+    "id": 50
+  },
+  {
+    "name": "Zynadine A. R.",
+    "school": "",
+    "major": "Kedokteran Gigi UB",
+    "university": "Universitas Brawijaya",
+    "year": 2025,
+    "route": "",
+    "id": 51
+  },
+  {
+    "name": "Muhammad H. A.",
+    "school": "",
+    "major": "Geological Engineering ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2025,
+    "route": "",
+    "id": 52
+  },
+  {
+    "name": "Zynadine A. R.",
+    "school": "",
+    "major": "Rekayasa Nanoteknologi Unair",
+    "university": "Universitas Airlangga",
+    "year": 2025,
+    "route": "",
+    "id": 53
+  },
+  {
+    "name": "Mohammad H. Z.",
+    "school": "",
+    "major": "Teknik Rekayasa Elektro UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2025,
+    "route": "",
+    "id": 54
+  },
+  {
+    "name": "Amir A. H.",
+    "school": "",
+    "major": "Teknik Pertanian Dan Biosistem UB",
+    "university": "Universitas Brawijaya",
+    "year": 2025,
+    "route": "",
+    "id": 55
+  },
+  {
+    "name": "Navaro A. I.",
+    "school": "",
+    "major": "Teknik Mesin UB",
+    "university": "Universitas Brawijaya",
+    "year": 2025,
+    "route": "",
+    "id": 56
+  },
+  {
+    "name": "Cynthia A.",
+    "school": "",
+    "major": "Kedokteran UNAIR",
+    "university": "Universitas Airlangga",
+    "year": 2025,
+    "route": "",
+    "id": 57
+  },
+  {
+    "name": "Ghaliza Z. A.",
+    "school": "",
+    "major": "D4 Teknik Infrastruktur Sipil Dan Perancangan Arsitektur UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2025,
+    "route": "",
+    "id": 58
+  },
+  {
+    "name": "Natasha A. V.",
+    "school": "",
+    "major": "Akuntansi UNNES",
+    "university": "Universitas Negeri Semarang",
+    "year": 2025,
+    "route": "",
+    "id": 59
+  },
+  {
+    "name": "Tiara H. A.",
+    "school": "",
+    "major": "D4 Bahasa Inggris Untuk Komunikasi Bisnis dan Profesional Politeknik Negeri Bali",
+    "university": "Politeknik Negeri Bali",
+    "year": 2025,
+    "route": "",
+    "id": 60
+  },
+  {
+    "name": "Audrich D. P.",
+    "school": "",
+    "major": "Malang Teknik Arsitektur",
+    "university": "UIN Maliki Malang",
+    "year": 2025,
+    "route": "",
+    "id": 61
+  },
+  {
+    "name": "Aliyah S.",
+    "school": "",
+    "major": "Periklanan Kreatif Vokasi UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 62
+  },
+  {
+    "name": "Aliyah S.",
+    "school": "",
+    "major": "Manajemen UGM Kelas Internasional",
+    "university": "Universitas Gadjah Mada",
+    "year": 2024,
+    "route": "",
+    "id": 63
+  },
+  {
+    "name": "Aliyah S.",
+    "school": "",
+    "major": "Sekolah Bisnis IUP IPB",
+    "university": "IPB University",
+    "year": 2024,
+    "route": "",
+    "id": 64
+  },
+  {
+    "name": "Andhika A. P.",
+    "school": "",
+    "major": "Teknik Sipil UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 65
+  },
+  {
+    "name": "Andhika A. P.",
+    "school": "",
+    "major": "Teknik Mesin ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 66
+  },
+  {
+    "name": "Andhika A. P.",
+    "school": "",
+    "major": "Teknik Sipil ITS",
+    "university": "Institut Teknologi Sepuluh Nopember",
+    "year": 2024,
+    "route": "",
+    "id": 67
+  },
+  {
+    "name": "Andhika K. D.",
+    "school": "",
+    "major": "Teknik Industri UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 68
+  },
+  {
+    "name": "Andhika K. D.",
+    "school": "",
+    "major": "Sekolas Bisnis dan Manajemen ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 69
+  },
+  {
+    "name": "Andhika K. D.",
+    "school": "",
+    "major": "Manajemen UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2024,
+    "route": "",
+    "id": 70
+  },
+  {
+    "name": "Andhika K. D.",
+    "school": "",
+    "major": "Hukum Unpad",
+    "university": "Universitas Padjadjaran",
+    "year": 2024,
+    "route": "",
+    "id": 71
+  },
+  {
+    "name": "Irna A.",
+    "school": "",
+    "major": "Ilmu Hubungan Internasional UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 72
+  },
+  {
+    "name": "Irna A.",
+    "school": "",
+    "major": "Kedokteran Unpad",
+    "university": "Universitas Padjadjaran",
+    "year": 2024,
+    "route": "",
+    "id": 73
+  },
+  {
+    "name": "Nadine A.",
+    "school": "",
+    "major": "Teknik Mesin UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 74
+  },
+  {
+    "name": "Nadine A.",
+    "school": "",
+    "major": "Teknik Mesin ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 75
+  },
+  {
+    "name": "Najwa M. R.",
+    "school": "",
+    "major": "Teknik Kimia ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 76
+  },
+  {
+    "name": "Najwa M. R.",
+    "school": "",
+    "major": "Teknik Industri ITS Kelas Internasional",
+    "university": "Institut Teknologi Sepuluh Nopember",
+    "year": 2024,
+    "route": "",
+    "id": 77
+  },
+  {
+    "name": "Aida A. H.",
+    "school": "",
+    "major": "Terapi Okupasi Vokasi UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 78
+  },
+  {
+    "name": "Nyimas Z. A.",
+    "school": "",
+    "major": "Psikologi UNJ",
+    "university": "Universitas Negeri Jakarta",
+    "year": 2024,
+    "route": "",
+    "id": 79
+  },
+  {
+    "name": "Aletha A.",
+    "school": "",
+    "major": "Sastra Inggris UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 80
+  },
+  {
+    "name": "Nyimas Z. A.",
+    "school": "",
+    "major": "Hukum UPN Veteran Jakarta",
+    "university": "UPN Veteran Jakarta",
+    "year": 2024,
+    "route": "",
+    "id": 81
+  },
+  {
+    "name": "Paskanita C. J. S.",
+    "school": "",
+    "major": "Teknik Sitem Perkapalan ITS",
+    "university": "Institut Teknologi Sepuluh Nopember",
+    "year": 2024,
+    "route": "",
+    "id": 82
+  },
+  {
+    "name": "Paskanita C. J. S.",
+    "school": "",
+    "major": "Teknik Elektro UB",
+    "university": "Universitas Brawijaya",
+    "year": 2024,
+    "route": "",
+    "id": 83
+  },
+  {
+    "name": "Paskanita C. J. S.",
+    "school": "",
+    "major": "Akuntansi Unesa",
+    "university": "Universitas Negeri Surabaya",
+    "year": 2024,
+    "route": "",
+    "id": 84
+  },
+  {
+    "name": "Ayudina F. P.",
+    "school": "",
+    "major": "Arsitektur UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 85
+  },
+  {
+    "name": "Syariefah A. Z. F.",
+    "school": "",
+    "major": "Vokasi Akuntansi UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 86
+  },
+  {
+    "name": "Calvin A. C.",
+    "school": "",
+    "major": "Akuntansi UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 87
+  },
+  {
+    "name": "Syariefah A. Z. F.",
+    "school": "",
+    "major": "Teknik Sipil UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 88
+  },
+  {
+    "name": "Channele R.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 89
+  },
+  {
+    "name": "Dinda P. M.",
+    "school": "",
+    "major": "Vokasi Akuntansi UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 90
+  },
+  {
+    "name": "Dzaky I. I.",
+    "school": "",
+    "major": "Teknik Sipil UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 91
+  },
+  {
+    "name": "Habiba N. R.",
+    "school": "",
+    "major": "Akuntansi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 92
+  },
+  {
+    "name": "Julian A. K.",
+    "school": "",
+    "major": "Akuntansi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 93
+  },
+  {
+    "name": "Kathriana K. M.",
+    "school": "",
+    "major": "Ilmu Komunikasi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 94
+  },
+  {
+    "name": "Mario T. T.",
+    "school": "",
+    "major": "Ilmu komunikasi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 95
+  },
+  {
+    "name": "Masya E. P. K.",
+    "school": "",
+    "major": "Farmasi UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 96
+  },
+  {
+    "name": "Najmina A. Z.",
+    "school": "",
+    "major": "Arsitektur UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 97
+  },
+  {
+    "name": "Najwa O. M.",
+    "school": "",
+    "major": "Akuntansi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 98
+  },
+  {
+    "name": "Namira P. A.",
+    "school": "",
+    "major": "Ilmu Hukum UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 99
+  },
+  {
+    "name": "Nayla S. F.",
+    "school": "",
+    "major": "Teknik Industri UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 100
+  },
+  {
+    "name": "Putri R. T.",
+    "school": "",
+    "major": "Ilmu Hukum UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 101
+  },
+  {
+    "name": "Qeisya H. G.",
+    "school": "",
+    "major": "Psikologi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 102
+  },
+  {
+    "name": "Rana A. L.",
+    "school": "",
+    "major": "Pendidikan Dokter UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 103
+  },
+  {
+    "name": "Reinhart P. N.",
+    "school": "",
+    "major": "Sastra Jepang UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 104
+  },
+  {
+    "name": "Sekar M. A.",
+    "school": "",
+    "major": "Hukum UI",
+    "university": "Universitas Indonesia",
+    "year": 2024,
+    "route": "",
+    "id": 105
+  },
+  {
+    "name": "Daffa P. P.",
+    "school": "",
+    "major": "Teknik Mesin ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 106
+  },
+  {
+    "name": "Matthew A. S.",
+    "school": "",
+    "major": "Sekolah Bisnis dan Manajemen ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 107
+  },
+  {
+    "name": "Mochamad D. A.",
+    "school": "",
+    "major": "S1 Administrasi Publik Universitas Brawijaya",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 108
+  },
+  {
+    "name": "Muhammad V. A.",
+    "school": "",
+    "major": "Teknik Mesin ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 109
+  },
+  {
+    "name": "Rezvan A. S.",
+    "school": "",
+    "major": "Entrepeneurship ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 110
+  },
+  {
+    "name": "Zaidan S. A.",
+    "school": "",
+    "major": "Fakultas Teknologi Industri - Sistem dan Proses (FTI-SP) ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 111
+  },
+  {
+    "name": "Putu A. D. W.",
+    "school": "",
+    "major": "Hukum Universitas Gadjah Mada",
+    "university": "Universitas Gadjah Mada",
+    "year": 2024,
+    "route": "",
+    "id": 112
+  },
+  {
+    "name": "Sabrina S. A.",
+    "school": "",
+    "major": "Matematika ITS",
+    "university": "Institut Teknologi Sepuluh Nopember",
+    "year": 2024,
+    "route": "",
+    "id": 113
+  },
+  {
+    "name": "Gian F. A.",
+    "school": "",
+    "major": "Sastra Inggris UB",
+    "university": "Universitas Brawijaya",
+    "year": 2024,
+    "route": "",
+    "id": 114
+  },
+  {
+    "name": "Muhammad F.",
+    "school": "",
+    "major": "Teknik Industri UB",
+    "university": "Universitas Brawijaya",
+    "year": 2024,
+    "route": "",
+    "id": 115
+  },
+  {
+    "name": "Putri T. V. W.",
+    "school": "",
+    "major": "Ilmu Hukum Universitas Brawijaya",
+    "university": "Universitas Brawijaya",
+    "year": 2024,
+    "route": "",
+    "id": 116
+  },
+  {
+    "name": "Rayainnee Z.",
+    "school": "",
+    "major": "Ilmu Gizi UB",
+    "university": "Universitas Brawijaya",
+    "year": 2024,
+    "route": "",
+    "id": 117
+  },
+  {
+    "name": "Najma A. H.",
+    "school": "",
+    "major": "Kedokteran Gigi Unpad",
+    "university": "Universitas Padjadjaran",
+    "year": 2024,
+    "route": "",
+    "id": 118
+  },
+  {
+    "name": "Ummi A. R. R.",
+    "school": "",
+    "major": "S1 Sastra Rusia UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2024,
+    "route": "",
+    "id": 119
+  },
+  {
+    "name": "Diandra N. D.",
+    "school": "",
+    "major": "Hukum Undip Kelas Internasional",
+    "university": "Universitas Diponegoro",
+    "year": 2024,
+    "route": "",
+    "id": 120
+  },
+  {
+    "name": "Sefrano W.",
+    "school": "",
+    "major": "D4 Administrasi Bisnis POLBAN",
+    "university": "Politeknik Negeri Bandung",
+    "year": 2024,
+    "route": "",
+    "id": 121
+  },
+  {
+    "name": "Azkanayla R.",
+    "school": "",
+    "major": "Kimia Universitas Negeri Malang",
+    "university": "Universitas Negeri Malang",
+    "year": 2024,
+    "route": "",
+    "id": 122
+  },
+  {
+    "name": "Ahsan A. H.",
+    "school": "",
+    "major": "Sosiologi Unesa",
+    "university": "Universitas Negeri Surabaya",
+    "year": 2024,
+    "route": "",
+    "id": 123
+  },
+  {
+    "name": "Hendry H.",
+    "school": "",
+    "major": "Informatika UPNVJ",
+    "university": "UPN Veteran Jakarta",
+    "year": 2024,
+    "route": "",
+    "id": 124
+  },
+  {
+    "name": "Lady J.",
+    "school": "",
+    "major": "Farmasi UIN Jakarta",
+    "university": "UIN Jakarta",
+    "year": 2024,
+    "route": "",
+    "id": 125
+  },
+  {
+    "name": "Muhammad M. I.",
+    "school": "",
+    "major": "Pendidikan Dokter UNEJ",
+    "university": "Universitas Jember",
+    "year": 2024,
+    "route": "",
+    "id": 126
+  },
+  {
+    "name": "Muhammad P. B.",
+    "school": "",
+    "major": "Teknik Elektro UNILA",
+    "university": "Universitas Lampung",
+    "year": 2024,
+    "route": "",
+    "id": 127
+  },
+  {
+    "name": "I G. G. S. A. N.",
+    "school": "",
+    "major": "Pendidikan Dokter Universitas Mataram",
+    "university": "Universitas Mataram",
+    "year": 2024,
+    "route": "",
+    "id": 128
+  },
+  {
+    "name": "Alisya D.",
+    "school": "",
+    "major": "Pendidikan Dokter Unsri",
+    "university": "Universitas Sriwijaya",
+    "year": 2024,
+    "route": "",
+    "id": 129
+  },
+  {
+    "name": "Zaki W.",
+    "school": "",
+    "major": "Film dan Televisi ISI Surakarta",
+    "university": "Film dan Televisi ISI Surakarta",
+    "year": 2024,
+    "route": "",
+    "id": 130
+  },
+  {
+    "name": "Yemima C. N.",
+    "school": "",
+    "major": "Sistem Informasi UI",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 131
+  },
+  {
+    "name": "Yemima C. N.",
+    "school": "",
+    "major": "Sistem Informasi Universitas Brawijaya",
+    "university": "Universitas Brawijaya",
+    "year": 2023,
+    "route": "",
+    "id": 132
+  },
+  {
+    "name": "Resh-‘Aina H. T. U.",
+    "school": "",
+    "major": "Biologi UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2023,
+    "route": "",
+    "id": 133
+  },
+  {
+    "name": "Resh-‘Aina H. T. U.",
+    "school": "",
+    "major": "Arsitektur Universitas Udayana",
+    "university": "Universitas Udayana",
+    "year": 2023,
+    "route": "",
+    "id": 134
+  },
+  {
+    "name": "Maria S. A.",
+    "school": "",
+    "major": "Hukum Udayana",
+    "university": "Universitas Udayana",
+    "year": 2023,
+    "route": "",
+    "id": 135
+  },
+  {
+    "name": "Maria S. A.",
+    "school": "",
+    "major": "Hukum Untirta",
+    "university": "Universitas Sultan Ageng Tirtayasa",
+    "year": 2023,
+    "route": "",
+    "id": 136
+  },
+  {
+    "name": "Carlsson A.",
+    "school": "",
+    "major": "Ilmu Hukum UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 137
+  },
+  {
+    "name": "Caroline A. C.",
+    "school": "",
+    "major": "Ilmu Ekonomi - UI",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 138
+  },
+  {
+    "name": "Dannisha A. A.",
+    "school": "",
+    "major": "Management UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 139
+  },
+  {
+    "name": "Davin G. T.",
+    "school": "",
+    "major": "Manajemen Kelas Internasional UI",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 140
+  },
+  {
+    "name": "Debra Y. R. S.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi UI",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 141
+  },
+  {
+    "name": "Farrell Z. R. S.",
+    "school": "",
+    "major": "Akuntansi UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 142
+  },
+  {
+    "name": "Muhammad F. A. L.",
+    "school": "",
+    "major": "Teknik Sipil UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 143
+  },
+  {
+    "name": "Muhammad R. R.",
+    "school": "",
+    "major": "Teknik Elektro Kelas Internasional UI",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 144
+  },
+  {
+    "name": "Ni M. S. A. P.",
+    "school": "",
+    "major": "Pendidikan Dokter UI Kelas Internasional",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 145
+  },
+  {
+    "name": "Ryo A. H.",
+    "school": "",
+    "major": "Chemical Engineering UI",
+    "university": "Universitas Indonesia",
+    "year": 2023,
+    "route": "",
+    "id": 146
+  },
+  {
+    "name": "Lovica H. S.",
+    "school": "",
+    "major": "SAPPK ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2023,
+    "route": "",
+    "id": 147
+  },
+  {
+    "name": "Naira C. A.",
+    "school": "",
+    "major": "Manajemen ITB Kelas Internasional",
+    "university": "Institut Teknologi Bandung",
+    "year": 2023,
+    "route": "",
+    "id": 148
+  },
+  {
+    "name": "Rafiza H.",
+    "school": "",
+    "major": "FTSL ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2023,
+    "route": "",
+    "id": 149
+  },
+  {
+    "name": "Aliya F. R. P.",
+    "school": "",
+    "major": "Pendidikan Dokter UGM Kelas Internasional",
+    "university": "Universitas Gadjah Mada",
+    "year": 2023,
+    "route": "",
+    "id": 150
+  },
+  {
+    "name": "Dharma D.",
+    "school": "",
+    "major": "Manajemen UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2023,
+    "route": "",
+    "id": 151
+  },
+  {
+    "name": "Tristan A. S.",
+    "school": "",
+    "major": "Teknologi dan Manajemen Perikanan Tangkap IPB",
+    "university": "IPB University",
+    "year": 2023,
+    "route": "",
+    "id": 152
+  },
+  {
+    "name": "Muhammad F. A.",
+    "school": "",
+    "major": "Sistem Informasi Universitas Brawijaya",
+    "university": "Universitas Brawijaya",
+    "year": 2023,
+    "route": "",
+    "id": 153
+  },
+  {
+    "name": "Raisa A.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi Universitas Brawijaya",
+    "university": "Universitas Brawijaya",
+    "year": 2023,
+    "route": "",
+    "id": 154
+  },
+  {
+    "name": "Alya R. P.",
+    "school": "",
+    "major": "Psikologi Unpad",
+    "university": "Universitas Padjadjaran",
+    "year": 2023,
+    "route": "",
+    "id": 155
+  },
+  {
+    "name": "Gusti A. P. A. D.",
+    "school": "",
+    "major": "Ilmu Hukum UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2023,
+    "route": "",
+    "id": 156
+  },
+  {
+    "name": "Imas F.",
+    "school": "",
+    "major": "Pendididikan Dokter UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2023,
+    "route": "",
+    "id": 157
+  },
+  {
+    "name": "Miftahul A.",
+    "school": "",
+    "major": "Akuntansi Sektor Publik D4",
+    "university": "Universitas Padjadjaran",
+    "year": 2023,
+    "route": "",
+    "id": 158
+  },
+  {
+    "name": "Alifia N. M.",
+    "school": "",
+    "major": "Gizi Unair",
+    "university": "Universitas Airlangga",
+    "year": 2023,
+    "route": "",
+    "id": 159
+  },
+  {
+    "name": "Ruthvika J.",
+    "school": "",
+    "major": "Kedoktera Kelas Internasional Unair",
+    "university": "Universitas Airlangga",
+    "year": 2023,
+    "route": "",
+    "id": 160
+  },
+  {
+    "name": "Talitha N.",
+    "school": "",
+    "major": "Antropologi Unair",
+    "university": "Universitas Airlangga",
+    "year": 2023,
+    "route": "",
+    "id": 161
+  },
+  {
+    "name": "Faiz M.",
+    "school": "",
+    "major": "Hukum UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2023,
+    "route": "",
+    "id": 162
+  },
+  {
+    "name": "Triana A.",
+    "school": "",
+    "major": "Psikologi Undip",
+    "university": "Universitas Diponegoro",
+    "year": 2023,
+    "route": "",
+    "id": 163
+  },
+  {
+    "name": "Amira P. H.",
+    "school": "",
+    "major": "Desain Komunikasi Visual UNS",
+    "university": "Universitas Sebelas Maret",
+    "year": 2023,
+    "route": "",
+    "id": 164
+  },
+  {
+    "name": "Fanaya C.",
+    "school": "",
+    "major": "Manajemen Bisnis UNS",
+    "university": "Universitas Sebelas Maret",
+    "year": 2023,
+    "route": "",
+    "id": 165
+  },
+  {
+    "name": "Sultansyach H.",
+    "school": "",
+    "major": "Hukum UNS",
+    "university": "Universitas Sebelas Maret",
+    "year": 2023,
+    "route": "",
+    "id": 166
+  },
+  {
+    "name": "I M. B. D. A.",
+    "school": "",
+    "major": "Kedokteran Universitas Udayana",
+    "university": "Universitas Udayana",
+    "year": 2023,
+    "route": "",
+    "id": 167
+  },
+  {
+    "name": "Alya H. Z.",
+    "school": "",
+    "major": "Pendidikan Khusus UNJ",
+    "university": "Universitas Negeri Jakarta",
+    "year": 2023,
+    "route": "",
+    "id": 168
+  },
+  {
+    "name": "Nayla A. R.",
+    "school": "",
+    "major": "Kedokteran UPN Veteran Jakarta",
+    "university": "UPN Veteran Jakarta",
+    "year": 2023,
+    "route": "",
+    "id": 169
+  },
+  {
+    "name": "Malika Q. A.",
+    "school": "",
+    "major": "Gizi Universitas Andalas",
+    "university": "Universitas Andalas",
+    "year": 2023,
+    "route": "",
+    "id": 170
+  },
+  {
+    "name": "Muhammad S. M.",
+    "school": "",
+    "major": "Ekomoni Syariah UIN Jakarta",
+    "university": "UIN Syarif Hidayatullah Jakarta",
+    "year": 2023,
+    "route": "",
+    "id": 171
+  },
+  {
+    "name": "Kemas M. A. N. H.",
+    "school": "",
+    "major": "Pendidikan Dokter UNSRI",
+    "university": "Universitas Sriwijaya",
+    "year": 2023,
+    "route": "",
+    "id": 172
+  },
+  {
+    "name": "Novindra A. P.",
+    "school": "",
+    "major": "Pendidikan Dokter USU",
+    "university": "Universitas Sumatera Utara",
+    "year": 2023,
+    "route": "",
+    "id": 173
+  },
+  {
+    "name": "Rina A. D.",
+    "school": "",
+    "major": "Kedokteran Gigi Unmul",
+    "university": "Universitas Mulawarman",
+    "year": 2023,
+    "route": "",
+    "id": 174
+  },
+  {
+    "name": "Ammar B.",
+    "school": "",
+    "major": "Pendidikan Dokter Universitas Khairun",
+    "university": "Universitas Khairun",
+    "year": 2023,
+    "route": "",
+    "id": 175
+  },
+  {
+    "name": "Bintang P. A.",
+    "school": "",
+    "major": "Teknik Geologi - UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2022,
+    "route": "",
+    "id": 176
+  },
+  {
+    "name": "Bintang P. A.",
+    "school": "",
+    "major": "Teknik Mesin - UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2022,
+    "route": "",
+    "id": 177
+  },
+  {
+    "name": "Chiara D. C.",
+    "school": "",
+    "major": "SAPPK - ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2022,
+    "route": "",
+    "id": 178
+  },
+  {
+    "name": "Dinda D. N.",
+    "school": "",
+    "major": "Ilmu Komunikasi - UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2022,
+    "route": "",
+    "id": 179
+  },
+  {
+    "name": "Dinda D. N.",
+    "school": "",
+    "major": "Hubungan Masyarakat - UPN Veteran Yogyakarta",
+    "university": "UPN Veteran Yogyakarta",
+    "year": 2022,
+    "route": "",
+    "id": 180
+  },
+  {
+    "name": "Kelvin K. M.",
+    "school": "",
+    "major": "Teknik Infanstruktur Lingkungan - UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2022,
+    "route": "",
+    "id": 181
+  },
+  {
+    "name": "Kelvin K. M.",
+    "school": "",
+    "major": "Teknik Lingkungan - UB",
+    "university": "Universitas Brawijaya",
+    "year": 2022,
+    "route": "",
+    "id": 182
+  },
+  {
+    "name": "Khaila A. P. S.",
+    "school": "",
+    "major": "Psikologi - UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2022,
+    "route": "",
+    "id": 183
+  },
+  {
+    "name": "Khaila A. P. S.",
+    "school": "",
+    "major": "Ilmu Komunikasi - UPN Veteran Jakarta",
+    "university": "UPN Veteran Jakarta",
+    "year": 2022,
+    "route": "",
+    "id": 184
+  },
+  {
+    "name": "Nisa B. M. N.",
+    "school": "",
+    "major": "Teknik Lingkungan - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 185
+  },
+  {
+    "name": "Nisa B. M. N.",
+    "school": "",
+    "major": "Teknologi Industri Pertanian - UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2022,
+    "route": "",
+    "id": 186
+  },
+  {
+    "name": "Nisa B. M. N.",
+    "school": "",
+    "major": "Supervisor Jaminan Mutu Pangan - D3 IPB",
+    "university": "IPB University",
+    "year": 2022,
+    "route": "",
+    "id": 187
+  },
+  {
+    "name": "Nisa B. M. N.",
+    "school": "",
+    "major": "Teknik Industri Pertanian - UB",
+    "university": "Universitas Brawijaya",
+    "year": 2022,
+    "route": "",
+    "id": 188
+  },
+  {
+    "name": "Nisa B. M. N.",
+    "school": "",
+    "major": "Kesehatan Masyakarat - UPN Veteran Jakarta",
+    "university": "UPN Veteran Jakarta",
+    "year": 2022,
+    "route": "",
+    "id": 189
+  },
+  {
+    "name": "Raka P. S.",
+    "school": "",
+    "major": "Perikanan K. Pangandaran - UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2022,
+    "route": "",
+    "id": 190
+  },
+  {
+    "name": "Raka P. S.",
+    "school": "",
+    "major": "Ilmu Kelautan - UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2022,
+    "route": "",
+    "id": 191
+  },
+  {
+    "name": "Shofwah A. N.",
+    "school": "",
+    "major": "Management - ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2022,
+    "route": "",
+    "id": 192
+  },
+  {
+    "name": "Bernadine A. R.",
+    "school": "",
+    "major": "FK Kelas Internasional - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 193
+  },
+  {
+    "name": "Damar A. W.",
+    "school": "",
+    "major": "Manajemen Internasional - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 194
+  },
+  {
+    "name": "Farrel S. A.",
+    "school": "",
+    "major": "Ilmu Komputer - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 195
+  },
+  {
+    "name": "Garuda M. E.",
+    "school": "",
+    "major": "Teknik Industri Kelas Internasional - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 196
+  },
+  {
+    "name": "Kesia S. L.",
+    "school": "",
+    "major": "Manajemen Internasional - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 197
+  },
+  {
+    "name": "Muhamad R. A.",
+    "school": "",
+    "major": "Ilmu Administrasi Negara - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 198
+  },
+  {
+    "name": "Muhammad T. E. H.",
+    "school": "",
+    "major": "Teknik Industri - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 199
+  },
+  {
+    "name": "Rania A. S.",
+    "school": "",
+    "major": "Ilmu Hukum - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 200
+  },
+  {
+    "name": "Athira T. P.",
+    "school": "",
+    "major": "Sastra Jerman - UI",
+    "university": "Universitas Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 201
+  },
+  {
+    "name": "Achmad S. Z.",
+    "school": "",
+    "major": "STEI-R ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2022,
+    "route": "",
+    "id": 202
+  },
+  {
+    "name": "Delfin A. A.",
+    "school": "",
+    "major": "Entrepreneurship - ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2022,
+    "route": "",
+    "id": 203
+  },
+  {
+    "name": "Farros F. A.",
+    "school": "",
+    "major": "FSRD - ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2022,
+    "route": "",
+    "id": 204
+  },
+  {
+    "name": "Kayla T. A.",
+    "school": "",
+    "major": "Management - ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2022,
+    "route": "",
+    "id": 205
+  },
+  {
+    "name": "Milka F.",
+    "school": "",
+    "major": "FSRD - ITB",
+    "university": "Institut Teknologi Bandung",
+    "year": 2022,
+    "route": "",
+    "id": 206
+  },
+  {
+    "name": "Alya A. D.",
+    "school": "",
+    "major": "Farmasi - UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2022,
+    "route": "",
+    "id": 207
+  },
+  {
+    "name": "Harits S. F.",
+    "school": "",
+    "major": "Ilmu Komputer Inter - UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2022,
+    "route": "",
+    "id": 208
+  },
+  {
+    "name": "Kezia C. M. H.",
+    "school": "",
+    "major": "Hukum - UGM",
+    "university": "Universitas Gadjah Mada",
+    "year": 2022,
+    "route": "",
+    "id": 209
+  },
+  {
+    "name": "Davina R. T.",
+    "school": "",
+    "major": "Psikologi - UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2022,
+    "route": "",
+    "id": 210
+  },
+  {
+    "name": "Moh K. H. S.",
+    "school": "",
+    "major": "Manajemen Komunikasi - UNPAD",
+    "university": "Universitas Padjadjaran",
+    "year": 2022,
+    "route": "",
+    "id": 211
+  },
+  {
+    "name": "Fauziah H.",
+    "school": "",
+    "major": "Hubungan Internasional - UNAIR",
+    "university": "Universitas Airlangga",
+    "year": 2022,
+    "route": "",
+    "id": 212
+  },
+  {
+    "name": "Matthew R. P. S.",
+    "school": "",
+    "major": "Kedokteran - UNAIR",
+    "university": "Universitas Airlangga",
+    "year": 2022,
+    "route": "",
+    "id": 213
+  },
+  {
+    "name": "Muhammad R. S.",
+    "school": "",
+    "major": "Arsitektur - UB",
+    "university": "Universitas Brawijaya",
+    "year": 2022,
+    "route": "",
+    "id": 214
+  },
+  {
+    "name": "Raffi A. P.",
+    "school": "",
+    "major": "Perpajakan - UB",
+    "university": "Universitas Brawijaya",
+    "year": 2022,
+    "route": "",
+    "id": 215
+  },
+  {
+    "name": "Rafi A. S.",
+    "school": "",
+    "major": "Teknik Industri - UB",
+    "university": "Universitas Brawijaya",
+    "year": 2022,
+    "route": "",
+    "id": 216
+  },
+  {
+    "name": "Nafillah R.",
+    "school": "",
+    "major": "Arsitektur - UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2022,
+    "route": "",
+    "id": 217
+  },
+  {
+    "name": "Ziva M. N.",
+    "school": "",
+    "major": "Teknik Sipil - UNDIP",
+    "university": "Universitas Diponegoro",
+    "year": 2022,
+    "route": "",
+    "id": 218
+  },
+  {
+    "name": "Amaliyah K. S.",
+    "school": "",
+    "major": "Psikologi - UNJ",
+    "university": "Universitas Negeri Jakarta",
+    "year": 2022,
+    "route": "",
+    "id": 219
+  },
+  {
+    "name": "Muhammad P. D.",
+    "school": "",
+    "major": "Pendidikan Informatika - UNJ",
+    "university": "Universitas Negeri Jakarta",
+    "year": 2022,
+    "route": "",
+    "id": 220
+  },
+  {
+    "name": "Kayla Z. R.",
+    "school": "",
+    "major": "Pendidikan Bahasa Korea - UPI",
+    "university": "Universitas Pendidikan Indonesia",
+    "year": 2022,
+    "route": "",
+    "id": 221
+  },
+  {
+    "name": "Bunga K. S. M. P.",
+    "school": "",
+    "major": "Psikologi - Universitas Negeri Malang",
+    "university": "Universitas Negeri Malang",
+    "year": 2022,
+    "route": "",
+    "id": 222
+  },
+  {
+    "name": "Ahmad R. F.",
+    "school": "",
+    "major": "Farmasi - UPN Veteran Jakarta",
+    "university": "UPN Veteran Jakarta",
+    "year": 2022,
+    "route": "",
+    "id": 223
+  },
+  {
+    "name": "Muhammad K. M. N.",
+    "school": "",
+    "major": "Hukum - UPN Veteran Jakarta",
+    "university": "UPN Veteran Jakarta",
+    "year": 2022,
+    "route": "",
+    "id": 224
+  },
+  {
+    "name": "Dewa A. P. M.",
+    "school": "",
+    "major": "Kedokteran - UNUD",
+    "university": "Universitas Udayana",
+    "year": 2022,
+    "route": "",
+    "id": 225
+  },
+  {
+    "name": "Nadila N. S.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi - UNSRI",
+    "university": "Universitas Sriwijaya",
+    "year": 2022,
+    "route": "",
+    "id": 226
+  },
+  {
+    "name": "Euodia G. S.",
+    "school": "",
+    "major": "Ilmu Hukum - USU",
+    "university": "Universitas Sumatera Utara",
+    "year": 2022,
+    "route": "",
+    "id": 227
+  },
+  {
+    "name": "Silvi A. A. P. S.",
+    "school": "",
+    "major": "Akuntansi - USU",
+    "university": "Universitas Sumatera Utara",
+    "year": 2022,
+    "route": "",
+    "id": 228
+  },
+  {
+    "name": "Ahmad J. U.",
+    "school": "",
+    "major": "Manajemen - UNRAM",
+    "university": "Universitas Mataram",
+    "year": 2022,
+    "route": "",
+    "id": 229
+  },
+  {
+    "name": "Shafa A. P. S.",
+    "school": "",
+    "major": "D4 - Teknologi Industri Cetak Kemasan PNJ",
+    "university": "Politeknik Negeri Jakarta",
+    "year": 2022,
+    "route": "",
+    "id": 230
+  },
+  {
+    "name": "ANGGININDA S. D. S.",
+    "school": "SMAN 60 JAKARTA",
+    "major": "FARMASI - UNAIR",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 231
+  },
+  {
+    "name": "MAHOGRA S. A.",
+    "school": "SMA PRESIDEN",
+    "major": "TEKNOLOGI DAN MANAJEMEN PERIKANAN TANGKAP - IPB",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 232
+  },
+  {
+    "name": "MUTHIA H.",
+    "school": "MAN 1 KOTA BEKASI",
+    "major": "INFORMATIKA - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 233
+  },
+  {
+    "name": "FARICA T.",
+    "school": "SMA SANTA ANGELA BANDUNG",
+    "major": "HUBUNGAN MASYARAKAT - UNPAD",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 234
+  },
+  {
+    "name": "AMARADEA M.",
+    "school": "SMA AL-IZHAR JAKARTA",
+    "major": "ARSITEKTUR KELAS INTERNASIONAL - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 235
+  },
+  {
+    "name": "CHIARA D.C.",
+    "school": "SMA DWIWARNA",
+    "major": "ARSITEKTUR KELAS INTERNASIONAL - ITS",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 236
+  },
+  {
+    "name": "NADIA A.",
+    "school": "S1 UNIVERSITAS TRISAKTI",
+    "major": "ADMINISTRASI RUMAH SAKIT - S2 UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 237
+  },
+  {
+    "name": "GIBRAN R. S.",
+    "school": "BINUS SCHOOL BEKASI",
+    "major": "HUBUNGAN INTERNASIONAL - UGM",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 238
+  },
+  {
+    "name": "REYNARD R. B.",
+    "school": "SMA INSAN CENDEKIA MADANI",
+    "major": "TEKNIK INFORMATIKA - UB",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 239
+  },
+  {
+    "name": "SELLINA M. A.",
+    "school": "SMA BUDI LUHUR",
+    "major": "ILMU ADMINISTRASI NEGARA - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 240
+  },
+  {
+    "name": "ZEASHAFA Z. R.",
+    "school": "SMAN 97 JAKARTA",
+    "major": "FARMASI - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 241
+  },
+  {
+    "name": "AKBAR R.",
+    "school": "SMA ALBAYAN",
+    "major": "TEKNIK MESIN - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 242
+  },
+  {
+    "name": "NASHIFA N. K.",
+    "school": "SMA N 1 CIBADAK",
+    "major": "PENDIDIKAN DOKTER - UNPAD",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 243
+  },
+  {
+    "name": "OEMMIZAHY D. P.",
+    "school": "MAN 1 KOTA BEKASI",
+    "major": "PENDIDIKAN TATA BUSANA - UPI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 244
+  },
+  {
+    "name": "MOZA R. I.",
+    "school": "SMAN 5 BALIKPAPAN",
+    "major": "INFORMATIKA - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 245
+  },
+  {
+    "name": "NAUFAL F. W.",
+    "school": "SMA UNGGUL AL BAYAN",
+    "major": "REKAYASA NANOTEKNOLOGI - UNAIR",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 246
+  },
+  {
+    "name": "ALIFIA C. N.",
+    "school": "SMAN 34 JAKARTA",
+    "major": "SASTRA CINA - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 247
+  },
+  {
+    "name": "VISANTI S.",
+    "school": "SMAN 28 JAKARTA",
+    "major": "AGROTEKNOLOGI - UNPAD",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 248
+  },
+  {
+    "name": "GIOVANNI P. T.",
+    "school": "SMAN 91",
+    "major": "AKUAKULTUR - UNSOED",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 249
+  },
+  {
+    "name": "CORDOVA M. W.",
+    "school": "SMAN 68 JAKARTA",
+    "major": "TEKNIK INDUSTRI - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 250
+  },
+  {
+    "name": "YUSRI A. F.",
+    "school": "SMAN 3 SAMARINDA",
+    "major": "STATISTIKA - UNMUL",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 251
+  },
+  {
+    "name": "MANIKA C. L.",
+    "school": "SMA AL AZHAR 8 BEKASI",
+    "major": "TEKNOLOGI PANGAN - UNDIP",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 252
+  },
+  {
+    "name": "AQILURRACHMAN A. C.",
+    "school": "PKBM KAK SETO",
+    "major": "ANTROPOLOGI BUDAYA - UGM",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 253
+  },
+  {
+    "name": "MAHESA S.",
+    "school": "PKBM WINDSOR BEKASI",
+    "major": "FILSAFAT - UGM",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 254
+  },
+  {
+    "name": "CARMELO O. W.",
+    "school": "SMA 55 JAKARTA",
+    "major": "PSIKOLOGI INTERNASIONAL - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 255
+  },
+  {
+    "name": "TABINA A.",
+    "school": "HIGHSCOPE INDONESIA",
+    "major": "ILMU KOMUNIKASI INTERNASIONAL - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 256
+  },
+  {
+    "name": "NAURAH K. D. Z.",
+    "school": "SMA IIHS",
+    "major": "KEDOKTERAN - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 257
+  },
+  {
+    "name": "NUHASHIFA R. K.",
+    "school": "AL-WILDAN INTERNATIONAL ISLAMIC SCHOOL",
+    "major": "KEPERAWATAN INTERNASIONAL - UNSOED",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 258
+  },
+  {
+    "name": "THUFAIL R.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "TEKNIK ELEKTRO - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 259
+  },
+  {
+    "name": "UFAIRAH S. R.",
+    "school": "SMA JAGAT ARSY",
+    "major": "ILMU KOMUNIKASI - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 260
+  },
+  {
+    "name": "RICKY S.",
+    "school": "SMA N 1 PURWOKERTO",
+    "major": "SISTEM INFORMASI - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 261
+  },
+  {
+    "name": "SHOFWAH A. N.",
+    "school": "JAKARTA ISLAMIC SCHOOL",
+    "major": "ILMU EKONOMI - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 262
+  },
+  {
+    "name": "NUHASHIFA R. K.",
+    "school": "AL-WILDAN INTERNATIONAL ISLAMIC SCHOOL",
+    "major": "KIMIA - ITS",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 263
+  },
+  {
+    "name": "NAURAH K. D. Z.",
+    "school": "SMA IIHS",
+    "major": "PERENCANAAN WILAYAH DAN KOTA - UNDIP",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 264
+  },
+  {
+    "name": "FEBRIANA A. P.",
+    "school": "SMAN 1 TANGERANG SELATAN",
+    "major": "HUKUM - UDAYANA",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 265
+  },
+  {
+    "name": "MIFTAHUL J.",
+    "school": "SMAN 5 KOTA BENGKULU",
+    "major": "PENDIDIKAN DOKTER - UNPAD",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 266
+  },
+  {
+    "name": "GIOVANNI P. T.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "KESELAMATAN DAN KESEHATAN KERJA - UI",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 267
+  },
+  {
+    "name": "NUHASHIFA R. K.",
+    "school": "AL-WILDAN INTERNATIONAL ISLAMIC SCHOOL",
+    "major": "FISIOTERAPI - UNHAS",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 268
+  },
+  {
+    "name": "DINDA D. N.",
+    "school": "SMA PLUS PGRI CIBINONG",
+    "major": "SOSIOLOGI - UNS",
+    "university": "",
+    "year": 2022,
+    "route": "",
+    "id": 269
+  },
+  {
+    "name": "Rana A. L.",
+    "school": "",
+    "major": "Pendidikan Dokter UI Kelas Internasional 2024",
+    "university": "Universitas Indonesia",
+    "year": null,
+    "route": "",
+    "id": 270
+  },
+  {
+    "name": "Ni M. S. A. P.",
+    "school": "",
+    "major": "Pendidikan Dokter UI Kelas Internasional 2023",
+    "university": "Universitas Indonesia",
+    "year": null,
+    "route": "",
+    "id": 271
+  },
+  {
+    "name": "Alya F.",
+    "school": "",
+    "major": "Pendidikan Dokter - UI 2020",
+    "university": "Universitas Indonesia",
+    "year": null,
+    "route": "",
+    "id": 272
+  },
+  {
+    "name": "Muhammad S. K.",
+    "school": "",
+    "major": "Pendidikan Dokter - UI 2021",
+    "university": "Universitas Indonesia",
+    "year": null,
+    "route": "",
+    "id": 273
+  },
+  {
+    "name": "Aliya F. R. P.",
+    "school": "",
+    "major": "Pendidikan Dokter UGM Kelas Internasional 2022",
+    "university": "Universitas Gadjah Mada",
+    "year": null,
+    "route": "",
+    "id": 274
+  },
+  {
+    "name": "Cynthia A.",
+    "school": "",
+    "major": "Kedokteran UNAIR 2025",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 275
+  },
+  {
+    "name": "Matthew R. P. S.",
+    "school": "",
+    "major": "Kedokteran - UNAIR 2024",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 276
+  },
+  {
+    "name": "Ruthvika J.",
+    "school": "",
+    "major": "Kedokteran Kelas Internasional Unair 2023",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 277
+  },
+  {
+    "name": "Rasagama P. S.",
+    "school": "",
+    "major": "Kedokteran - UNAIR 2021",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 278
+  },
+  {
+    "name": "Anastasya K. F.",
+    "school": "",
+    "major": "Kedokteran - UNPAD 2021",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 279
+  },
+  {
+    "name": "Imas F.",
+    "school": "",
+    "major": "Pendididikan Dokter UNPAD 2023",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 280
+  },
+  {
+    "name": "Miftahul J.",
+    "school": "",
+    "major": "Pendidikan Dokter - UNPAD 2022",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 281
+  },
+  {
+    "name": "Nashifa N. K.",
+    "school": "",
+    "major": "Pendidikan Dokter - UNPAD 2022",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 282
+  },
+  {
+    "name": "Irna A.",
+    "school": "",
+    "major": "Kedokteran Unpad 2024",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 283
+  },
+  {
+    "name": "Alisya D.",
+    "school": "",
+    "major": "Pendidikan Dokter Unsri 2024",
+    "university": "Universitas Sriwijaya",
+    "year": null,
+    "route": "",
+    "id": 284
+  },
+  {
+    "name": "Kemas M. A. N. H.",
+    "school": "",
+    "major": "Pendidikan Dokter UNSRI 2023",
+    "university": "Universitas Sriwijaya",
+    "year": null,
+    "route": "",
+    "id": 285
+  },
+  {
+    "name": "Tiara A.",
+    "school": "",
+    "major": "Kedokteran - UNSRI 2021",
+    "university": "Universitas Sriwijaya",
+    "year": null,
+    "route": "",
+    "id": 286
+  },
+  {
+    "name": "I M. B. D. A.",
+    "school": "",
+    "major": "Kedokteran Universitas Udayana 2023",
+    "university": "Universitas Udayana",
+    "year": null,
+    "route": "",
+    "id": 287
+  },
+  {
+    "name": "Dewa A. P. M.",
+    "school": "",
+    "major": "Kedokteran - UNUD 2022",
+    "university": "Universitas Udayana",
+    "year": null,
+    "route": "",
+    "id": 288
+  },
+  {
+    "name": "Nayla A. R.",
+    "school": "",
+    "major": "Kedokteran UPN Veteran Jakarta 2024",
+    "university": "UPN Veteran Jakarta",
+    "year": null,
+    "route": "",
+    "id": 289
+  },
+  {
+    "name": "Amodya D. N.",
+    "school": "",
+    "major": "Kedokteran - UPN Veteran Jakarta 2021",
+    "university": "UPN Veteran Jakarta",
+    "year": null,
+    "route": "",
+    "id": 290
+  },
+  {
+    "name": "Aulia M. M.",
+    "school": "",
+    "major": "Kedokteran- UIN SH Jakarta 2020",
+    "university": "UIN Jakarta",
+    "year": null,
+    "route": "",
+    "id": 291
+  },
+  {
+    "name": "Muhammad M. I.",
+    "school": "",
+    "major": "Pendidikan Dokter UNEJ 2024",
+    "university": "Universitas Jember",
+    "year": null,
+    "route": "",
+    "id": 292
+  },
+  {
+    "name": "Novindra A. P.",
+    "school": "",
+    "major": "Pendidikan Dokter USU 2023",
+    "university": "Universitas Sumatera Utara",
+    "year": null,
+    "route": "",
+    "id": 293
+  },
+  {
+    "name": "Ammar B.",
+    "school": "",
+    "major": "Pendidikan Dokter Universitas Khairun 2023",
+    "university": "Universitas Khairun",
+    "year": null,
+    "route": "",
+    "id": 294
+  },
+  {
+    "name": "I G. G. S. A. N.",
+    "school": "",
+    "major": "Pendidikan Dokter Universitas Mataram 2024",
+    "university": "Universitas Mataram",
+    "year": null,
+    "route": "",
+    "id": 295
+  },
+  {
+    "name": "Channele R.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi UI Kelas Internasional 2024",
+    "university": "Universitas Indonesia",
+    "year": null,
+    "route": "",
+    "id": 296
+  },
+  {
+    "name": "Debra Y. R. S.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi UI 2023",
+    "university": "Universitas Indonesia",
+    "year": null,
+    "route": "",
+    "id": 297
+  },
+  {
+    "name": "Faiza F. K.",
+    "school": "",
+    "major": "Kedokteran Gigi UGM 2025",
+    "university": "Universitas Gadjah Mada",
+    "year": null,
+    "route": "",
+    "id": 298
+  },
+  {
+    "name": "Faiza F. K.",
+    "school": "",
+    "major": "Kedokteran Gigi UNAIR 2025",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 299
+  },
+  {
+    "name": "Zynadine A. R.",
+    "school": "",
+    "major": "Kedokteran Gigi UB 2025",
+    "university": "Universitas Brawijaya",
+    "year": null,
+    "route": "",
+    "id": 300
+  },
+  {
+    "name": "Raisa A.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi Universitas Brawijaya 2023",
+    "university": "Universitas Brawijaya",
+    "year": null,
+    "route": "",
+    "id": 301
+  },
+  {
+    "name": "Najma A. H.",
+    "school": "",
+    "major": "Kedokteran Gigi Unpad 2024",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 302
+  },
+  {
+    "name": "Nadila N. S.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi - UNSRI 2022",
+    "university": "Universitas Sriwijaya",
+    "year": null,
+    "route": "",
+    "id": 303
+  },
+  {
+    "name": "Rina A. D.",
+    "school": "",
+    "major": "Kedokteran Gigi Unmul 2023",
+    "university": "Universitas Mulawarman",
+    "year": null,
+    "route": "",
+    "id": 304
+  },
+  {
+    "name": "Rahmadita S. P. A.",
+    "school": "",
+    "major": "Pendidikan Dokter Gigi - UNHAS 2020",
+    "university": "Universitas Hasanudin",
+    "year": null,
+    "route": "",
+    "id": 305
+  },
+  {
+    "name": "Syifa A. F. S.",
+    "school": "",
+    "major": "Kedokteran Gigi - UNPAD 2021",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 306
+  },
+  {
+    "name": "Ariel N. C.",
+    "school": "",
+    "major": "Kedokteran Hewan - Inter UNAIR 2021",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 307
+  },
+  {
+    "name": "Nisrina A.",
+    "school": "",
+    "major": "Kedokteran Hewan - UNAIR 2021",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 308
+  },
+  {
+    "name": "Chau Y. A.",
+    "school": "",
+    "major": "Kedokteran Hewan - Inter UNAIR 2021",
+    "university": "Universitas Airlangga",
+    "year": null,
+    "route": "",
+    "id": 309
+  },
+  {
+    "name": "Amodya D. N.",
+    "school": "",
+    "major": "Kedokteran Hewan - UNPAD 2021",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 310
+  },
+  {
+    "name": "Zulfan A. A.",
+    "school": "",
+    "major": "Kedokteran Hewan - UNPAD 2021",
+    "university": "Universitas Padjadjaran",
+    "year": null,
+    "route": "",
+    "id": 311
+  },
+  {
+    "name": "Muhammad R. H.",
+    "school": "",
+    "major": "Akuntansi - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 312
+  },
+  {
+    "name": "Muhammad D. K. A.",
+    "school": "",
+    "major": "S2 Spesialis Ilmu Bedah - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 313
+  },
+  {
+    "name": "Rayhanda R. P.",
+    "school": "",
+    "major": "Biologi - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 314
+  },
+  {
+    "name": "Muhammad Z. N. S.",
+    "school": "",
+    "major": "Hukum - UDAYANA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 315
+  },
+  {
+    "name": "Zaid H. P. A. D.",
+    "school": "",
+    "major": "Teknik Metalurgi dan Material Inter - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 316
+  },
+  {
+    "name": "Mutiara N. R.",
+    "school": "",
+    "major": "Manajemen Inter - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 317
+  },
+  {
+    "name": "Muhammad S. N.",
+    "school": "",
+    "major": "Manajemen - UPN Veteran Jakarta",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 318
+  },
+  {
+    "name": "Muhammad R.",
+    "school": "",
+    "major": "Teknik Mesin - UNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 319
+  },
+  {
+    "name": "Muhammad A. K.",
+    "school": "",
+    "major": "Teknik Komputer - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 320
+  },
+  {
+    "name": "Muhammad R.",
+    "school": "",
+    "major": "Kimia - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 321
+  },
+  {
+    "name": "Sarah R. A. K.",
+    "school": "",
+    "major": "Hukum - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 322
+  },
+  {
+    "name": "Ardi I. M.",
+    "school": "",
+    "major": "Matematika - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 323
+  },
+  {
+    "name": "Mutiara P. A.",
+    "school": "",
+    "major": "Ilmu Hukum - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 324
+  },
+  {
+    "name": "Muhammad A. K.",
+    "school": "",
+    "major": "Teknik Informatika - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 325
+  },
+  {
+    "name": "Muhammad A.",
+    "school": "",
+    "major": "Farmasi - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 326
+  },
+  {
+    "name": "Berkah R. F. F.",
+    "school": "",
+    "major": "Akuntansi Sektor Publik - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 327
+  },
+  {
+    "name": "Alif R. R.",
+    "school": "",
+    "major": "Teknik Perkapalan - UPN Veteran Jakarta",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 328
+  },
+  {
+    "name": "Suci S. S. P.",
+    "school": "",
+    "major": "Telekomunikasi - PNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 329
+  },
+  {
+    "name": "Berkah R. F. F.",
+    "school": "",
+    "major": "Teknologi Rekayasa Otomasi - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 330
+  },
+  {
+    "name": "Kayla M. H.",
+    "school": "",
+    "major": "Sekolah Bisnis dan Manajemen Inter - ITB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 331
+  },
+  {
+    "name": "Aulia M. M.",
+    "school": "",
+    "major": "Kedokteran- UIN",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 332
+  },
+  {
+    "name": "Puti S. N.",
+    "school": "",
+    "major": "Sekolah Bisnis dan Manajemen - ITB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 333
+  },
+  {
+    "name": "Syarifah D. R. A.",
+    "school": "",
+    "major": "Sistem Informasi - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 334
+  },
+  {
+    "name": "Muhammad S. N.",
+    "school": "",
+    "major": "Akuntansi - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 335
+  },
+  {
+    "name": "MUHAMMAD REZA H.",
+    "school": "BINUS INTERNATIONAL SCHOOL SERPONG",
+    "major": "AKUNTANSI - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 336
+  },
+  {
+    "name": "MUHAMMAD DINDA K. A.",
+    "school": "S1 KEDOKTERAN TRISAKSI",
+    "major": "S2 SPESIALIS ILMU BEDAH - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 337
+  },
+  {
+    "name": "PUTI K. D.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "TEKNIK METALURGI DAN MATERIAL - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 338
+  },
+  {
+    "name": "NABILA A. D. P.",
+    "school": "SMAN 70 JAKARTA",
+    "major": "KIMIA - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 339
+  },
+  {
+    "name": "R. RAFFY P.",
+    "school": "SMA LABSCHOOL JAKARTA TIMUR",
+    "major": "BIOLOGI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 340
+  },
+  {
+    "name": "DJAKWAN V. M.",
+    "school": "SMAIT ALMAKA",
+    "major": "ILMU KEOLAHRAGAAN - UPI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 341
+  },
+  {
+    "name": "BIMA M. W.",
+    "school": "SMA N 2 TANGSEL",
+    "major": "AKUNTANSI - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 342
+  },
+  {
+    "name": "WILDA A.",
+    "school": "SMAN 3 BOGOR",
+    "major": "AKTUARIA - IPB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 343
+  },
+  {
+    "name": "M. ZHAFRAN N. S.",
+    "school": "SMAN 1 MEDAN",
+    "major": "HUKUM - UDAYANA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 344
+  },
+  {
+    "name": "ATHALA T. I.",
+    "school": "SMA NEGERI 3 BANDA ACEH",
+    "major": "ARSITEKTUR - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 345
+  },
+  {
+    "name": "AMANDA A.",
+    "school": "SMAN 28 JAKARTA",
+    "major": "MANAJEMEN INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 346
+  },
+  {
+    "name": "REYNALDO R. P. W.",
+    "school": "SMAN 39 JAKARTA",
+    "major": "ILMU HUKUM - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 347
+  },
+  {
+    "name": "ZAID HABIB P. A. D.",
+    "school": "SMAN 2 TANGERANG SELATAN",
+    "major": "TEKNIK METALURGI DAN MATERIAL INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 348
+  },
+  {
+    "name": "INDAH W.",
+    "school": "SMA NEGERI 3 BATAM",
+    "major": "AKIDAH DAN FILSAFAT ISLAM - UIN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 349
+  },
+  {
+    "name": "SAFANNY P.",
+    "school": "SMA GLOBAL ISLAMIC SCHOOL 2 SERPONG",
+    "major": "ARSITEKTUR - UPI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 350
+  },
+  {
+    "name": "MUTIARA NUR R.",
+    "school": "SMA TARUNA NUSANTARA",
+    "major": "MANAJEMEN INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 351
+  },
+  {
+    "name": "ANGGI A. H.",
+    "school": "BINUS SCHOOL SERPONG",
+    "major": "PSIKOLOGI INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 352
+  },
+  {
+    "name": "NADHILAH A.",
+    "school": "SMAN 8 PEKANBARU",
+    "major": "PSIKOLOGI INTER - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 353
+  },
+  {
+    "name": "M. S. NURAGUNG",
+    "school": "SMAN 58 JAKARTA",
+    "major": "MANAJEMEN - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 354
+  },
+  {
+    "name": "ATHAYA W.",
+    "school": "SMAN 75 JAKARTA",
+    "major": "TEKNOLOGI PANGAN - ITERA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 355
+  },
+  {
+    "name": "M. RIZQI",
+    "school": "SMA NEGERI 78 JAKARTA",
+    "major": "TEKNIK MESIN - UNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 356
+  },
+  {
+    "name": "HANA L.",
+    "school": "SMA TARUNA NUSANTARA",
+    "major": "TEKNIK INDUSTRI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 357
+  },
+  {
+    "name": "SAFANNY P.",
+    "school": "SMA GLOBAL ISLAMIC SCHOOL 2 SERPONG",
+    "major": "TEKNOLOGI PANGAN - UNTIRTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 358
+  },
+  {
+    "name": "NADHILAH A.",
+    "school": "SMAN 8 PEKANBARU",
+    "major": "PSIKOLOGI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 359
+  },
+  {
+    "name": "MIFTA A. A. S.",
+    "school": "SMAN 2 MANOKWARI",
+    "major": "FISIOTERAPI - UI (VOKASI)",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 360
+  },
+  {
+    "name": "ALYA F.",
+    "school": "SMA NEGERI 8 JAKARTA",
+    "major": "PENDIDIKAN DOKTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 361
+  },
+  {
+    "name": "FELISHA S.",
+    "school": "SMA AL-AZHAR 3 PUSAT",
+    "major": "SASTRA PERANCIS - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 362
+  },
+  {
+    "name": "M. ADITYA K.",
+    "school": "SMAN 68 JAKARTA",
+    "major": "TEKNIK KOMPUTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 363
+  },
+  {
+    "name": "M. RIZQI",
+    "school": "SMA NEGERI 78 JAKARTA",
+    "major": "KIMIA - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 364
+  },
+  {
+    "name": "AMELIA M. N.",
+    "school": "MAN INSAN CENDEKIA SERPONG",
+    "major": "SISTEM INFORMASI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 365
+  },
+  {
+    "name": "INDAH W.",
+    "school": "SMA NEGERI 3 BATAM",
+    "major": "SASTRA INDONESIA - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 366
+  },
+  {
+    "name": "SARAH RAHMA A. K.",
+    "school": "SMA GARUDA CENDEKIA",
+    "major": "HUKUM - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 367
+  },
+  {
+    "name": "PUTI S. N.",
+    "school": "AL AZHAR PUSAT",
+    "major": "MANAJEMEN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 368
+  },
+  {
+    "name": "ARDI ILMAN M.",
+    "school": "AL AZHAR 19 JAKTIM",
+    "major": "MATEMATIKA - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 369
+  },
+  {
+    "name": "SYIFA A. A.",
+    "school": "SMAN 8 JAKARTA",
+    "major": "SISTEM INFORMASI - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 370
+  },
+  {
+    "name": "SAFANNY P.",
+    "school": "SMA GLOBAL ISLAMIC SCHOOL 2 SERPONG",
+    "major": "KESEHATAN MASYARAKAT - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 371
+  },
+  {
+    "name": "MOZA R. I.",
+    "school": "SMAN 5 BALIKPAPAN",
+    "major": "ILMU KEPERAWATN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 372
+  },
+  {
+    "name": "SHINTA S. P. H.",
+    "school": "SMAN 13 JAKARTA",
+    "major": "TEKNIK PERTANIAN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 373
+  },
+  {
+    "name": "MUTIARA PUTRI A.",
+    "school": "SMAN 26 JAKARTA",
+    "major": "ILMU HUKUM - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 374
+  },
+  {
+    "name": "M. ADITYA K.",
+    "school": "SMAN 68 JAKARTA",
+    "major": "TEKNIK INFORMATIKA - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 375
+  },
+  {
+    "name": "M. AULIA",
+    "school": "SMAN 7 TANGERANG SELATAN",
+    "major": "FARMASI - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 376
+  },
+  {
+    "name": "BERKAH RIZKI F. F.",
+    "school": "SMAN 56 JAKARTA",
+    "major": "AKUNTANSI SEKTOR PUBLIK - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 377
+  },
+  {
+    "name": "SYIFA A. A.",
+    "school": "SMAN 8 JAKARTA",
+    "major": "TEKNOLOGI SAINS DATA - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 378
+  },
+  {
+    "name": "MOZA R. I.",
+    "school": "SMAN 5 BALIKPAPAN",
+    "major": "BUDIDAYA TERNAK - UNSOED",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 379
+  },
+  {
+    "name": "ALIF RIZKY R.",
+    "school": "SMAN 80 JAKARTA",
+    "major": "TEKNIK PERKAPALAN - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 380
+  },
+  {
+    "name": "SUCI SEPTYANI S. P.",
+    "school": "SMAN 2 SAWAHLUNTO",
+    "major": "TELEKOMUNIKASI - PNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 381
+  },
+  {
+    "name": "BERKAH RIZKI F. F.",
+    "school": "SMAN 56 JAKARTA",
+    "major": "TEKNOLOGI REKAYASA OTOMASI - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 382
+  },
+  {
+    "name": "ALVINA P.",
+    "school": "PENABUR 2 JAKARTA",
+    "major": "ILMU KEPERAWATAN",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 383
+  },
+  {
+    "name": "KEVIN H.",
+    "school": "SMAN 4 JAKARTA",
+    "major": "ILMU KOMPUTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 384
+  },
+  {
+    "name": "SYIFA A.A.",
+    "school": "SMAN 8 JAKARTA",
+    "major": "SISTEM INFORMASI - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 385
+  },
+  {
+    "name": "FACHRI R. R. P.",
+    "school": "SMA DWIWARNA",
+    "major": "HUKUM - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 386
+  },
+  {
+    "name": "RAHMADITA S. P. A.",
+    "school": "SMAN 5 PARE PARE",
+    "major": "PENDIDIKAN DOKTER GIGI - UNHAS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 387
+  },
+  {
+    "name": "SYIFA A. A.",
+    "school": "SMAN 8 JAKARTA",
+    "major": "DATA SAINS - UPN VETERAN JAWA TIMUR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 388
+  },
+  {
+    "name": "CHARISSE N.",
+    "school": "SMAK 1 PENABUR",
+    "major": "PSIKOLOGI INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 389
+  },
+  {
+    "name": "SASQIA S. A.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "ILMU HUKUM - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 390
+  },
+  {
+    "name": "KAYLA M.I H.",
+    "school": "SMA GARUDA CENDEKIA",
+    "major": "SEKOLAH BISNIS DAN MANAJEMEN INTER - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 391
+  },
+  {
+    "name": "AULIA MEDINAH M.",
+    "school": "SMA DIPONEGORO 1 JAKARTA",
+    "major": "KEDOKTERAN- UIN",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 392
+  },
+  {
+    "name": "JEANICE K.",
+    "school": "SMAK 1 PENABUR",
+    "major": "BIOLOGI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 393
+  },
+  {
+    "name": "MOZA R. I.",
+    "school": "SMAN 5 BALIKPAPAN",
+    "major": "TEKNIK LINGKUNGAN - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 394
+  },
+  {
+    "name": "SAFANNY P.",
+    "school": "SMA GLOBAL ISLAMIC SCHOOL 2 SERPONG",
+    "major": "AGROEKOTEKNOLOGI - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 395
+  },
+  {
+    "name": "NABILA H.I.",
+    "school": "SMAN 109 JAKARTA",
+    "major": "HUKUM - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 396
+  },
+  {
+    "name": "MERDIANSYAH M. M.",
+    "school": "SMA TERPADU KRIDA NUSANTARA",
+    "major": "PENDIDIKAN AKUNTANSI - UNS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 397
+  },
+  {
+    "name": "PUTI S. N.",
+    "school": "SMA ISLAM AL AZHAR 1",
+    "major": "SEKOLAH BISNIS DAN MANAJEMEN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 398
+  },
+  {
+    "name": "SYARIFAH D. R.",
+    "school": "SMAN 2 PALANGKARAYA",
+    "major": "SISTEM INFORMASI - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 399
+  },
+  {
+    "name": "EDRO M. A. S.",
+    "school": "SMAK PENABUR KELAPA GADING",
+    "major": "TEKNIK ELEKTRO INTER- UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 400
+  },
+  {
+    "name": "M. S. NURAGUNG",
+    "school": "SMAN 58 JAKARTA",
+    "major": "AKUNTANSI - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 401
+  },
+  {
+    "name": "ZAHRA R. M.",
+    "school": "SMAN 21 JAKARTA",
+    "major": "ARSITEKTUR INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 402
+  },
+  {
+    "name": "JEANICE K.",
+    "school": "SMAK 1 PENABUR",
+    "major": "GIZI - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 403
+  },
+  {
+    "name": "DWINTA P.",
+    "school": "SMAN 3 JAKARTA",
+    "major": "HUKUM INTER - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 404
+  },
+  {
+    "name": "JUVEN",
+    "school": "SMAN 4 TANGERANG SELATAN",
+    "major": "TEKNIK FISIKA - ITERA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 405
+  },
+  {
+    "name": "CATHLIN L. M. M.",
+    "school": "SMAN 70 JAKARTA",
+    "major": "PSIKOLOGI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 406
+  },
+  {
+    "name": "FIRDA R. B.",
+    "school": "SMAN 68 JAKARTA",
+    "major": "FTMD - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 407
+  },
+  {
+    "name": "SATINE Z.",
+    "school": "SMA DIAN DIDAKTIKA",
+    "major": "PSIKOLOGI INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 408
+  },
+  {
+    "name": "RACHMADINSA D.",
+    "school": "SMAN 21 PULOMAS",
+    "major": "HUKUM INTER - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 409
+  },
+  {
+    "name": "DANTI",
+    "school": "SMUN 37 JAKARTA",
+    "major": "KIMIA - UNUD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 410
+  },
+  {
+    "name": "EVARIANTI",
+    "school": "SMAS MALAHAYATI",
+    "major": "MANAJEMEN - UPN VETERAN JAWA TIMUR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 411
+  },
+  {
+    "name": "RIFQY A.",
+    "school": "SMAN 11 JAKARTA",
+    "major": "ILMU KOMPUTER - UNILA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 412
+  },
+  {
+    "name": "SALSABILLA P. P.",
+    "school": "SMAN 1 DEPOK",
+    "major": "TEKNIK INDUSTRI INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 413
+  },
+  {
+    "name": "ARIK R.",
+    "school": "SMA N 81 JAKARTA",
+    "major": "STEI - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 414
+  },
+  {
+    "name": "TABINA P.",
+    "school": "SMAN 28 JAKSEL",
+    "major": "KEDOKTERAN - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 415
+  },
+  {
+    "name": "ALTHOF R. G. P.",
+    "school": "AL-AZHAR 3 JAKSEL",
+    "major": "MANAJEMEN - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 416
+  },
+  {
+    "name": "N. KHARISMA",
+    "school": "SMA DWIWARNA INTER. BOARDING SCHOOL",
+    "major": "ILMU HUKUM - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 417
+  },
+  {
+    "name": "REYNA A.",
+    "school": "SMAN 55 JAKARTA",
+    "major": "TEKNOLOGI PANGAN - IPB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 418
+  },
+  {
+    "name": "M. DZELDY R.",
+    "school": "SMK N 4 BOGOR",
+    "major": "STPN (SEKOLAH TINGGI PERTANAHAN NASIONAL)",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 419
+  },
+  {
+    "name": "RADYA N. PR. H.",
+    "school": "SMAIT NURURRAHMAN",
+    "major": "TEKNIK PERKAPALAN - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 420
+  },
+  {
+    "name": "R. RAIHAN",
+    "school": "SMAN 1 CIBINONG",
+    "major": "TEKNIK MESIN - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 421
+  },
+  {
+    "name": "ALTHOF R. G. P.",
+    "school": "AL-AZHAR 3 JAKSEL",
+    "major": "HUKUM INTER - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 422
+  },
+  {
+    "name": "HUMAM P. D.",
+    "school": "SMAN 54 JAKARTA",
+    "major": "TEKNIK MESIN INTER - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 423
+  },
+  {
+    "name": "M. ANDHIKA A. H.",
+    "school": "SMA TARUNA NUSANTARA",
+    "major": "MANAJEMEN INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 424
+  },
+  {
+    "name": "M. DHIA A.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "TEKNIK MESIN INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 425
+  },
+  {
+    "name": "GREGORIUS A. S.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "ILMU KOMUNIKASI INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 426
+  },
+  {
+    "name": "SANNY M.",
+    "school": "SMAT KRIDA NUSANTARA BANDUNG",
+    "major": "HUKUM - UDAYANA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 427
+  },
+  {
+    "name": "KHAZZA K. A.",
+    "school": "SMA 67 JAKARTA",
+    "major": "HUKUM - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 428
+  },
+  {
+    "name": "ANGGI F.",
+    "school": "SMAN 1 BUKITTINGGI",
+    "major": "ADMINISTRASI - UPI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 429
+  },
+  {
+    "name": "JOANNA M.",
+    "school": "SMA SANTA URSULA",
+    "major": "STEI - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 430
+  },
+  {
+    "name": "ALTHOF R. G. P.",
+    "school": "AL-AZHAR 3 JAKSEL",
+    "major": "MANAJEMEN - UNS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 431
+  },
+  {
+    "name": "FATIHA N. K.",
+    "school": "INDOOROOPILLY STATE HIGH SCHOOL, AUSTRALIA",
+    "major": "SASTRA INGGRIS - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 432
+  },
+  {
+    "name": "RADYA N. P. H.",
+    "school": "SMAIT NURURRAHMAN",
+    "major": "PETERNAKAN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 433
+  },
+  {
+    "name": "ZAHRA Q. A.",
+    "school": "MA PEMBANGUNAN UIN",
+    "major": "KEDOKTERAN - UIN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 434
+  },
+  {
+    "name": "DEFANNA D. V.",
+    "school": "SEKOLAH MADANIA BOGOR",
+    "major": "HUKUM INTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 435
+  },
+  {
+    "name": "MARSYA M.",
+    "school": "SMAN 3 JAKARTA",
+    "major": "ILMU KOMUNIKASI - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 436
+  },
+  {
+    "name": "HUMAM P. D.",
+    "school": "SMAN 54 JAKARTA",
+    "major": "TEKNIK MESIN - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 437
+  },
+  {
+    "name": "WAHYU AJI B.",
+    "school": "SMAN 21 JAKARTA",
+    "major": "TEKNIK MESIN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 438
+  },
+  {
+    "name": "FABYAN N. A.",
+    "school": "SMAN 29",
+    "major": "MANAJEMEN - INTER UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 439
+  },
+  {
+    "name": "ALIFIA T. D.",
+    "school": "SMAN 42 JAKARTA",
+    "major": "ARSITEKTUR INTERIOR - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 440
+  },
+  {
+    "name": "NAFISA K. M.",
+    "school": "SMAN 55 JAKARTA",
+    "major": "BIOLOGI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 441
+  },
+  {
+    "name": "KAYLEE R. D.",
+    "school": "SMAN 70 JAKARTA",
+    "major": "ILMU KOMPUTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 442
+  },
+  {
+    "name": "LITA Y. W.",
+    "school": "SMA SEKOLAH GLOBAL MANDIRI",
+    "major": "AKTUARIA - IPB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 443
+  },
+  {
+    "name": "GHIVANDHA Z. Z.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "TEKNIK SIPIL - UNS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 444
+  },
+  {
+    "name": "M. KUDRAT T.",
+    "school": "SMA PLUS N 17 PALEMBANG",
+    "major": "MANAJEMEN - INTER UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 445
+  },
+  {
+    "name": "CHAU Y. A.",
+    "school": "JAKARTA TAIPEI SCHOOL",
+    "major": "ILMU DAN INDUSTRI PETERNAKAN - INTER UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 446
+  },
+  {
+    "name": "RATU HAURA S.",
+    "school": "JAKARTA ISLAMIC SCHOOL",
+    "major": "SASTRA PERANCIS - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 447
+  },
+  {
+    "name": "TIARA A.",
+    "school": "SMAN 84 JAKARTA",
+    "major": "KEDOKTERAN - UNSRI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 448
+  },
+  {
+    "name": "ALIYA S. L.",
+    "school": "SMA AL-WILDAN ISLAMIC SCHOOL",
+    "major": "GIZI - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 449
+  },
+  {
+    "name": "ADINDA PUTRI N.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "PSIKOLOGI - UNS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 450
+  },
+  {
+    "name": "CHAU Y. A.",
+    "school": "JAKARTA TAIPEI SCHOOL",
+    "major": "KEDOKTERAN HEWAN - INTER UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 451
+  },
+  {
+    "name": "ENRICO GERALD T.",
+    "school": "SMAN 1 TOMOHON",
+    "major": "MANAJEMEN - UNSRAT",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 452
+  },
+  {
+    "name": "M. FAISHAL A.",
+    "school": "SMAN 9 TANGSEL",
+    "major": "SISTEM INFORMASI - NUPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 453
+  },
+  {
+    "name": "ANASTASYA K. F.",
+    "school": "SMAN 28",
+    "major": "KEDOKTERAN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 454
+  },
+  {
+    "name": "GHIVANDHA Z. Z.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "TEKNIK INDUSTRI - UNS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 455
+  },
+  {
+    "name": "KAYLA N. S.",
+    "school": "SMA IC AL-KAUSAR",
+    "major": "TEKNIK SIPIL - UNMAL",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 456
+  },
+  {
+    "name": "DANIEL VALENTINO M.",
+    "school": "SMAN 5 DENPASAR",
+    "major": "HUKUM - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 457
+  },
+  {
+    "name": "NICHOLAS PRATAMA B. E.",
+    "school": "SMA MARSUDIRINI BEKASI",
+    "major": "HUKUM - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 458
+  },
+  {
+    "name": "M. AJI P.",
+    "school": "SMA KHARISMA BANGSA",
+    "major": "ILMU DAN INDUSTRI PETERNAKAN - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 459
+  },
+  {
+    "name": "DEVINA J.",
+    "school": "SMAN 1 BEKASI",
+    "major": "FTTM - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 460
+  },
+  {
+    "name": "AMODYA D. N.",
+    "school": "SMAN 55 JAKARTA",
+    "major": "KEDOKTERAN HEWAN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 461
+  },
+  {
+    "name": "KURNIAWAN G.",
+    "school": "SMAN 1 KOTAMOBAGU",
+    "major": "ILMU HUKUM - UNSRAT",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 462
+  },
+  {
+    "name": "M. RAMADHAN EZRA G. S.",
+    "school": "SMA AL AZHAR 19 CIRACAS",
+    "major": "TEKNIK SIPIL - INTER UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 463
+  },
+  {
+    "name": "LIVIA Z. K.",
+    "school": "SMAN 28 JAKARTA",
+    "major": "TEKNIK BIOMEDIS - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 464
+  },
+  {
+    "name": "GHIVANDHA Z. Z.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "FTSL - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 465
+  },
+  {
+    "name": "M. HANIF M.",
+    "school": "SMA AL IZHAR",
+    "major": "TEKNIK KIMIA - INTER ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 466
+  },
+  {
+    "name": "NABIL MAULIDI I.",
+    "school": "SMAN 2 BANDUNG",
+    "major": "TEKNIK PERTANIAN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 467
+  },
+  {
+    "name": "SYIFA AINUN F. S.",
+    "school": "SMA DAARUT TAUHID BANDUNG",
+    "major": "KEDOKTERAN GIGI - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 468
+  },
+  {
+    "name": "MARTINA C. P.",
+    "school": "SMA KESATUAN BANGSA YOGYAKARTA",
+    "major": "SISTEM INFORMASI - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 469
+  },
+  {
+    "name": "M. KUDRAT T.",
+    "school": "SMA PLUS N 17 PALEMBANG",
+    "major": "MANAJEMEN - INTER UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 470
+  },
+  {
+    "name": "CHRISTIAN N. M.",
+    "school": "SMAN 96 JAKARTA",
+    "major": "MANAJEMEN - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 471
+  },
+  {
+    "name": "M. Raihan",
+    "school": "SMAN 14 JAKARTA",
+    "major": "TEKNIK ELEKTRO - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 472
+  },
+  {
+    "name": "TSABITUL A.",
+    "school": "SMAIT AL QUDWAH",
+    "major": "SEJ. PERADABAN ISLAM - UIN BANDUNG",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 473
+  },
+  {
+    "name": "GHIVANDHA Z. Z.",
+    "school": "SMA LABSCHOOL JAKARTA",
+    "major": "TEKNIK SIPIL - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 474
+  },
+  {
+    "name": "RATU HAURA S.",
+    "school": "JAKARTA ISLAMIC SCHOOL",
+    "major": "ILMU KOMUNIKASI - UI INTER",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 475
+  },
+  {
+    "name": "M.SYAUGI. K.",
+    "school": "SMAN 2 TANGERANG SELATAN",
+    "major": "PENDIDIKAN DOKTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 476
+  },
+  {
+    "name": "NISRINA A.",
+    "school": "SMA DWIWARNA",
+    "major": "FARMASI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 477
+  },
+  {
+    "name": "ASHLEY A. A.",
+    "school": "CITA BUANA",
+    "major": "TEKNIK INDUSTRI - UI INTER",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 478
+  },
+  {
+    "name": "MARTINA CAHYA P.",
+    "school": "SMA KESATUAN BANGSA YOGYAKARTA",
+    "major": "SISTEM INFORMASI - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 479
+  },
+  {
+    "name": "GALUH MUHAMMAD G. H.",
+    "school": "SMA N 11 BANDUNG",
+    "major": "BISNIS - IPB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 480
+  },
+  {
+    "name": "UFAIRAH S. R.",
+    "school": "SMA JAGAT ARSY",
+    "major": "HUKUM - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 481
+  },
+  {
+    "name": "DANIEL VALENTINO M.",
+    "school": "SMAN 5 DENPASAR",
+    "major": "SBM - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 482
+  },
+  {
+    "name": "RASAGAMA P. S.",
+    "school": "SMAN 2 BEKASI",
+    "major": "KEDOKTERAN - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 483
+  },
+  {
+    "name": "CHRISTOFER W. L. K.",
+    "school": "SMAS DWI PUTRA",
+    "major": "SASTRA BELANDA - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 484
+  },
+  {
+    "name": "ATYSATYA P. A.",
+    "school": "SMA KHARISMA BANGSA",
+    "major": "GEOGRAFI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 485
+  },
+  {
+    "name": "MUHAMMAD KEVIN A.",
+    "school": "SMA LABSCHOOL RAWAMANGUN",
+    "major": "TEKNIK INDUSTRI PERTANIAN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 486
+  },
+  {
+    "name": "IZZAT MUHAMMAD H.",
+    "school": "SMAI AL- AZHAR 1",
+    "major": "TEKNIK MESIN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 487
+  },
+  {
+    "name": "ELVIRA T. P.",
+    "school": "SMAN 9 JAKARTA",
+    "major": "HUKUM - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 488
+  },
+  {
+    "name": "AMODYA D. N.",
+    "school": "SMAN 55 JAKARTA",
+    "major": "KEDOKTERAN - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 489
+  },
+  {
+    "name": "AHMAD AQSHA S.",
+    "school": "SMA GARUDA CENDEKIA",
+    "major": "ILMU KOMUNIKASI - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 490
+  },
+  {
+    "name": "MUHAMMAD KUDRAT T.",
+    "school": "SMA PLUS N 17 PALEMBANG",
+    "major": "MANAJEMEN - INTER UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 491
+  },
+  {
+    "name": "MARSHA A. R.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "SAINS DATA - UPN VETERAN JAWA TIMUR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 492
+  },
+  {
+    "name": "AQILA AQHNIA F. G.",
+    "school": "SMAN 38 JAKARTA",
+    "major": "FARMASI - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 493
+  },
+  {
+    "name": "MUHAMMAD BINTANG F.",
+    "school": "SMA AL UMANAA BOARDING SCHOOL",
+    "major": "BAHASA DAN SASTRA INGGRIS - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 494
+  },
+  {
+    "name": "NISRINA A.",
+    "school": "SMA DWIWARNA",
+    "major": "KEDOKTERAN HEWAN - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 495
+  },
+  {
+    "name": "KEZYA ZEFANYA B. B.",
+    "school": "SMAN 3 SORONG",
+    "major": "STATISTIKA - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 496
+  },
+  {
+    "name": "RASENDRIYA P. S.",
+    "school": "SMAN 2 BEKASI",
+    "major": "ILMU HUKUM - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 497
+  },
+  {
+    "name": "KHANSA S.",
+    "school": "SMAN 2 PEKANBARU",
+    "major": "AKUNTANSI UNAIR - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 498
+  },
+  {
+    "name": "SITI SAFA H.",
+    "school": "SMAN 1 CIANJUR",
+    "major": "MANAJEMEN SUMBER DAYA PERAIRAN - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 499
+  },
+  {
+    "name": "RIF`AT S. B.",
+    "school": "SMAN 13 JAKARTA",
+    "major": "MANAJEMEN - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 500
+  },
+  {
+    "name": "ZULFAN AROFAH A.",
+    "school": "MAS AL-IHSAN BALEENDAH",
+    "major": "KEDOKTERAN HEWAN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 501
+  },
+  {
+    "name": "TSABITUL A.",
+    "school": "SMAIT AL QUDWAH",
+    "major": "ILMU SEJARAH - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 502
+  },
+  {
+    "name": "MUHAMMAD RAIHAN A. H.",
+    "school": "MAN 4 JAKARTA",
+    "major": "OSEANOGRAFI - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 503
+  },
+  {
+    "name": "MARSHA AYU R.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "BIOLOGI - UNIVERSITAS MULAWARMAN",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 504
+  },
+  {
+    "name": "KHANSA S.",
+    "school": "SMAN 2 PEKANBARU",
+    "major": "AKUNTANSI DAN SEKTOR PUBLIK - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 505
+  },
+  {
+    "name": "TSABITUL A.",
+    "school": "SMAIT AL QUDWAH",
+    "major": "SEJ. PERADABAN ISLAM DAN HUM. - UIN BANDUNG",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 506
+  },
+  {
+    "name": "ZAKKY GHANI F. T.",
+    "school": "SMA IT NURUL FIKRI",
+    "major": "EKONOMI ISLAM UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 507
+  },
+  {
+    "name": "RIFQI BRANA A.",
+    "school": "SMAN 1 BEKASI",
+    "major": "DESAIN KOMUNIKASI VISUAL - UNS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 508
+  },
+  {
+    "name": "MARSHA AYU R.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "GIZI - UPI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 509
+  },
+  {
+    "name": "GHAITSA T.",
+    "school": "SMAN 2 TANAH PUTIH",
+    "major": "HUKUM - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 510
+  },
+  {
+    "name": "TSABITA ZAHRA R.",
+    "school": "SMAN 113 JAKARTA",
+    "major": "ILMU HUKUM - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 511
+  },
+  {
+    "name": "FAUZAN RAIF D.",
+    "school": "SMA N 60",
+    "major": "BISNIS INTERNASIONAL - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 512
+  },
+  {
+    "name": "PRATIWI W.",
+    "school": "SMA N 80 JAKARTA UTARA",
+    "major": "MANAJEMEN - UNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 513
+  },
+  {
+    "name": "ADINDA MUTIA R.",
+    "school": "SMAN 8 TANGERANG",
+    "major": "ILMU ADMINISTRASI BISNIS - USU",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 514
+  },
+  {
+    "name": "MUHAMMAD HANIF M.",
+    "school": "SMA AL-IZHAR",
+    "major": "TEKNIK KIMIA - UNPAD INTER",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 515
+  },
+  {
+    "name": "AMOS C.",
+    "school": "SMA N 20",
+    "major": "HUKUM - UNUD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 516
+  },
+  {
+    "name": "GASKAR A.",
+    "school": "SMAN 33 JAKARTA",
+    "major": "FARMASI - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 517
+  },
+  {
+    "name": "MARSHA AYU R.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "BIOLOGI - UNIVERSITAS HALU OLEO",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 518
+  },
+  {
+    "name": "NASSYANDA F.",
+    "school": "SMAN 3 BEKASI",
+    "major": "D4 JURUSAN AKUNTANSI SEKTOR PUBLIK - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 519
+  },
+  {
+    "name": "DIAS NANDAIKA A.",
+    "school": "SMAN 3 DEPOK",
+    "major": "KEDOKTERAN - UNJA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 520
+  },
+  {
+    "name": "KEZIAH P.",
+    "school": "SMAN 52 JAKARTA",
+    "major": "ADMINISTRASI PUBLIK - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 521
+  },
+  {
+    "name": "SEPTIYANI L. W.",
+    "school": "SMAN 48 JAKARTA",
+    "major": "GEOFISIKA - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 522
+  },
+  {
+    "name": "PUTRI JOANNA K.",
+    "school": "SMAN 28 JAKARTA",
+    "major": "HUKUM - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 523
+  },
+  {
+    "name": "SHAFA KAYLA A. E.",
+    "school": "SMAN 98 JAKARTA",
+    "major": "TEK. & MANAJEMEN PERIKANAN TANGKAP - IPB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 524
+  },
+  {
+    "name": "KHADIJA KHAIRUNNISA P. S.",
+    "school": "SMA ISLAM DIAN DIDAKTIKA",
+    "major": "ILMU HUKUM - UIN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 525
+  },
+  {
+    "name": "MUHAMMAD FADHLY D. D.",
+    "school": "SMA INSAN KAMIL",
+    "major": "TEKNIK INDUSTRI PERTANIAN - UNBRAW",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 526
+  },
+  {
+    "name": "M. RIDWAN",
+    "school": "SMA 78",
+    "major": "TEKNIK MESIN - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 527
+  },
+  {
+    "name": "VARIAN ADITYA P.",
+    "school": "SMA NEGRI 78 JAKARTA",
+    "major": "TEKNIK MATERIAL - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 528
+  },
+  {
+    "name": "HANA RAISA Z.",
+    "school": "SMAN 6 BEKASI",
+    "major": "BIOLOGI - UNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 529
+  },
+  {
+    "name": "MICHAEL D. W.",
+    "school": "SMA BUKIT SION JAKARTA",
+    "major": "ILMU KOMUNIKASI - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 530
+  },
+  {
+    "name": "AISYAH L.",
+    "school": "SMA 8 TEBET",
+    "major": "PENDIDIKAN DOKTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 531
+  },
+  {
+    "name": "DINDA ARSILA R.",
+    "school": "SMAN 2 BANDUNG",
+    "major": "KRIMINOLOGI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 532
+  },
+  {
+    "name": "LAURA AMANDA S.",
+    "school": "SMAK 7 PENABUR",
+    "major": "PENDIDIKAN DOKTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 533
+  },
+  {
+    "name": "KEISHA SOFIANADA P.",
+    "school": "SMAN 36 JAKARTA",
+    "major": "ILMU KOMUNIKASI - UNESA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 534
+  },
+  {
+    "name": "NADJA ADAIRA P.",
+    "school": "SMAN 78 JAKARTA",
+    "major": "TEKNIK INDUSTRI - ITS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 535
+  },
+  {
+    "name": "WIBISANA W.",
+    "school": "SMA N 5 BEKASI",
+    "major": "TEKNOLOGI INDUSTRI - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 536
+  },
+  {
+    "name": "RAUL FRANCIS W. S.",
+    "school": "SMAT KRIDA NUSANTARA",
+    "major": "ILMU HUKUM - UDAYANA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 537
+  },
+  {
+    "name": "DEWITA A.",
+    "school": "SMA 3",
+    "major": "ADMINISTRASI ASURANSI DAN AKTUARIA - D3 UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 538
+  },
+  {
+    "name": "NAZLA AMANDA A. S.",
+    "school": "SMAN 98 JAKARTA",
+    "major": "AGRIBISNIS - UIN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 539
+  },
+  {
+    "name": "ANDI ZAHIRAH A.",
+    "school": "SMA 104 JAKARTA",
+    "major": "KEDOKTERAN - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 540
+  },
+  {
+    "name": "AZAHRA KAULIKA I.",
+    "school": "SMAN 113 JAKARTA",
+    "major": "JURNALISTIK - UIN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 541
+  },
+  {
+    "name": "HANA RAISA Z.",
+    "school": "SMAN 6 BEKASI",
+    "major": "FISIOTERAPI - UI D4",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 542
+  },
+  {
+    "name": "NAUFAL A.",
+    "school": "CITA BUANA",
+    "major": "MANAJEMEN - UI INTER",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 543
+  },
+  {
+    "name": "AMELIA AYU S.",
+    "school": "SMA TARUNA NUSANTARA",
+    "major": "TEKNIK INDUSTRI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 544
+  },
+  {
+    "name": "RIFQY AUDZAN R.",
+    "school": "SMA AL AZHAR 1",
+    "major": "TEKNIK ELEKTRO - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 545
+  },
+  {
+    "name": "MUHAMAD RAIHAN I.",
+    "school": "SMAIT TUNAS BANGSA DEPOK",
+    "major": "VOKASI PENYIARAN MULTIMEDIA - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 546
+  },
+  {
+    "name": "DEWITA A.",
+    "school": "SMA 3",
+    "major": "EKONOMI SYARIAH - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 547
+  },
+  {
+    "name": "DANIEL A. Z",
+    "school": "SMA N 10",
+    "major": "EKONOMI PEMBANGUNAN - UNS",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 548
+  },
+  {
+    "name": "CLARICE C. W.",
+    "school": "SMAN 6 BOGOR",
+    "major": "TEKNIK KIMIA - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 549
+  },
+  {
+    "name": "BERNADINE ANASTASYA R.",
+    "school": "BINUS INTERNASIONAL SCHOOL SIMPRUG",
+    "major": "FK KELAS INTERNASIONAL - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 550
+  },
+  {
+    "name": "GARUDA MUHAMMAD E.",
+    "school": "SMA PRESIDEN",
+    "major": "TEKNIK INDUSTRI KELAS INTERNASIONAL - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 551
+  },
+  {
+    "name": "HARITS SURYA F.",
+    "school": "OLIFANT HIGH SCHOOL",
+    "major": "ILMU KOMPUTER INTER - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 552
+  },
+  {
+    "name": "NADILA NUR S.",
+    "school": "SMAI NURUL FIKRI SERANG",
+    "major": "PENDIDIKAN DOKTER GIGI - UNSRI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 553
+  },
+  {
+    "name": "MUHAMMAD KAREEM M. N.",
+    "school": "SMAN 37 JAKARTA SELATAN",
+    "major": "HUKUM - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 554
+  },
+  {
+    "name": "FARROS F. A.",
+    "school": "SMK RADEN UMAR SAID KUDUS JAWA TENGAH",
+    "major": "FSRD - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 555
+  },
+  {
+    "name": "AMALIYAH KANYA S.",
+    "school": "SMAIT AL-KAHFI",
+    "major": "PSIKOLOGI - UNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 556
+  },
+  {
+    "name": "MUHAMMAD PRAJA D.",
+    "school": "SMK IDN BOARDING SCHOOL",
+    "major": "PENDIDIKAN INFORMATIKA - UNJ",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 557
+  },
+  {
+    "name": "MUHAMMAD RAFLI S.",
+    "school": "SMA N 99",
+    "major": "ARSITEKTUR - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 558
+  },
+  {
+    "name": "AHMAD RO'IN F.",
+    "school": "SMAN 8 BOGOR",
+    "major": "FARMASI - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 559
+  },
+  {
+    "name": "DEWA AYU P. M.",
+    "school": "SMAN 4 DENPASAR",
+    "major": "KEDOKTERAN - UNUD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 560
+  },
+  {
+    "name": "CHIARA D. C.",
+    "school": "SMA DWIWARNA",
+    "major": "SAPPK - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 561
+  },
+  {
+    "name": "NISA BELLA M. N.",
+    "school": "SMAI AL AZHAR 19",
+    "major": "KESEHATAN MASYAKARAT - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 562
+  },
+  {
+    "name": "ACHMAD SHAFWAN Z.",
+    "school": "SMAN 34 JAKARTA",
+    "major": "STEI-R UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 563
+  },
+  {
+    "name": "RAFFI ARSYA P.",
+    "school": "PONDOK PESANTREN DARUNNAJAH",
+    "major": "PERPAJAKAN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 564
+  },
+  {
+    "name": "KEZIA CRYSTABELLA M. H.",
+    "school": "SMAN 81 JAKARTA",
+    "major": "HUKUM - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 565
+  },
+  {
+    "name": "FARREL SHEVA A.",
+    "school": "SMAN 6 JAKARTA",
+    "major": "ILMU KOMPUTER - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 566
+  },
+  {
+    "name": "RAFI AHMAD S.",
+    "school": "SMA MADANIA",
+    "major": "TEKNIK INDUSTRI - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 567
+  },
+  {
+    "name": "MILKA F.",
+    "school": "SMAK PENABUR BINTARO JAYA",
+    "major": "FSRD - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 568
+  },
+  {
+    "name": "RAKA PRATAMA S.",
+    "school": "MA HUSNUL KHOTIMAH",
+    "major": "ILMU KELAUTAN - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 569
+  },
+  {
+    "name": "NISA BELLA M. N.",
+    "school": "SMAI AL AZHAR 19",
+    "major": "TEKNIK INDUSTRI PERTANIAN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 570
+  },
+  {
+    "name": "BINTANG PUTERA A.",
+    "school": "SMA TARUNA NUSANTARA",
+    "major": "TEKNIK MESIN - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 571
+  },
+  {
+    "name": "KHAILA ATIKAH P. S.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "PSIKOLOGI - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 572
+  },
+  {
+    "name": "MUHAMAD RAKHA A.",
+    "school": "SMAI AL-AZHAR 19 CIRACAS",
+    "major": "ILMU ADMINISTRASI NEGARA - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 573
+  },
+  {
+    "name": "DAMAR ADI W.",
+    "school": "SEKOLAH CITA BUANA",
+    "major": "MANAJEMEN INTERNASIONAL - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 574
+  },
+  {
+    "name": "KHAILA ATIKAH P. S.",
+    "school": "SMAN 91 JAKARTA",
+    "major": "ILMU KOMUNIKASI - UPN VETERAN JAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 575
+  },
+  {
+    "name": "NISA BELLA M. N.",
+    "school": "SMAI AL AZHAR 19",
+    "major": "TEKNIK LINGKUNGAN - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 576
+  },
+  {
+    "name": "MUHAMMAD TOHIR E. H.",
+    "school": "SMAN 37 JAKARTA",
+    "major": "TEKNIK INDUSTRI - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 577
+  },
+  {
+    "name": "KESIA SANTANA L.",
+    "school": "BINUS SCHOOL SIMPRUG",
+    "major": "MANAJEMEN INTERNASIONAL - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 578
+  },
+  {
+    "name": "NISA BELLA M. N.",
+    "school": "SMAI AL AZHAR 19",
+    "major": "SUPERVISOR JAMINAN MUTU PANGAN - D3 IPB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 579
+  },
+  {
+    "name": "ALYA ANDITA D.",
+    "school": "SMA KOLESE LOYOLA",
+    "major": "FARMASI - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 580
+  },
+  {
+    "name": "KELVIN KENZIE M.",
+    "school": "SMAS PRIBADI BEJI",
+    "major": "TEKNIK INFANSTRUKTUR LINGKUNGAN - UGM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 581
+  },
+  {
+    "name": "DINDA D. N.",
+    "school": "SMA PLUS PGRI CIBINONG",
+    "major": "HUMAS - UPN VETERAN YOGYAKARTA",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 582
+  },
+  {
+    "name": "BINTANG PUTERA A.",
+    "school": "SMA TARUNA NUSANTARA",
+    "major": "TEKNIK GEOLOGI - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 583
+  },
+  {
+    "name": "RAKA PRATAMA S.",
+    "school": "MA HUSNUL KHOTIMAH",
+    "major": "PERIKANAN K. PANGANDARAN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 584
+  },
+  {
+    "name": "M. KHADAFFI H. S.",
+    "school": "MA SUNAN PANDANARAN",
+    "major": "MANAJEMEN KOMUNIKASI - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 585
+  },
+  {
+    "name": "DAVINA RIZKIKA T.",
+    "school": "SMA SULTHON AULIA BOARDING SCHOOL",
+    "major": "PSIKOLOGI - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 586
+  },
+  {
+    "name": "NISA BELLA M. N.",
+    "school": "SMAI AL AZHAR 19",
+    "major": "TEKNOLOGI INDUSTRI PERTANIAN - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 587
+  },
+  {
+    "name": "KELVIN KENZIE M.",
+    "school": "SMAS PRIBADI BEJI",
+    "major": "TEKNIK LINGKUNGAN - UB",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 588
+  },
+  {
+    "name": "RANIA AZIZA S.",
+    "school": "AL IZHAR PONDOK LABU",
+    "major": "ILMU HUKUM - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 589
+  },
+  {
+    "name": "ATHIRA TIARA P.",
+    "school": "SMA LABSCHOOL RAWAMANGUN",
+    "major": "SASTRA JERMAN - UI",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 590
+  },
+  {
+    "name": "ZIVA MUHAMMAD N.",
+    "school": "MA HUSNUL KHOTIMAH",
+    "major": "TEKNIK SIPIL - UNDIP",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 591
+  },
+  {
+    "name": "DELFIN AHMAD A.",
+    "school": "AL JABR ISLAMIC SCHOOL",
+    "major": "ENTREPRENEURSHIP - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 592
+  },
+  {
+    "name": "KAYLA TABINA A.",
+    "school": "SEKOLAH CITA BUANA",
+    "major": "MANAGEMENT - UNPAD",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 593
+  },
+  {
+    "name": "MATTHEW RISDIAN P. S.",
+    "school": "SMA N 11 DEPOK",
+    "major": "KEDOKTERAN - UNAIR",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 594
+  },
+  {
+    "name": "AHMAD JULIO U.",
+    "school": "SMA YAPNI",
+    "major": "MANAJEMEN - UNRAM",
+    "university": "",
+    "year": null,
+    "route": "",
+    "id": 595
+  }
+]

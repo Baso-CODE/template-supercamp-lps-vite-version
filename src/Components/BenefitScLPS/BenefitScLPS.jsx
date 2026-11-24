@@ -17,7 +17,7 @@ const BenefitScLps = () => {
               className="icon-untungnya-sc-lps"
               loading="lazy"
             />
-            Pendampingan akademik dan non akademik setiap hari (24 jam)
+            Bimbingan akademik dan personal setiap hari
           </li>
 
           <li className="list-benefit-sc-lps">
@@ -27,7 +27,8 @@ const BenefitScLps = () => {
               className="icon-untungnya-sc-lps"
               loading="lazy"
             />
-            Siswa lebih fokus dalam belajar dan terhindar dari distraksi
+            Lingkungan karantina kondusif untuk belajar lebih fokus, disiplin,
+            dan produktif
           </li>
 
           <li className="list-benefit-sc-lps">
@@ -37,7 +38,8 @@ const BenefitScLps = () => {
               className="icon-untungnya-sc-lps"
               loading="lazy"
             />
-            Program belajar terencana dengan target nilai yang terukur
+            Program terstruktur dengan target nilai dan evaluasi progres secara
+            berkala
           </li>
 
           <li className="list-benefit-sc-lps">
@@ -47,7 +49,8 @@ const BenefitScLps = () => {
               className="icon-untungnya-sc-lps"
               loading="lazy"
             />
-            Metode belajar personal, sistematis, dan terstruktur
+            Metode belajar yang disesuaikan dengan kebutuhan dan kemampuan
+            setiap siswa
           </li>
 
           <li className="list-benefit-sc-lps">
@@ -57,8 +60,8 @@ const BenefitScLps = () => {
               className="icon-untungnya-sc-lps"
               loading="lazy"
             />
-            Proses belajar efektif dan efisien untuk meningkatkan peluang lolos
-            PTN
+            Pembelajaran intensif, sistematis, dan tepat sasaran untuk
+            memaksimalkan potensi akademik
           </li>
 
           <li className="list-benefit-sc-lps">
@@ -68,8 +71,8 @@ const BenefitScLps = () => {
               className="icon-untungnya-sc-lps"
               loading="lazy"
             />
-            Pendekatan holistik mencakup pemahaman materi, strategi ujian,
-            motivasi, dan mentalitas
+            Tidak hanya menguasai materi, tetapi juga strategi ujian, motivasi,
+            dan mentalitas juara
           </li>
         </ul>
 

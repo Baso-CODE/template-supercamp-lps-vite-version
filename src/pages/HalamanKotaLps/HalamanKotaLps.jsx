@@ -180,8 +180,8 @@ const HalamanKotaLps = () => {
               Selain mempersiapkan kemampuan akademik, siswa di {namaKota} juga
               dapat menyusun strategi belajar berdasarkan target jurusan dan
               perguruan tinggi pilihan. Pendampingan dapat diarahkan pada
-              persiapan masuk kampus seperti UI, UGM, ITB, UNAIR, UNDIP, maupun
-              Fakultas Kedokteran melalui jalur seleksi yang sesuai.
+              persiapan masuk kampus seperti UI, UGM, UNPAD, UNAIR, UNDIP,
+              maupun Fakultas Kedokteran melalui jalur seleksi yang sesuai.
             </p>
 
             <p className="closing-statement">

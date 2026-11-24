@@ -92,7 +92,7 @@ const Footer = () => {
                     href="">
                     Supercamp MATRIX adalah lembaga bimbingan belajar dengan
                     sistem karantina. Program ini menjadi solusi terbaik untuk
-                    siswa agar sukses masuk UI ITB UGM IPB Unpad & Perguruan
+                    siswa agar sukses masuk UI UNPAD UGM IPB Unpad & Perguruan
                     Tinggi Negeri Favorit.
                   </a>
                 </li>

@@ -1,84 +1,346 @@
-/* Styling the table */
-.student-table {
+.sc-alumni.parent-table-student {
+  --sc-orange: #ff8a00;
+  --sc-yellow: #ffc13d;
+  --sc-navy: #173e93;
+  --sc-ink: #23334b;
+  position: relative;
   width: 100%;
-
-  margin: 20px auto;
-  border-collapse: collapse;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  margin: 0;
+  padding: clamp(28px, 5vw, 64px) clamp(12px, 4vw, 48px);
+  /* background:
+    radial-gradient(ellipse at 10% 0%, #fff1bf 0%, transparent 40%),
+    radial-gradient(ellipse at 90% 100%, #ffad31 0%, transparent 45%),
+    linear-gradient(135deg, #ffca55, #ff971f 65%, #ffb535); */
+  box-sizing: border-box;
 }
-
-/* Header Row */
-.student-table thead {
-  background-color: #f76300;
-  color: white;
+.sc-alumni *,
+.sc-alumni *::before,
+.sc-alumni *::after {
+  box-sizing: border-box;
 }
-
-.student-table th {
-  padding: 12px 15px;
-  text-align: left;
+.sc-alumni .sc-alumni-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-width: 0;
 }
-
-/* Table Body */
-.student-table tbody tr:nth-child(odd) {
-  background-color: #f9f9f9;
-}
-
-.student-table tbody tr:nth-child(even) {
-  background-color: #f7eee6;
-}
-
-.student-table td {
-  padding: 12px 15px;
-  text-align: left;
-}
-.parent-table-student {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-.main-title-list-student {
+.sc-alumni .sc-alumni-heading {
   text-align: center;
-  color: #004f77;
-  margin-top: 30px;
+  margin: 0 auto 24px;
+  max-width: 850px;
 }
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-  .parent-table-student {
-    padding-left: 3%;
-    padding-right: 3%;
+.sc-alumni .sc-alumni-kicker {
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow:
+    inset 0 1px 2px #fff,
+    0 4px 12px #b85d0012;
+  color: #8b4200;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.sc-alumni .main-title-list-student {
+  margin: 12px 0 8px;
+  color: var(--sc-navy);
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 800;
+  line-height: 1.18;
+}
+.sc-alumni .child-title-list-student {
+  color: #263958;
+  font-size: clamp(13px, 1.3vw, 16px);
+  line-height: 1.65;
+  font-weight: 500;
+  margin: 0;
+}
+.sc-alumni .sc-alumni-glass {
+  position: relative;
+  min-width: 0;
+  padding: clamp(12px, 2vw, 24px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 26px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.91),
+    rgba(255, 247, 225, 0.76)
+  );
+  box-shadow:
+    0 18px 45px #9f4e0029,
+    inset 0 2px 2px rgba(255, 255, 255, 0.98),
+    inset 0 -1px 3px rgba(255, 255, 255, 0.55);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  backdrop-filter: blur(16px) saturate(150%);
+}
+.sc-alumni .sc-alumni-toolbar {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+}
+.sc-alumni .sc-alumni-search {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  background: #fff;
+  border: 1px solid #efc38a;
+  border-radius: 14px;
+  box-shadow: inset 0 2px 5px #a65d0010;
+}
+.sc-alumni .sc-alumni-search svg {
+  width: 21px;
+  height: 21px;
+  flex: 0 0 21px;
+  color: #b75a00;
+}
+.sc-alumni .sc-alumni-search input {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 8px 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--sc-ink);
+  font: inherit;
+  font-size: 15px;
+}
+.sc-alumni .sc-alumni-search input::placeholder {
+  color: #6c737d;
+  opacity: 1;
+}
+.sc-alumni .sc-alumni-search:focus-within {
+  outline: 2px solid #b95800;
+  outline-offset: 2px;
+}
+.sc-alumni .sc-alumni-year select {
+  display: block;
+  height: 100%;
+  min-height: 48px;
+  max-width: 100%;
+  padding: 8px 14px;
+  background: #fff;
+  border: 1px solid #efc38a;
+  border-radius: 14px;
+  color: var(--sc-navy);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sc-alumni .sc-alumni-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 42px;
+  margin: 4px 0;
+}
+.sc-alumni .sc-alumni-status p {
+  margin: 0;
+  color: #694929;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.sc-alumni .sc-alumni-status strong {
+  color: var(--sc-navy);
+}
+.sc-alumni .sc-alumni-status button {
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #9c4100;
+  text-decoration: underline;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px;
+  cursor: pointer;
+}
+.sc-alumni .sc-alumni-scroll {
+  width: 100%;
+  max-height: 480px;
+  max-height: min(480px, 65dvh);
+  overflow: auto;
+  border: 1px solid #f1cd99;
+  border-radius: 16px;
+  background: #fff;
+  scrollbar-color: #db790d #fff0d7;
+  scrollbar-width: auto;
+}
+.sc-alumni .sc-alumni-scroll:focus-visible,
+.sc-alumni select:focus-visible,
+.sc-alumni button:focus-visible {
+  outline: 2px solid #a94d00;
+  outline-offset: 2px;
+}
+.sc-alumni .student-table {
+  width: 100%;
+  min-width: 760px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  table-layout: fixed;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.sc-alumni .student-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: linear-gradient(180deg, #ffc356, #ffa323);
+  color: #493000;
+  text-align: left;
+  padding: 14px 12px;
+  font-weight: 750;
+  font-size: 13px;
+  border: 0;
+  border-bottom: 1px solid #ed9c25;
+  box-shadow: 0 2px 3px #a55a0010;
+}
+.sc-alumni .student-table th:nth-child(1) {
+  width: 7%;
+}
+.sc-alumni .student-table th:nth-child(2) {
+  width: 23%;
+}
+.sc-alumni .student-table th:nth-child(3) {
+  width: 28%;
+}
+.sc-alumni .student-table th:nth-child(4) {
+  width: 33%;
+}
+.sc-alumni .student-table th:nth-child(5) {
+  width: 9%;
+}
+.sc-alumni .student-table tbody td {
+  padding: 12px;
+  border: 0;
+  border-bottom: 1px solid #f3e7d8;
+  color: var(--sc-ink);
+  text-align: left;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+  font-weight: 400;
+}
+.sc-alumni .student-table tbody tr:nth-child(even) td {
+  background: #fff8ed;
+}
+.sc-alumni .student-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.sc-alumni .student-table th:first-child,
+.sc-alumni .student-table td:first-child,
+.sc-alumni .student-table th:last-child,
+.sc-alumni .student-table td:last-child {
+  text-align: center;
+}
+.sc-alumni .student-table tbody .sc-alumni-name {
+  color: var(--sc-navy);
+  font-weight: 650;
+}
+.sc-alumni .sc-alumni-major {
+  display: block;
+  font-weight: 600;
+}
+.sc-alumni .sc-alumni-university {
+  display: block;
+  font-size: 12px;
+  color: #49617e;
+  margin-top: 3px;
+}
+.sc-alumni .sc-alumni-route {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: #fff0d6;
+  color: #875000;
+  font-size: 11px;
+  font-weight: 600;
+}
+.sc-alumni .student-table tbody .sc-alumni-empty {
+  padding: 32px 16px;
+  text-align: center;
+  color: #6b5541;
+}
+.sc-alumni .sc-alumni-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 12px;
+  padding: 12px 2px 0;
+  color: #745332;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.sc-alumni .sc-alumni-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (hover: hover) {
+  .sc-alumni .student-table tbody tr:hover td {
+    background: #ffedcf;
   }
-  .student-table th,
-  .student-table td {
-    padding: 8px 10px;
+}
+@media (max-width: 896px) {
+  .sc-alumni .sc-alumni-glass {
+    border-radius: 20px;
   }
-
-  .student-table {
-    border: 0;
+  .sc-alumni .sc-alumni-scroll {
+    max-height: 420px;
+    max-height: min(420px, 60dvh);
   }
-
-  .student-table th,
-  .student-table td {
-    font-size: 14px;
-  }
-  .main-title-list-student {
-    font-size: 23px;
-    font-weight: 800;
-  }
-  .child-title-list-student {
+  .sc-alumni .student-table {
     font-size: 13px;
-    text-align: center;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .student-table th,
-  .student-table td {
-    padding: 5px 8px;
+@media (max-width: 600px) {
+  .sc-alumni .sc-alumni-toolbar {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .sc-alumni .sc-alumni-year select {
+    width: 100%;
+  }
+  .sc-alumni .sc-alumni-search input {
+    font-size: 16px;
+  }
+  .sc-alumni .sc-alumni-scroll {
+    max-height: 360px;
+    max-height: min(360px, 55dvh);
+    border-radius: 12px;
+  }
+  .sc-alumni .student-table {
+    min-width: 680px;
+  }
+  .sc-alumni .student-table thead th,
+  .sc-alumni .student-table tbody td {
+    padding: 11px 9px;
+  }
+  .sc-alumni .sc-alumni-footer {
     font-size: 11px;
+  }
+}
+@supports not (
+  (backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px))
+) {
+  .sc-alumni .sc-alumni-glass {
+    background: #fff7e9;
   }
 }

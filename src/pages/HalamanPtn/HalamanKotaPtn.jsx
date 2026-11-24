@@ -174,8 +174,8 @@ const HalamanKotaPtn = () => {
           mempertimbangkan kesesuaian jurusan, target kampus, serta jalur
           penerimaan mahasiswa baru. Melalui program les privat dan Supercamp,
           persiapan dapat disesuaikan dengan kebutuhan akademik dan tujuan
-          pendidikan masing-masing peserta, baik yang menargetkan UI, UGM, ITB,
-          UNAIR, UNDIP, maupun perguruan tinggi negeri lainnya.
+          pendidikan masing-masing peserta, baik yang menargetkan UI, UGM,
+          UNPAD, UNAIR, UNDIP, maupun perguruan tinggi negeri lainnya.
           <br />
           <br />
           Dengan jadwal belajar yang terencana, latihan konsisten, dan

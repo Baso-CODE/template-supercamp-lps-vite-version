@@ -1,63 +1,469 @@
+/* =========================================
+   SUPERCAMP VIDEO PROFILE
+========================================= */
+
 .parent-box-video-sc-lps {
-  margin-top: 80px; /* Jarak yang lebih proporsional */
-  padding: 0 13%;
-  text-align: center;
-}
-
-.title-video-sc-lps {
-  color: #004f77;
-  font-weight: 800;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.desk-video-sc-lps {
-  max-width: 900px;
-  margin: 0 auto 50px auto;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #000000;
-  opacity: 0.95;
-}
-
-/* Container untuk menjaga rasio 16:9 */
-.video-wrapper {
   position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  border-radius: 20px; /* Membuat sudut video tumpul agar modern */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  margin-top: 80px;
+  padding: 0 5%;
+  text-align: center;
 }
 
-.video-wrapper iframe {
+.parent-box-video-sc-lps *,
+.parent-box-video-sc-lps *::before,
+.parent-box-video-sc-lps *::after {
+  box-sizing: border-box;
+}
+
+/* =========================================
+   SECTION HEADING
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-heading {
+  max-width: 900px;
+  margin: 0 auto 30px;
+}
+
+.parent-box-video-sc-lps .title-video-sc-lps {
+  margin: 0 0 12px;
+  color: #004f77;
+  font-size: clamp(23px, 2.5vw, 32px);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.parent-box-video-sc-lps .desk-video-sc-lps {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #33465e;
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+/* =========================================
+   VIDEO GRID
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 22px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.parent-box-video-sc-lps .sc-video-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* =========================================
+   SIMPLE LIQUID GLASS FRAME
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-glass-frame {
+  position: relative;
+  width: 100%;
+  padding: 6px;
+  border-radius: 23px;
+  border: 1px solid rgba(215, 223, 234, 0.85);
+  background: linear-gradient(145deg, #ffffff, #f1f4f8);
+  box-shadow:
+    0 10px 28px rgba(23, 63, 146, 0.08),
+    inset 0 2px 2px rgba(255, 255, 255, 1);
+  transition:
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+@media (hover: hover) {
+  .parent-box-video-sc-lps .sc-video-glass-frame:hover {
+    border-color: rgba(255, 174, 50, 0.6);
+    box-shadow:
+      0 14px 30px rgba(23, 63, 146, 0.12),
+      inset 0 2px 2px rgba(255, 255, 255, 1);
+  }
+}
+
+/* =========================================
+   VIDEO WRAPPER - 16:9
+========================================= */
+
+.parent-box-video-sc-lps .video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 17px;
+  background: #111827;
+}
+
+.parent-box-video-sc-lps .video-wrapper iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  inset: 0;
+  display: block;
   width: 100%;
   height: 100%;
   border: none;
 }
 
-/* RESPONSIVE */
-@media only screen and (max-width: 896px) {
+/* =========================================
+   YOUTUBE THUMBNAIL
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-thumbnail-button {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.parent-box-video-sc-lps .sc-video-thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.45s ease;
+}
+
+.parent-box-video-sc-lps .sc-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.24));
+  pointer-events: none;
+}
+
+@media (hover: hover) {
+  .parent-box-video-sc-lps
+    .sc-video-thumbnail-button:hover
+    .sc-video-thumbnail {
+    transform: scale(1.035);
+  }
+}
+
+/* =========================================
+   LIQUID GLASS PLAY BUTTON
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-play-button {
+  position: absolute;
+  isolation: isolate;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.9);
+
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 190, 65, 0.4)
+  );
+
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  backdrop-filter: blur(16px) saturate(160%);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.2),
+    inset 0 2px 3px rgba(255, 255, 255, 0.8),
+    inset 0 -2px 4px rgba(255, 255, 255, 0.15);
+
+  color: #ffffff;
+  font-size: 22px;
+  transform: translate(-50%, -50%);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* Pantulan cahaya pada tombol play */
+
+.parent-box-video-sc-lps .sc-video-play-button::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 12%;
+  right: 12%;
+  height: 45%;
+  z-index: -1;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), transparent);
+  pointer-events: none;
+}
+
+.parent-box-video-sc-lps .sc-video-play-button svg {
+  margin-left: 4px;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3));
+}
+
+@media (hover: hover) {
+  .parent-box-video-sc-lps
+    .sc-video-thumbnail-button:hover
+    .sc-video-play-button {
+    transform: translate(-50%, -50%) scale(1.1);
+
+    background: linear-gradient(
+      145deg,
+      rgba(255, 224, 157, 0.75),
+      rgba(255, 150, 0, 0.65)
+    );
+
+    box-shadow:
+      0 10px 30px rgba(255, 153, 0, 0.25),
+      inset 0 2px 3px rgba(255, 255, 255, 0.9);
+  }
+}
+
+.parent-box-video-sc-lps
+  .sc-video-thumbnail-button:active
+  .sc-video-play-button {
+  transform: translate(-50%, -50%) scale(0.94);
+}
+
+/* =========================================
+   YEAR AND LATEST BADGE
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-year,
+.parent-box-video-sc-lps .sc-video-latest {
+  position: absolute;
+  top: 12px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.3;
+  pointer-events: none;
+}
+
+.parent-box-video-sc-lps .sc-video-year {
+  left: 12px;
+  color: #173f92;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.88);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.parent-box-video-sc-lps .sc-video-latest {
+  right: 12px;
+  color: #543100;
+  border: 1px solid rgba(255, 224, 155, 0.9);
+  background: linear-gradient(145deg, #ffd77e, #ffb82e);
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.12),
+    inset 0 1px 1px rgba(255, 255, 255, 0.7);
+  font-size: 9px;
+  letter-spacing: 0.03em;
+}
+
+/* =========================================
+   VIDEO INFORMATION
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-information {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px 5px 0;
+  text-align: left;
+}
+
+.parent-box-video-sc-lps .sc-video-card-title {
+  margin: 0 0 6px;
+  color: #173f92;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.parent-box-video-sc-lps .sc-video-card-description {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.parent-box-video-sc-lps .sc-video-youtube-link {
+  align-self: flex-start;
+  margin-top: auto;
+  padding-top: 12px;
+  color: #b95b00;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.parent-box-video-sc-lps .sc-video-youtube-link:hover {
+  color: #a84c00;
+  text-decoration: underline;
+}
+
+/* =========================================
+   KEYBOARD ACCESSIBILITY
+========================================= */
+
+.parent-box-video-sc-lps .sc-video-thumbnail-button:focus-visible {
+  outline: 3px solid #ffc247;
+  outline-offset: -5px;
+}
+
+.parent-box-video-sc-lps .sc-video-youtube-link:focus-visible {
+  outline: 2px solid #173f92;
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+  .parent-box-video-sc-lps {
+    padding: 0 4%;
+  }
+
+  .parent-box-video-sc-lps .sc-video-grid {
+    gap: 16px;
+  }
+
+  .parent-box-video-sc-lps .desk-video-sc-lps {
+    font-size: 14.5px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-card-title {
+    font-size: 15px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-play-button {
+    width: 56px;
+    height: 56px;
+    font-size: 19px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 896px) {
   .parent-box-video-sc-lps {
     margin-top: 50px;
-    padding: 0 3%;
+    padding: 0 4%;
   }
 
-  .title-video-sc-lps {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  .desk-video-sc-lps {
-    font-size: 14px;
+  .parent-box-video-sc-lps .sc-video-heading {
+    margin-bottom: 22px;
   }
 
-  .video-wrapper {
-    border-radius: 12px; /* Radius lebih kecil di mobile */
+  .parent-box-video-sc-lps .title-video-sc-lps {
+    font-size: clamp(20px, 4.5vw, 26px);
+  }
+
+  .parent-box-video-sc-lps .desk-video-sc-lps {
+    font-size: 13.5px;
+    line-height: 1.7;
+  }
+
+  .parent-box-video-sc-lps .sc-video-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 650px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-glass-frame {
+    padding: 5px;
+    border-radius: 19px;
+  }
+
+  .parent-box-video-sc-lps .video-wrapper {
+    border-radius: 14px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-play-button {
+    width: 58px;
+    height: 58px;
+    font-size: 19px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-information {
+    padding: 12px 4px 0;
+  }
+
+  .parent-box-video-sc-lps .sc-video-card-title {
+    font-size: 15px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-card-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .parent-box-video-sc-lps .desk-video-sc-lps {
+    font-size: 13px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-play-button {
+    width: 52px;
+    height: 52px;
+    font-size: 18px;
+  }
+
+  .parent-box-video-sc-lps .sc-video-year,
+  .parent-box-video-sc-lps .sc-video-latest {
+    top: 9px;
+  }
+}
+
+/* =========================================
+   BROWSER FALLBACK
+========================================= */
+
+@supports not (
+  (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))
+) {
+  .parent-box-video-sc-lps .sc-video-play-button {
+    background: rgba(255, 168, 30, 0.9);
+  }
+}
+
+/* =========================================
+   REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .parent-box-video-sc-lps .sc-video-glass-frame,
+  .parent-box-video-sc-lps .sc-video-thumbnail,
+  .parent-box-video-sc-lps .sc-video-play-button {
+    transition: none;
   }
 }

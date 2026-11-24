@@ -100,7 +100,7 @@ const TestimoniLps2 = () => {
       </h2>
 
       <p className="desc-testimoni-lps2">
-        Puluhan siswa Supercamp berhasil masuk UI, UGM, ITB, Undip, Unpad, dan
+        Puluhan siswa Supercamp berhasil masuk UI, UGM, UNPAD, Undip, Unpad, dan
         berbagai PTN favorit melalui program karantina intensif UTBK SNBT.
       </p>
 

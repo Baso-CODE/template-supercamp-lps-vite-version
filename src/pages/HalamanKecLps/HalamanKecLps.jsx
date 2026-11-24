@@ -170,8 +170,8 @@ const HalamanKecLps = () => {
           <br />
           <br />
           Bagi siswa di {namaKecamatan} yang menargetkan perguruan tinggi
-          seperti UI, UGM, ITB, maupun Fakultas Kedokteran, proses belajar dapat
-          disesuaikan dengan kemampuan awal, jurusan pilihan, serta waktu
+          seperti UI, UGM, UNPAD, maupun Fakultas Kedokteran, proses belajar
+          dapat disesuaikan dengan kemampuan awal, jurusan pilihan, serta waktu
           persiapan yang tersedia. Melalui kombinasi les privat, program
           Supercamp, dan evaluasi hasil latihan, siswa dapat mengembangkan
           strategi belajar yang lebih efektif untuk menghadapi persaingan masuk
