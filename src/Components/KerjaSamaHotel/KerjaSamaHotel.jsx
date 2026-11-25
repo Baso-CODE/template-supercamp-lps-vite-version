@@ -9,7 +9,16 @@ const KerjasamaHotel = () => {
         </h2>
 
         <div className="partnership-logos">
-          {/* Hotel UGM */}
+          {/* Hotel MIC Residence */}
+          <div className="logo-wrapper">
+            <img
+              src={"/images/kerjasama/mic-residence.png"}
+              alt="Kerjasama Supercamp dengan Hotel MM UGM Yogyakarta sebagai lokasi program karantina belajar"
+              className="partner-logo"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
           <div className="logo-wrapper">
             <img
               src={"/images/kerjasama/Hotel_UGM.webp"}

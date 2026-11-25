@@ -19,12 +19,12 @@ const FasilitasSupercamp = () => {
       icon: "📚",
       items: [
         "Modul Belajar Lengkap & Prediktif UTBK SNBT.",
-        "Sistem Privat (1-on-1) atau Small Class (Maks 6 Siswa).",
+        "Small Class (8 - 12) siswa",
         "4 Sesi Belajar + 1 Sesi Klinik Malam (Senin - Jumat).",
         "Try Out UTBK Online Mingguan + Pembahasan.",
         "Intensive Quiz Harian (Senin - Jumat).",
         "Konsultasi Progres & Evaluasi Belajar Harian.",
-        "Bebas Ganti Pengajar jika merasa tidak cocok.",
+        "Bebas Ganti Pengajar jika merasa tidak cocok (khusus privat).",
       ],
     },
     {

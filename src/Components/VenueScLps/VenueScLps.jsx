@@ -83,7 +83,8 @@ const VenueScLps = () => {
             aria-hidden="true"
             className="icon-lokasi-sc-lps"
           />
-          Yogyakarta dilaksanakan di Hotel MM UGM, dekat Universitas Gadjah Mada
+          Yogyakarta dilaksanakan di Hotel MIC Residence, dekat Universitas
+          Gadjah Mada
         </span>
       </div>
 
@@ -110,7 +111,7 @@ const VenueScLps = () => {
             aria-hidden="true"
             className="icon-lokasi-sc-lps"
           />
-          Gelombang 1: Maret 2027
+          Batch 1: Maret 2027
         </span>
 
         <span className="parent-text-icon-lokasi-sc-lps">
@@ -120,7 +121,7 @@ const VenueScLps = () => {
             aria-hidden="true"
             className="icon-lokasi-sc-lps"
           />
-          Gelombang 2: Mei 2027
+          Batch 2: April 2027
         </span>
       </div>
     </section>

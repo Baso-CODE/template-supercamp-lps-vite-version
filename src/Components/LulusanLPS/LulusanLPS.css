@@ -1,22 +1,163 @@
-.img-lulusan-lps {
-  width: 70%;
-  margin-top: 100px;
-}
+/* =========================================
+   SUPERCAMP SUCCESS STORIES
+========================================= */
+
 .box-lulusan-lps {
+  --lulusan-navy: #263d80;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #263c80;
+  width: 100%;
+  padding: 60px 5%;
+  overflow: hidden;
+  background-color: var(--lulusan-navy);
 }
 
-/* RESPONSIVE */
-@media only screen and (min-width: 320px) and (max-width: 896px) {
-  .img-lulusan-lps {
-    width: 100%;
-    margin-top: 0;
-  }
+.box-lulusan-lps *,
+.box-lulusan-lps *::before,
+.box-lulusan-lps *::after {
+  box-sizing: border-box;
+}
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.box-lulusan-lps .lulusan-lps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================================
+   GAMBAR LULUSAN UTAMA
+========================================= */
+
+.box-lulusan-lps .img-lulusan-lps {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+}
+
+/* =========================================
+   SUCCESS STORIES - LIQUID GLASS WHITE
+========================================= */
+
+.box-lulusan-lps .lulusan-lps-glass-card {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  max-width: 1100px;
+  padding: clamp(20px, 3vw, 40px);
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  background: linear-gradient(145deg, #ffffff 0%, #f8faff 50%, #e9effb 100%);
+  box-shadow:
+    0 15px 40px rgba(0, 15, 55, 0.18),
+    inset 0 2px 3px rgba(255, 255, 255, 1),
+    inset 0 -2px 4px rgba(38, 61, 128, 0.05);
+}
+
+/* Pantulan lembut di permukaan card */
+
+.box-lulusan-lps .lulusan-lps-glass-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ffffff, transparent);
+  pointer-events: none;
+}
+
+/* =========================================
+   GAMBAR SUCCESS STORIES
+========================================= */
+
+.box-lulusan-lps .img-success-story-lps {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
   .box-lulusan-lps {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 45px 4%;
+  }
+
+  .box-lulusan-lps .lulusan-lps-container {
+    gap: 25px;
+  }
+
+  .box-lulusan-lps .lulusan-lps-glass-card {
+    padding: 25px;
+    border-radius: 24px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 896px) {
+  .box-lulusan-lps {
+    padding: 25px 3%;
+  }
+
+  .box-lulusan-lps .lulusan-lps-container {
+    gap: 18px;
+  }
+
+  .box-lulusan-lps .img-lulusan-lps {
+    width: 100%;
+    margin: 0;
+  }
+
+  .box-lulusan-lps .lulusan-lps-glass-card {
+    padding: 15px;
+    border-radius: 18px;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+  .box-lulusan-lps {
+    padding: 15px 3%;
+  }
+
+  .box-lulusan-lps .lulusan-lps-container {
+    gap: 15px;
+  }
+
+  .box-lulusan-lps .lulusan-lps-glass-card {
+    padding: 10px;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .box-lulusan-lps .lulusan-lps-glass-card {
+    padding: 8px;
+    border-radius: 12px;
   }
 }
