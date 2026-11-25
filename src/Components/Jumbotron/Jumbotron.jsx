@@ -108,6 +108,7 @@ const JumbotronLps = () => {
             </p>
           </div>
         </div>
+
         <div
           className="feature-card intensive"
           style={{ backgroundImage: `url(${bgOnlineClass})` }}>

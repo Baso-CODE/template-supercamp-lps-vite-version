@@ -1,82 +1,825 @@
-.container-form {
-  padding-left: 25%;
-  padding-right: 25%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin-top: 50px;
-  margin-bottom: 70px;
-}
-.supertitle-registrasi {
+/* =========================================
+   REGISTRASI - LIQUID GLASS ORANGE
+   SUPERCAMP MATRIX
+========================================= */
+
+.sc-registration {
+  --reg-navy: #173f92;
+  --reg-orange: #f76300;
+  --reg-yellow: #ffc247;
+  --reg-text: #33465e;
+  --reg-muted: #64748b;
+
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
   margin-top: 70px;
-  background-color: rgb(240, 111, 6);
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: white;
-  font-size: 25px;
-  font-weight: 600;
-}
-.parent-form {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-.superparent-form-1 {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 25px;
-  background-color: white;
-  border-radius: 12px;
-  margin-top: 30px;
-}
-.title-form-email {
-  font-size: 17px;
-  margin-bottom: 10px;
-}
-.form-input-resgitrasi {
-  padding: 10px;
-  border: 1px solid rgb(201, 201, 201);
-  outline: none;
-  border-radius: 5px;
-  font-family: "Poppins", serif;
-}
-.input-textarea {
-  height: 20vh;
-  padding: 10px;
-  font-family: "Poppins", serif;
-  outline: none;
-  border: 1px solid rgb(201, 201, 201);
-  border-radius: 5px;
-}
-.btn-input-resgitrasi {
-  padding: 8px;
-  background-color: rgb(240, 111, 6);
-  border: 1px solid transparent;
-  border-radius: 5px;
-  color: white;
-  font-family: "Poppins", serif;
-  font-weight: 600;
-  cursor: pointer;
-}
-.label-form {
-  font-size: 14px;
-  margin-bottom: 5px;
-  font-weight: 500;
+  padding: 50px 5% 65px;
+  overflow: hidden;
+  background: #ffffff;
+  font-family: inherit;
 }
 
-/* RESPONSIVE */
-@media only screen and (min-width: 320px) and (max-width: 896px) {
-  .container-form {
-    padding-left: 3%;
-    padding-right: 3%;
+.sc-registration *,
+.sc-registration *::before,
+.sc-registration *::after {
+  box-sizing: border-box;
+}
+
+/* =========================================
+   AMBIENT LIQUID GLASS BACKGROUND
+========================================= */
+
+.sc-registration::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(
+      ellipse at 10% 20%,
+      rgba(255, 184, 56, 0.19),
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at 90% 75%,
+      rgba(255, 127, 30, 0.12),
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at 50% 45%,
+      rgba(255, 220, 155, 0.12),
+      transparent 60%
+    );
+  pointer-events: none;
+}
+
+.sc-registration .sc-registration-container {
+  position: relative;
+  width: 100%;
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+/* =========================================
+   REGISTRATION HEADING
+========================================= */
+
+.sc-registration .sc-registration-heading {
+  max-width: 600px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.sc-registration .sc-registration-heading-icon {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  margin: 0 auto 17px;
+  overflow: hidden;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 185, 60, 0.65);
+  background: linear-gradient(145deg, #fff9e9 0%, #ffe5ac 55%, #ffd17a 100%);
+  box-shadow:
+    0 10px 28px rgba(255, 153, 0, 0.15),
+    inset 0 2px 3px rgba(255, 255, 255, 1),
+    inset 0 -3px 5px rgba(255, 153, 0, 0.08);
+  color: #b86b00;
+  font-size: 31px;
+}
+
+.sc-registration .sc-registration-heading-icon::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 3px;
+  left: 10%;
+  right: 10%;
+  height: 45%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), transparent);
+  pointer-events: none;
+}
+
+.sc-registration .sc-registration-eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #ad6500;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+}
+
+.sc-registration .supertitle-registrasi {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--reg-navy);
+  font-size: clamp(27px, 3vw, 40px);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.8px;
+}
+
+.sc-registration .sc-registration-description {
+  max-width: 540px;
+  margin: 12px auto 0;
+  color: var(--reg-muted);
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* =========================================
+   MAIN LIQUID GLASS FORM
+========================================= */
+
+.sc-registration .container-form {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+  margin: 0;
+  padding: 32px;
+  overflow: hidden;
+  border: 1px solid rgba(224, 187, 128, 0.5);
+  border-radius: 30px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.98) 0%,
+    rgba(255, 253, 249, 0.9) 60%,
+    rgba(255, 246, 230, 0.85) 100%
+  );
+  -webkit-backdrop-filter: blur(22px) saturate(150%);
+  backdrop-filter: blur(22px) saturate(150%);
+  box-shadow:
+    0 20px 60px rgba(106, 70, 14, 0.09),
+    0 4px 14px rgba(23, 63, 146, 0.035),
+    inset 0 2px 3px rgba(255, 255, 255, 1),
+    inset 0 -2px 3px rgba(255, 190, 70, 0.08);
+}
+
+/* Pantulan kaca */
+
+.sc-registration .container-form::before {
+  content: "";
+  position: absolute;
+  top: -130px;
+  left: -100px;
+  z-index: -1;
+  width: 360px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    rgba(255, 214, 140, 0.3),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.sc-registration .container-form::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ffffff, transparent);
+  pointer-events: none;
+}
+
+/* =========================================
+   FORM HEADING
+========================================= */
+
+.sc-registration .sc-registration-form-heading {
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgba(221, 200, 164, 0.45);
+}
+
+.sc-registration .sc-registration-form-heading h2 {
+  margin: 0;
+  color: var(--reg-navy);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.sc-registration .sc-registration-form-heading p {
+  margin: 6px 0 0;
+  color: var(--reg-muted);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* =========================================
+   FORM GRID
+========================================= */
+
+.sc-registration .sc-registration-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 19px 16px;
+  width: 100%;
+}
+
+.sc-registration .sc-form-full {
+  grid-column: 1 / -1;
+}
+
+.sc-registration .parent-form {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+  margin: 0;
+}
+
+/* =========================================
+   FORM LABELS
+========================================= */
+
+.sc-registration .label-form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  color: var(--reg-text);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.sc-registration .sc-required {
+  color: #d95e00;
+  font-weight: 700;
+}
+
+.sc-registration .sc-optional-label {
+  justify-content: space-between;
+}
+
+.sc-registration .sc-optional {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+/* =========================================
+   LIQUID GLASS INPUT
+========================================= */
+
+.sc-registration .form-input-resgitrasi {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 49px;
+  margin: 0;
+  padding: 13px 15px;
+  outline: none;
+  border: 1px solid #dce3ec;
+  border-radius: 13px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.97),
+    rgba(244, 247, 251, 0.85)
+  );
+  box-shadow:
+    inset 0 1px 3px rgba(23, 63, 146, 0.025),
+    0 2px 5px rgba(23, 63, 146, 0.02);
+  color: #243650;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.sc-registration .form-input-resgitrasi::placeholder {
+  color: #7b8798;
+  opacity: 1;
+}
+
+.sc-registration .form-input-resgitrasi:hover {
+  border-color: #ddba7b;
+}
+
+.sc-registration .form-input-resgitrasi:focus {
+  border-color: #f3a526;
+  background: #ffffff;
+  box-shadow:
+    0 0 0 4px rgba(255, 174, 40, 0.13),
+    inset 0 1px 2px rgba(255, 153, 0, 0.03);
+}
+
+/* =========================================
+   SELECT DROPDOWN
+========================================= */
+
+.sc-registration .sc-select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.sc-registration .sc-form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 36px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+.sc-registration .sc-form-select:invalid {
+  color: #7b8798;
+}
+
+.sc-registration .sc-form-select option,
+.sc-registration .sc-form-select optgroup {
+  background-color: #ffffff;
+  color: #33465e;
+}
+
+.sc-registration .sc-select-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  color: #8492a6;
+  font-size: 12px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* =========================================
+   FORM DIVIDER
+========================================= */
+
+.sc-registration .sc-registration-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(216, 182, 126, 0.55),
+    transparent
+  );
+}
+
+/* =========================================
+   CUSTOMER SERVICE - GREEN LIQUID GLASS
+========================================= */
+
+.sc-registration .sc-registration-cs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid rgba(100, 193, 133, 0.4);
+  border-radius: 18px;
+  background: linear-gradient(
+    145deg,
+    rgba(245, 255, 248, 0.96),
+    rgba(216, 247, 226, 0.65)
+  );
+  box-shadow:
+    0 4px 15px rgba(17, 135, 65, 0.045),
+    inset 0 1px 2px rgba(255, 255, 255, 1);
+}
+
+.sc-registration .sc-registration-cs-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 49px;
+  width: 49px;
+  height: 49px;
+  border-radius: 16px;
+  border: 1px solid rgba(99, 202, 137, 0.45);
+  background: linear-gradient(145deg, #f1fff5, #bcebd0);
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.95),
+    0 4px 10px rgba(17, 135, 65, 0.08);
+  color: #16854c;
+  font-size: 22px;
+}
+
+.sc-registration .sc-registration-cs-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 3px;
+  min-width: 0;
+  text-align: left;
+}
+
+.sc-registration .sc-registration-cs-label {
+  color: #54715f;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.sc-registration .sc-registration-cs-name {
+  color: #17663c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.sc-registration .sc-registration-cs-phone {
+  color: #416c50;
+  font-size: 12px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.sc-registration .sc-registration-cs-wa {
+  flex-shrink: 0;
+  margin-right: 3px;
+  color: #14894b;
+  font-size: 30px;
+}
+
+/* =========================================
+   LIQUID GLASS WHATSAPP SUBMIT BUTTON
+========================================= */
+
+.sc-registration .btn-input-resgitrasi {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 58px;
+  margin: 0;
+  padding: 15px 20px;
+  overflow: hidden;
+  border: 1px solid rgba(85, 193, 127, 0.75);
+  border-radius: 100px;
+  background: linear-gradient(
+    145deg,
+    rgba(229, 255, 239, 0.98) 0%,
+    rgba(161, 232, 187, 0.94) 55%,
+    rgba(129, 215, 162, 0.95) 100%
+  );
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  backdrop-filter: blur(14px) saturate(150%);
+  box-shadow:
+    0 8px 24px rgba(18, 135, 66, 0.13),
+    inset 0 2px 3px rgba(255, 255, 255, 1),
+    inset 0 -2px 4px rgba(18, 135, 66, 0.07);
+  color: #086b36;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+/* Pantulan pada tombol play / CTA ala iPhone */
+
+.sc-registration .btn-input-resgitrasi::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 7%;
+  right: 7%;
+  height: 45%;
+  z-index: -1;
+  border-radius: 100px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85), transparent);
+  pointer-events: none;
+}
+
+.sc-registration .sc-submit-wa-icon {
+  flex-shrink: 0;
+  font-size: 25px;
+}
+
+.sc-registration .sc-submit-arrow-icon {
+  flex-shrink: 0;
+  margin-left: 5px;
+  font-size: 13px;
+  transition: transform 0.25s ease;
+}
+
+@media (hover: hover) {
+  .sc-registration .btn-input-resgitrasi:hover:not(:disabled) {
+    transform: translateY(-3px);
+    background: linear-gradient(145deg, #eefff4, #9ce5b8, #75d39b);
+    box-shadow:
+      0 12px 28px rgba(18, 135, 66, 0.18),
+      inset 0 2px 3px rgba(255, 255, 255, 1);
+  }
+
+  .sc-registration
+    .btn-input-resgitrasi:hover:not(:disabled)
+    .sc-submit-arrow-icon {
+    transform: translateX(3px);
+  }
+}
+
+.sc-registration .btn-input-resgitrasi:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.sc-registration .btn-input-resgitrasi:focus-visible {
+  outline: 3px solid #16854c;
+  outline-offset: 4px;
+}
+
+.sc-registration .btn-input-resgitrasi:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* =========================================
+   FORM NOTICE & VALIDATION
+========================================= */
+
+.sc-registration .sc-registration-error {
+  margin: 0;
+  padding: 12px 15px;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  background: #fef2f2;
+  color: #b91c1c;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.sc-registration .sc-registration-notice {
+  padding: 13px 15px;
+  border: 1px solid #c9e9d4;
+  border-radius: 12px;
+  background: #effaf3;
+  color: #37684a;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.sc-registration .sc-registration-notice a {
+  display: block;
+  margin-top: 5px;
+  color: #08753b;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* =========================================
+   DATA PRIVACY INFORMATION
+========================================= */
+
+.sc-registration .sc-registration-security {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 12px;
+  color: #64748b;
+}
+
+.sc-registration .sc-registration-security svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: #a97828;
+  font-size: 13px;
+}
+
+.sc-registration .sc-registration-security p {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.sc-registration .sc-registration-footer {
+  max-width: 520px;
+  margin: 22px auto 0;
+  color: #64748b;
+  font-size: 11px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 896px) {
+  .sc-registration {
+    margin-top: 65px;
+    padding: 35px 4% 45px;
+  }
+
+  .sc-registration .sc-registration-description {
+    font-size: 14.5px;
+  }
+
+  .sc-registration .container-form {
+    padding: 26px;
+    border-radius: 26px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+  .sc-registration {
+    margin-top: 60px;
+    padding: 26px 4% 35px;
+  }
+
+  .sc-registration .sc-registration-heading {
+    margin-bottom: 23px;
+  }
+
+  .sc-registration .sc-registration-heading-icon {
+    width: 61px;
+    height: 61px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    font-size: 26px;
+  }
+
+  .sc-registration .supertitle-registrasi {
+    font-size: clamp(24px, 6vw, 30px);
+    letter-spacing: -0.4px;
+  }
+
+  .sc-registration .sc-registration-description {
     margin-top: 10px;
+    font-size: 13.5px;
+    line-height: 1.7;
   }
-  .superparent-form-1 {
-    padding: 10px;
+
+  .sc-registration .container-form {
+    gap: 18px;
+    padding: 20px 16px;
+    border-radius: 23px;
   }
-  .supertitle-registrasi {
-    font-size: 20px;
-    text-align: center;
+
+  .sc-registration .sc-registration-form-heading {
+    padding-bottom: 14px;
+  }
+
+  .sc-registration .sc-registration-form-heading h2 {
+    font-size: 18px;
+  }
+
+  .sc-registration .sc-registration-form-heading p {
+    font-size: 12px;
+  }
+
+  .sc-registration .sc-registration-form-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .sc-registration .label-form {
+    font-size: 12px;
+  }
+
+  /* Font 16px untuk mengurangi auto-zoom input di iPhone */
+
+  .sc-registration .form-input-resgitrasi {
+    min-height: 48px;
+    padding: 11px 12px;
+    border-radius: 11px;
+    font-size: 16px;
+  }
+
+  .sc-registration .sc-form-select {
+    padding-right: 32px;
+  }
+
+  .sc-registration .sc-select-icon {
+    right: 12px;
+  }
+
+  .sc-registration .sc-registration-cs {
+    gap: 11px;
+    padding: 12px;
+    border-radius: 15px;
+  }
+
+  .sc-registration .sc-registration-cs-icon {
+    flex-basis: 42px;
+    width: 42px;
+    height: 42px;
+    border-radius: 13px;
+    font-size: 19px;
+  }
+
+  .sc-registration .sc-registration-cs-name {
+    font-size: 15px;
+  }
+
+  .sc-registration .sc-registration-cs-phone {
+    font-size: 11px;
+  }
+
+  .sc-registration .sc-registration-cs-wa {
+    font-size: 26px;
+  }
+
+  .sc-registration .btn-input-resgitrasi {
+    gap: 9px;
+    min-height: 53px;
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .sc-registration .sc-submit-wa-icon {
+    font-size: 23px;
+  }
+
+  .sc-registration .sc-submit-arrow-icon {
+    font-size: 11px;
+  }
+
+  .sc-registration .sc-registration-security {
+    padding: 0 4px;
+  }
+
+  .sc-registration .sc-registration-security p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .sc-registration {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+
+  .sc-registration .container-form {
+    padding: 18px 13px;
+  }
+
+  .sc-registration .sc-registration-description {
+    font-size: 13px;
+  }
+
+  .sc-registration .btn-input-resgitrasi {
+    font-size: 12px;
+    gap: 7px;
+  }
+}
+
+/* =========================================
+   BROWSER FALLBACK
+========================================= */
+
+@supports not (
+  (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))
+) {
+  .sc-registration .container-form {
+    background: #fffaf1;
+  }
+
+  .sc-registration .btn-input-resgitrasi {
+    background: linear-gradient(145deg, #e5ffef, #9ce5b8);
+  }
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .sc-registration .form-input-resgitrasi,
+  .sc-registration .btn-input-resgitrasi,
+  .sc-registration .sc-submit-arrow-icon {
+    transition: none;
+  }
+
+  .sc-registration .btn-input-resgitrasi:hover:not(:disabled),
+  .sc-registration .btn-input-resgitrasi:active:not(:disabled) {
+    transform: none;
   }
 }

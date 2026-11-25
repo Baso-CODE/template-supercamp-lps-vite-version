@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import "./BottomCtaLps.css";
 
-const WEBSITE_URL = "https://supercampmatrix.co.id/";
+const WEBSITE_URL = "https://supercampmatrix.com";
 const STORAGE_KEY = "supercamp_bottom_cta_rotation";
 
 const customerServices = [

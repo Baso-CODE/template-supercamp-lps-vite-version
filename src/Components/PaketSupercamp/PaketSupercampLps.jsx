@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./PaketSupercampLps.css";
 
-const WEBSITE_URL = "https://supercampmatrix.co.id/";
+const WEBSITE_URL = "https://supercampmatrix.com";
 const STORAGE_KEY = "supercamp_package_cs_rotation";
 
 const customerServices = [
