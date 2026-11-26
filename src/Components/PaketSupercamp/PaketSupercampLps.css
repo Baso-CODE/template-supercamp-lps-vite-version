@@ -1,10 +1,14 @@
+/* =========================================
+   SECTION PAKET SUPERCAMP
+========================================= */
+
 .super-parent-paket-belajar-supercamp-lps {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* background-attachment: scroll; Penting agar tidak berat saat discroll di mobile */
   padding: 80px 13%;
   width: 100%;
+  box-sizing: border-box;
   background-color: #ebb300;
 }
 
@@ -15,18 +19,24 @@
   font-size: 28px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   margin-bottom: 40px;
+  line-height: 1.4;
 }
+
+/* =========================================
+   GRID PAKET SUPERCAMP
+========================================= */
 
 .box-paket-belajar-supercamp-lps {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 25px; /* Memberi jarak antar gambar */
+  gap: 25px;
 }
 
 .img-paket-supercamp-lps {
-  width: calc(33.333% - 25px); /* Tampilan 3 kolom di desktop */
+  width: calc((100% - 50px) / 3);
+  min-width: 0;
   text-decoration: none;
   display: block;
 }
@@ -42,22 +52,153 @@
     box-shadow 0.3s ease;
 }
 
-.img-paket-supercamp-lps:hover .img-paket-supercamp-lps-images {
-  transform: translateY(-10px); /* Efek melayang lebih menarik */
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+/* Hover khusus paket yang dapat diklik */
+
+@media (hover: hover) {
+  a.img-paket-supercamp-lps:hover .img-paket-supercamp-lps-images {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+  }
 }
 
-/* TABLET */
+/* =========================================
+   BENEFIT PAKET - STATIC
+========================================= */
+
+.paket-benefit-static,
+.paket-benefit-static:hover {
+  cursor: default;
+  transform: none;
+}
+
+.paket-benefit-static .img-paket-supercamp-lps-images,
+.paket-benefit-static:hover .img-paket-supercamp-lps-images {
+  cursor: default;
+  transform: none;
+}
+
+/* =========================================
+   EARLY BIRD PROMOTION
+========================================= */
+
+.sc-early-bird-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 40px auto 0;
+}
+
+/* Liquid Glass Frame */
+
+.sc-early-bird-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  padding: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.48),
+    rgba(255, 255, 255, 0.12)
+  );
+  -webkit-backdrop-filter: blur(15px) saturate(150%);
+  backdrop-filter: blur(15px) saturate(150%);
+  box-shadow:
+    0 15px 35px rgba(100, 65, 0, 0.18),
+    inset 0 2px 3px rgba(255, 255, 255, 0.7),
+    inset 0 -2px 3px rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Glass reflection */
+
+.sc-early-bird-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.95),
+    transparent
+  );
+  pointer-events: none;
+}
+
+.sc-early-bird-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 18px;
+}
+
+/* Hover hanya pada perangkat yang mendukung */
+
+@media (hover: hover) {
+  .sc-early-bird-link:hover {
+    transform: translateY(-5px);
+    box-shadow:
+      0 20px 40px rgba(100, 65, 0, 0.25),
+      inset 0 2px 3px rgba(255, 255, 255, 0.85);
+  }
+}
+
+.sc-early-bird-link:active {
+  transform: scale(0.99);
+}
+
+.sc-early-bird-link:focus-visible,
+a.img-paket-supercamp-lps:focus-visible {
+  outline: 3px solid #173f92;
+  outline-offset: 5px;
+  border-radius: 16px;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
 @media only screen and (max-width: 1024px) {
   .super-parent-paket-belajar-supercamp-lps {
     padding: 60px 5%;
   }
+
   .img-paket-supercamp-lps {
-    width: calc(50% - 25px); /* 2 kolom di tablet */
+    width: calc((100% - 25px) / 2);
+  }
+
+  .sc-early-bird-container {
+    margin-top: 30px;
+  }
+
+  .sc-early-bird-link {
+    max-width: 720px;
+    padding: 7px;
+    border-radius: 22px;
+  }
+
+  .sc-early-bird-image {
+    border-radius: 15px;
   }
 }
 
-/* MOBILE */
+/* =========================================
+   MOBILE
+========================================= */
+
 @media only screen and (max-width: 768px) {
   .super-parent-paket-belajar-supercamp-lps {
     padding: 40px 3%;
@@ -68,8 +209,44 @@
     margin-bottom: 25px;
   }
 
+  .box-paket-belajar-supercamp-lps {
+    gap: 20px;
+  }
+
   .img-paket-supercamp-lps {
-    width: 100%; /* 1 kolom penuh di mobile */
+    width: 100%;
     max-width: 350px;
+  }
+
+  .sc-early-bird-container {
+    margin-top: 25px;
+  }
+
+  .sc-early-bird-link {
+    width: 100%;
+    max-width: 500px;
+    padding: 5px;
+    border-radius: 17px;
+  }
+
+  .sc-early-bird-image {
+    border-radius: 12px;
+  }
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .img-paket-supercamp-lps-images,
+  .sc-early-bird-link {
+    transition: none;
+  }
+
+  a.img-paket-supercamp-lps:hover .img-paket-supercamp-lps-images,
+  .sc-early-bird-link:hover,
+  .sc-early-bird-link:active {
+    transform: none;
   }
 }

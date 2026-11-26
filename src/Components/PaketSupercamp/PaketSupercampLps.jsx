@@ -46,8 +46,8 @@ const paketData = [
   },
 ];
 
-// Cache rotasi selama satu kali pemuatan halaman.
-// Mencegah rotasi ganda akibat React Strict Mode.
+// Cache rotasi untuk mencegah rotasi ganda
+// akibat React Strict Mode.
 let cachedRotation = null;
 
 const getRotationIndex = () => {
@@ -56,7 +56,9 @@ const getRotationIndex = () => {
   }
 
   const totalCS = customerServices.length;
-  let rotation = 0;
+
+  // Pengunjung baru mendapatkan CS awal secara acak.
+  let rotation = Math.floor(Math.random() * totalCS);
 
   try {
     const storedRotation = localStorage.getItem(STORAGE_KEY);
@@ -72,7 +74,7 @@ const getRotationIndex = () => {
 
     localStorage.setItem(STORAGE_KEY, String((rotation + 1) % totalCS));
   } catch (error) {
-    console.warn("Rotasi CS menggunakan urutan default:", error);
+    console.warn("Rotasi CS menggunakan urutan acak:", error);
   }
 
   cachedRotation = rotation;
@@ -92,6 +94,17 @@ const createWhatsappLink = (paket, cs) => {
   return `https://wa.me/${cs.phone}?text=${encodeURIComponent(message)}`;
 };
 
+// Pesan khusus untuk promo Early Bird.
+const createEarlyBirdLink = (cs) => {
+  const message = `Halo ${cs.name}, saya tertarik dengan Promo Early Bird Special Supercamp UTBK SNBT 2027 melalui ${WEBSITE_URL}.
+
+Saya ingin mendapatkan informasi mengenai booking seat Rp5.000.000, extra diskon Rp500.000, dan bonus akses video pembelajaran bedah soal UTBK.
+
+Mohon informasi mengenai ketersediaan kuota dan cara pendaftarannya. Terima kasih.`;
+
+  return `https://wa.me/${cs.phone}?text=${encodeURIComponent(message)}`;
+};
+
 const PaketSupercampLps = () => {
   const [rotation, setRotation] = useState(0);
 
@@ -99,15 +112,18 @@ const PaketSupercampLps = () => {
     setRotation(getRotationIndex());
   }, []);
 
+  const earlyBirdCS = getCustomerService(0, rotation);
+
   return (
     <section className="super-parent-paket-belajar-supercamp-lps">
       <h2 className="title-paket-belajar-supercamp-lps">
         Paket Program Supercamp untuk Persiapan UTBK SNBT & Masuk Kedokteran
       </h2>
 
+      {/* PAKET SUPERCAMP */}
       <div className="box-paket-belajar-supercamp-lps">
         {paketData.map((item, index) => {
-          // Card benefit hanya menampilkan gambar.
+          // Benefit Paket tidak memiliki link WhatsApp.
           if (!item.isClickable) {
             return (
               <div
@@ -124,7 +140,6 @@ const PaketSupercampLps = () => {
             );
           }
 
-          // Card paket utama menggunakan rotasi CS.
           const cs = getCustomerService(index, rotation);
 
           return (
@@ -145,6 +160,26 @@ const PaketSupercampLps = () => {
             </a>
           );
         })}
+      </div>
+
+      {/* POSTER PROMO EARLY BIRD */}
+      <div className="sc-early-bird-container">
+        <a
+          href={createEarlyBirdLink(earlyBirdCS)}
+          className="sc-early-bird-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Konsultasi Promo Early Bird Supercamp UTBK SNBT 2027 melalui WhatsApp ${earlyBirdCS.name}`}>
+          <img
+            src="/images/paket/supercamp-early-bird.webp"
+            alt="Promo Early Bird Special Supercamp UTBK SNBT 2027, booking seat Rp5.000.000, extra diskon Rp500.000 dan bonus video pembelajaran bedah soal UTBK untuk 10 pendaftar pertama"
+            className="sc-early-bird-image"
+            width="1402"
+            height="1122"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
       </div>
     </section>
   );
